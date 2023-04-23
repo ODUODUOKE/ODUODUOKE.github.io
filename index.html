@@ -124,27 +124,162 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-text" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-基于Hexo-GitHub-Page搭建个人博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2023/04/23/text/">text</a>
+      <a class="article-title" href="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">基于Hexo+GitHub Page搭建个人博客</a>
     </h1>
   
 
         
-        <a href="/2023/04/23/text/" class="archive-article-date">
-  	<time datetime="2023-04-22T23:29:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-04-23</time>
+        <a href="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
+  	<time datetime="2023-04-23T01:17:48.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-04-23</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="/2023/04/23/text/Snipaste_2023-04-23_07-21-57.jpg" alt="&quot;test&quot;" title="testImg"></p>
+        <p>本次教程参考资料：</p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000004947261" title="来源:segmentfault">手把手教你使用Hexo + Github Pages搭建个人独立博客</a><br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/334815426" title="来源：知乎">我是如何利用Github Pages搭建起我的博客，细数一路的坑</a></p>
+</blockquote>
+<h1 id="搭建Hexo博客"><a href="#搭建Hexo博客" class="headerlink" title="搭建Hexo博客"></a>搭建Hexo博客</h1><hr>
+<br/>
+
+<ol>
+<li><a target="_blank" rel="noopener" href="https://nodejs.org/en">Node.js下载安装</a><br><img src="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/nodejs.jpg"></li>
+</ol>
+<br/>
+
+<ol start="2">
+<li><a target="_blank" rel="noopener" href="https://git-scm.com/">Git下载安装</a><br><img src="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/git.jpg"></li>
+</ol>
+<br/>
+
+<ol start="3">
+<li><p>安装Hexo</p>
+ <br/>
+
+<p>3.1 Windows下用CMD命令窗口打开<br><img src="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_09-35-00.jpg"> </p>
+<p>3.2 安装Hexo模块</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g #将模块全局安装</span><br><span class="line">npm install hexo-cli --save #将模块安装到项目目录下</span><br></pre></td></tr></table></figure>
+<p>3.3 初始化Hexo</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">hexo init blog #初始化博客目录（&#x27;blog&#x27;可修改其他名称）</span><br><span class="line">cd blog</span><br><span class="line">npm install #安装依赖配置</span><br></pre></td></tr></table></figure>
+<p><img src="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_09-38-35.jpg"></p>
+<p>3.4 启动Hexo</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g # 或者hexo generate</span><br><span class="line">hexo s # 或者hexo server</span><br></pre></td></tr></table></figure>
+<pre><code> 启动完成后，可以在[http://localhost:4000/](http://localhost:4000/) 进行查看
+</code></pre>
+ <br/>
+
+<p><img src="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_09-40-24.jpg"></p>
+ <br/>
+
+<p>命令解释：</p>
+<ul>
+<li>hexo generate (hexo g) 生成静态文件，会在当前目录下生成一个新的叫做public的文件夹</li>
+<li>hexo server (hexo s) 启动本地web服务，用于博客的预览</li>
+<li>hexo deploy (hexo d) 部署播客到远端（比如github, heroku等平台）</li>
+<li>hexo new “postName” (hexo n) #新建文章  </li>
+<li>hexo new page “pageName” #新建页面</li>
+</ul>
+ <br/>
+
+<p> 3.5 常用组合命令<br> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo s -g #生成预览</span><br><span class="line">hexo d -g #生成部署</span><br></pre></td></tr></table></figure></p>
+</li>
+</ol>
+<hr>
+<h1 id="Hexo主题设置"><a href="#Hexo主题设置" class="headerlink" title="Hexo主题设置"></a>Hexo主题设置</h1><ol>
+<li>安装主题<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia</span><br></pre></td></tr></table></figure>
+<img src="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/init_hexo_theme.jpg"></li>
+</ol>
+<br/>
+
+<ol start="2">
+<li>启用主题<blockquote>
+<p>修改Hexo目录下的_config.yml配置文件中的theme属性，将其设置为yilia</p>
+</blockquote>
+</li>
+</ol>
+<p><img src="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/update_hexo_theme.jpg"></p>
+<br/>
+
+<ol start="3">
+<li>更新主题并启动Hexo<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd themes/yilia</span><br><span class="line">git pull</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<img src="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/new_theme_yilia.jpg"></li>
+</ol>
+<hr>
+<h1 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h1><br/>
+
+<ol>
+<li>创建GitHub Page仓库</li>
+</ol>
+   <br/>
+
+<p>   <img src="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_10-21-35.jpg" title="图片来源：上述知乎博客"></p>
+   <br/>
+
+<ol start="2">
+<li><p>开启GitHub Page仓库</p>
+ <br/>
+
+<pre><code> 进入设置
+</code></pre>
+<p><img src="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_10-22-02.jpg" title="图片来源：上述知乎博客"></p>
+ <br/>
+
+<pre><code>  确认仓库站点是否开通（一般是默认开通的）
+</code></pre>
+<p><img src="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_10-22-13.jpg" title="图片来源：上述知乎博客"></p>
+</li>
+</ol>
+  <br/>
+
+<hr>
+<h1 id="部署Hexo到GitHub-Page仓库"><a href="#部署Hexo到GitHub-Page仓库" class="headerlink" title="部署Hexo到GitHub Page仓库"></a>部署Hexo到GitHub Page仓库</h1><ol>
+<li>使用Hexo deploy部署</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#需要安装扩展</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<br/>
+
+    
+<p>修改_config.xml配置文件</p>
+<pre><code>对应blog根目录：D:\workSpace\Test\TestHexo\blog\_config.xml
+</code></pre>
+<br>
+
+<pre><code>原配置文件截图:
+</code></pre>
+<p><img src="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_10-33-56.jpg"></p>
+<pre><code>修改后配置文件截图：
+</code></pre>
+<p><img src="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_10-35-37.jpg"></p>
+<p>执行部署命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<br/>
+
+<ol start="2">
+<li>使用Git 命令部署</li>
+</ol>
+<br/>
+   
+<p>克隆当前仓库到目录</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone  xxxabc.git .deploy/xxxabc</span><br></pre></td></tr></table></figure>
+
+<p>deply脚本</p>
+<blockquote>
+<p>用于Linux环境下一键部署发布Hexo到GitHub Page仓库</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">cp -R public/* .deploy/xxxabc</span><br><span class="line">cd .deploy/xxxabc</span><br><span class="line">git add .</span><br><span class="line">git commit -m “update”</span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
+
+<p>通过<code>hexo g</code>在public下生成新的待发布页面，通过命令<code>copy</code>到克隆下的仓库中，在通过<code>git</code>命令进行<code>push</code>到远端仓库进行发布</p>
 
       
 
@@ -157,7 +292,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2023/04/23/text/">展开全文 >></a>
+          <a class="article-more-a" href="/2023/04/23/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">展开全文 >></a>
         </p>
       
 
