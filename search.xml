@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>git 拉取远端所有分支</title>
+    <url>/2023/04/21/GIT%E7%9B%B8%E5%85%B3/Git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%AB%AF%E6%89%80%E6%9C%89%E5%88%86%E6%94%AF/</url>
+    <content><![CDATA[<p><a href="https://blog.csdn.net/weixin_42253753/article/details/116917450">CSDN博客原文参考地址</a></p>
+<h2 id="关键命令代码"><a href="#关键命令代码" class="headerlink" title="关键命令代码"></a>关键命令代码</h2><blockquote>
+<p>git branch -r | grep -v ‘-&gt;’ | while read remote; do git branch –track “${remote#origin&#x2F;}” “$remote”; done<br>git fetch –all<br>git pull –all</p>
+</blockquote>
+<hr>
+<h2 id="操作步骤截图"><a href="#操作步骤截图" class="headerlink" title="操作步骤截图"></a>操作步骤截图</h2><h3 id="通过-git-bash-窗口输入git-clone-命令"><a href="#通过-git-bash-窗口输入git-clone-命令" class="headerlink" title="通过 git bash 窗口输入git clone 命令"></a>通过 git bash 窗口输入git clone 命令</h3><p><img src="/2023/04/21/GIT%E7%9B%B8%E5%85%B3/Git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%AB%AF%E6%89%80%E6%9C%89%E5%88%86%E6%94%AF/1.jpg" title="通过 git bash 窗口输入git clone 命令"></p>
+<h3 id="克隆项目到本地"><a href="#克隆项目到本地" class="headerlink" title="克隆项目到本地"></a>克隆项目到本地</h3><p><img src="/2023/04/21/GIT%E7%9B%B8%E5%85%B3/Git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%AB%AF%E6%89%80%E6%9C%89%E5%88%86%E6%94%AF/2.jpg" title="克隆项目到本地"></p>
+<h3 id="进入项目-jmt-lp-文件夹目录下"><a href="#进入项目-jmt-lp-文件夹目录下" class="headerlink" title="进入项目 jmt_lp 文件夹目录下"></a>进入项目 jmt_lp 文件夹目录下</h3><p><img src="/2023/04/21/GIT%E7%9B%B8%E5%85%B3/Git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%AB%AF%E6%89%80%E6%9C%89%E5%88%86%E6%94%AF/3.jpg" title="进入项目 jmt_lp 文件夹目录下"></p>
+<h3 id="执行以下命令"><a href="#执行以下命令" class="headerlink" title="执行以下命令"></a>执行以下命令</h3><p><code>git branch -r | grep -v &#39;\-&gt;&#39; | while read remote; do git branch --track &quot;$&#123;remote#origin/&#125;&quot; &quot;$remote&quot;; done git fetch --all git pull --all </code></p>
+<h2 id="下载所有分支代码"><a href="#下载所有分支代码" class="headerlink" title="下载所有分支代码"></a>下载所有分支代码</h2><p><img src="/2023/04/21/GIT%E7%9B%B8%E5%85%B3/Git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%AB%AF%E6%89%80%E6%9C%89%E5%88%86%E6%94%AF/4.jpg" title="下载所有分支代码"></p>
+<h2 id="打开Idea查看项目所有分支代码下载结果"><a href="#打开Idea查看项目所有分支代码下载结果" class="headerlink" title="打开Idea查看项目所有分支代码下载结果"></a>打开Idea查看项目所有分支代码下载结果</h2><p><img src="/2023/04/21/GIT%E7%9B%B8%E5%85%B3/Git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%AB%AF%E6%89%80%E6%9C%89%E5%88%86%E6%94%AF/5.jpg" title="打开Idea查看项目所有分支代码下载结果"></p>
+]]></content>
+      <tags>
+        <tag>GIT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo图片不显示解决</title>
+    <url>/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E8%A7%A3%E5%86%B3/</url>
+    <content><![CDATA[<h2 id="安装插件及页面配置"><a href="#安装插件及页面配置" class="headerlink" title="安装插件及页面配置"></a>安装插件及页面配置</h2><br>
+
+<p>安装插件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-marked</span><br></pre></td></tr></table></figure>
+
+<p>修改hexo根目录配置文件_config.yml</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#更改hexo设置</span><br><span class="line">post_asset_folder: true</span><br><span class="line">#添加marked插件设置</span><br><span class="line">marked:</span><br><span class="line">  prependRoot: true</span><br><span class="line">  postAsset: true</span><br></pre></td></tr></table></figure>
+
+<p>模拟创建新页面</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n testPage</span><br></pre></td></tr></table></figure>
+<p>在文件testPage.md中引入图片命令</p>
+<blockquote>
+<p>vscode编辑器中正常预览现实图片</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](./testPage/test.jpg)</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>hexo发布网页</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](test.jpg)</span><br></pre></td></tr></table></figure>
+
+<br>
+
+<h2 id="模拟创建页面-预览效果截图"><a href="#模拟创建页面-预览效果截图" class="headerlink" title="模拟创建页面-预览效果截图"></a>模拟创建页面-预览效果截图</h2><br>
+
+<p>Vscode中预览<strong>图片展示</strong>（图片使用的相对路径）<br><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E8%A7%A3%E5%86%B3/Snipaste_2023-04-23_21-27-55.jpg"></p>
+<br>
+
+<p>Hexo部署页面打包预览<strong>图片不展示</strong><br><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E8%A7%A3%E5%86%B3/Snipaste_2023-04-23_21-29-58.jpg"></p>
+<br>
+
+<p>Hexo部署页面打包预览<strong>图片展示</strong><br><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E8%A7%A3%E5%86%B3/Snipaste_2023-04-23_21-31-41.jpg"></p>
+<h2 id="日常编辑、发布工作流"><a href="#日常编辑、发布工作流" class="headerlink" title="日常编辑、发布工作流"></a>日常编辑、发布工作流</h2><br>
+
+<blockquote>
+<p>备注：在上述插件已经安装且配置文件已如上述所示修改完成后</p>
+</blockquote>
+<ol>
+<li>通过命令 <code>hexo n newPage</code>创建新的页面</li>
+<li>复制已创建的<code>newPage</code>文件夹及<code>newPage.md</code>文件到vscode工作目录下</li>
+<li>在vscode中正常书写信息、引用相关图片素材资源放置<code>newPage</code>文件夹中</li>
+<li>在vscode中完成书写后，复制当前步骤[<strong>2</strong>]的文件夹及文件到hexo的工作目录下覆盖初始创建的文件夹及目录</li>
+<li>全局替换hexo工作目录下<code>newPage.md</code>文件中图片引入代码<code>./newPage/</code>，使其图片目录由<code>![](./newPage/xxx.jpg)</code>为变为<code>![](xxx.jpg)</code></li>
+<li>执行<code>hexo g</code>命令进行打包，运行<code>hexo s</code>命令预览页面</li>
+<li>复制hexo工作目录下<code>public</code>下所有资源到相应仓库下进行提交发布即可</li>
+</ol>
+<h2 id="补充vscode下编辑md文件的相关插件"><a href="#补充vscode下编辑md文件的相关插件" class="headerlink" title="补充vscode下编辑md文件的相关插件"></a>补充vscode下编辑md文件的相关插件</h2><p><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E8%A7%A3%E5%86%B3/Snipaste_2023-04-23_21-48-18.jpg"></p>
+]]></content>
+      <tags>
+        <tag>Hexo博客相关</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于Hexo+GitHub Page搭建个人博客</title>
+    <url>/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<br/>
+
+<p>本次教程参考资料：</p>
+<blockquote>
+<p><a href="https://segmentfault.com/a/1190000004947261" title="来源:segmentfault">手把手教你使用Hexo + Github Pages搭建个人独立博客</a><br><a href="https://zhuanlan.zhihu.com/p/334815426" title="来源：知乎">我是如何利用Github Pages搭建起我的博客，细数一路的坑</a></p>
+</blockquote>
+<h1 id="搭建Hexo博客"><a href="#搭建Hexo博客" class="headerlink" title="搭建Hexo博客"></a>搭建Hexo博客</h1><hr>
+<br/>
+
+<ol>
+<li><a href="https://nodejs.org/en">Node.js下载安装</a><br><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/nodejs.jpg"></li>
+</ol>
+<br/>
+
+<ol start="2">
+<li><a href="https://git-scm.com/">Git下载安装</a><br><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/git.jpg"></li>
+</ol>
+<br/>
+
+<ol start="3">
+<li><p>安装Hexo</p>
+ <br/>
+
+<p>3.1 Windows下用CMD命令窗口打开<br><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_09-35-00.jpg"> </p>
+<p>3.2 安装Hexo模块</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g #将模块全局安装</span><br><span class="line">npm install hexo-cli --save #将模块安装到项目目录下</span><br></pre></td></tr></table></figure>
+<p>3.3 初始化Hexo</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">hexo init blog #初始化博客目录（&#x27;blog&#x27;可修改其他名称）</span><br><span class="line">cd blog</span><br><span class="line">npm install #安装依赖配置</span><br></pre></td></tr></table></figure>
+<p><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_09-38-35.jpg"></p>
+<p>3.4 启动Hexo</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g # 或者hexo generate</span><br><span class="line">hexo s # 或者hexo server</span><br></pre></td></tr></table></figure>
+<pre><code> 启动完成后，可以在[http://localhost:4000/](http://localhost:4000/) 进行查看
+</code></pre>
+ <br/>
+
+<p><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_09-40-24.jpg"></p>
+ <br/>
+
+<p>命令解释：</p>
+<ul>
+<li>hexo generate (hexo g) 生成静态文件，会在当前目录下生成一个新的叫做public的文件夹</li>
+<li>hexo server (hexo s) 启动本地web服务，用于博客的预览</li>
+<li>hexo deploy (hexo d) 部署播客到远端（比如github, heroku等平台）</li>
+<li>hexo new “postName” (hexo n) #新建文章  </li>
+<li>hexo new page “pageName” #新建页面</li>
+</ul>
+ <br/>
+
+<p> 3.5 常用组合命令<br> <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s -g #生成预览</span><br><span class="line">hexo d -g #生成部署</span><br></pre></td></tr></table></figure></p>
+</li>
+</ol>
+<hr>
+<h1 id="Hexo主题设置"><a href="#Hexo主题设置" class="headerlink" title="Hexo主题设置"></a>Hexo主题设置</h1><ol>
+<li>安装主题<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia</span><br></pre></td></tr></table></figure>
+<img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/init_hexo_theme.jpg"></li>
+</ol>
+<br/>
+
+<ol start="2">
+<li>启用主题<blockquote>
+<p>修改Hexo目录下的_config.yml配置文件中的theme属性，将其设置为yilia</p>
+</blockquote>
+</li>
+</ol>
+<p><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/update_hexo_theme.jpg"></p>
+<br/>
+
+<ol start="3">
+<li>更新主题并启动Hexo<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd themes/yilia</span><br><span class="line">git pull</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/new_theme_yilia.jpg"></li>
+</ol>
+<hr>
+<h1 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h1><br/>
+
+<ol>
+<li>创建GitHub Page仓库</li>
+</ol>
+   <br/>
+
+<p>   <img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_10-21-35.jpg" title="图片来源：上述知乎博客"></p>
+   <br/>
+
+<ol start="2">
+<li><p>开启GitHub Page仓库</p>
+ <br/>
+
+<pre><code> 进入设置
+</code></pre>
+<p><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_10-22-02.jpg" title="图片来源：上述知乎博客"></p>
+ <br/>
+
+<pre><code>  确认仓库站点是否开通（一般是默认开通的）
+</code></pre>
+<p><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_10-22-13.jpg" title="图片来源：上述知乎博客"></p>
+</li>
+</ol>
+  <br/>
+
+<hr>
+<h1 id="部署Hexo到GitHub-Page仓库"><a href="#部署Hexo到GitHub-Page仓库" class="headerlink" title="部署Hexo到GitHub Page仓库"></a>部署Hexo到GitHub Page仓库</h1><ol>
+<li>使用Hexo deploy部署</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#需要安装扩展</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<br/>
+
+    
+<p>修改_config.xml配置文件</p>
+<pre><code>对应blog根目录：D:\workSpace\Test\TestHexo\blog\_config.xml
+</code></pre>
+<br>
+
+<pre><code>原配置文件截图:
+</code></pre>
+<p><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_10-33-56.jpg"></p>
+<pre><code>修改后配置文件截图：
+</code></pre>
+<p><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2023-04-23_10-35-37.jpg"></p>
+<p>执行部署命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<br/>
+
+<ol start="2">
+<li>使用Git 命令部署</li>
+</ol>
+<br/>
+   
+<p>克隆当前仓库到目录</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone  xxxabc.git .deploy/xxxabc</span><br></pre></td></tr></table></figure>
+
+<p>deply脚本</p>
+<blockquote>
+<p>用于Linux环境下一键部署发布Hexo到GitHub Page仓库</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">cp -R public/* .deploy/xxxabc</span><br><span class="line">cd .deploy/xxxabc</span><br><span class="line">git add .</span><br><span class="line">git commit -m “update”</span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
+
+<p>通过<code>hexo g</code>在public下生成新的待发布页面，通过命令<code>copy</code>到克隆下的仓库中，在通过<code>git</code>命令进行<code>push</code>到远端仓库进行发布</p>
+]]></content>
+      <tags>
+        <tag>Hexo博客相关</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>离职日记 04.22</title>
+    <url>/2023/04/22/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-22/</url>
+    <content><![CDATA[<h1 id="离职日记-0422（第一天）"><a href="#离职日记-0422（第一天）" class="headerlink" title="离职日记 0422（第一天）"></a>离职日记 0422（第一天）</h1><h2 id="第一小节"><a href="#第一小节" class="headerlink" title="第一小节"></a>第一小节</h2><p>今天早上是<strong>05</strong>点多样子就醒了吧，然后定的闹钟是06点的都没有用到起，我起来洗了个头，毕竟今天是毕业设计答辩嘛，我是7点不到就出门了，等到了小区门口站台哪里，然后111路公交车来的比88路早，我就坐的111路公交车，等111路坐到西云村北 公交站，然后我因为没有吃早饭嘛，我看见旁边有包子店，我就去买了早餐排了会队，结果后面步行过去换成的公交站的时候，我要乘坐的110路公交车才走！！！没办法就是最后我选择换乘其他路线公交车过去的，原本正常110路公交车就基本属于可以直达了嘛。…早知道不吃早饭的。</p>
+<h2 id="第二小节"><a href="#第二小节" class="headerlink" title="第二小节"></a>第二小节</h2><p>等我坐到那边下车的时候，我发现了就是旁边路边开的花好好看啊，我还特意拍了几张照片的。<br><img src="/2023/04/22/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-22/20230422212646.jpg"><br><img src="/2023/04/22/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-22/20230422212649.jpg"><br>虽然我手机镜头模组哪里已经很花了，不过还是勉勉强强可以看的。</p>
+<h2 id="第三小节"><a href="#第三小节" class="headerlink" title="第三小节"></a>第三小节</h2><p>我基本是在8:40样子到的教室，当时已经基本到了很多人了都。 原本我是准备说不要学位证的，应该是很简单的，后面想到起如果有学位证的话 可能作用会比只有一个毕业证大很多的。原本是easy模式，我准备要毕业证就开启difficult模式了:disappointed_relieved:。我应该是10：45样子进去开始答辩的，学号顺序叫人的，我是在340这个尾号，因为我需要学位嘛，感觉就是不像是其他不要学位的容易，老师还是问了一些问题的，最开始她可能理解有误，以为是啥子app视频软件这种类似的，后面在我的解释之下理解了，是包场地这种私人空间影院的形式观影的。还给我提出了论文需要修改的指导性意见，嗯 是的，意味着我有二次答辩的机会（虽然我不想有，不过自己也想清楚了的，就是因为我本来这个写的就有不够完善的地方，老师提出的指导性意见不是针对我，是针对我的论文来的），后面还要准备的就是学位基础课、学位英语的考试，我问过我报名的那个老师了，1年之内考过了就可以拿学位证了的。毕竟我还年轻，趁早把这些都准备好才是真的！ 我的朋友黄汝丽就是都30了，现在我在想她找工作及时是本科也很难的（况且她这个本科还没毕业）。</p>
+<h2 id="第四小节"><a href="#第四小节" class="headerlink" title="第四小节"></a>第四小节</h2><p>在回程的公交车上，我接到了JMT-人事给我打的电话，询问了我关于不接外包开发工作的事项及确认我如果做兼职运维能做多长时间的这个事。<br>原本就是还有一点项目没有做完，公司的意思是我继续把它搞定，但是我觉得我是已经离职了的，我可以不用去做这些，而且 我想的很清楚，虽然是说公司可以把兼职开发的工作给到我做，但是如果这些项目后续开发完成之后仍需要修改或者是如何，那么还是会涉及到我这边，我觉得和JMT保持密切的合作关系是不可取的，不是说不能带来实际性的收益，但是如果这样做了，我感觉我会更难从这里面撤离出来。</p>
+<h2 id="第五小节"><a href="#第五小节" class="headerlink" title="第五小节"></a>第五小节</h2><p>今天回家了之后，还是老样子去那边菜市场旁边的重庆小面吃了一份豌杂面，后面回来之后歇了一会就躺着午休了的，下午14:40左右起来的，果然还是午休之后精神充沛！<br>后面起来之后呢就是在弄毕业论文，针对今天答辩老师提出的修改意见做出了一些调整，以便后续第二次答辩的时候可以顺利通过。</p>
+<h2 id="第六小节"><a href="#第六小节" class="headerlink" title="第六小节"></a>第六小节</h2><p>下午大概4点多样子，和欧阳讨论了下YLFPAY-裂变版本，就是我离职之前经手的项目一些需求上的问题，后面的话因为好像自己又留了小坑在里面，就请欧阳顺便吃了个晚饭出来。<br><img src="/2023/04/22/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-22/20230422212627.jpg" title="我的番茄拌面"><br><img src="/2023/04/22/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-22/20230422212643.jpg" title="欧阳大哥的三鲜炒面"></p>
+<h2 id="第七小节"><a href="#第七小节" class="headerlink" title="第七小节"></a>第七小节</h2><p>晚上的话，研究了下github的page页面部署个人博客的事项，给我的感觉就是 我这边提交了代码，github的page页面隔了很久才刷新出来。就因为这个延时的关系，我一直以为我这部署提交代码没有效果呢！<br>还研究了下如何本地配置管理多个git-ssh的令牌，顺便把之前JMT的gitlab的ssh配置删除了。 我想我应不会在有和原公司项目有关联了。</p>
+]]></content>
+      <tags>
+        <tag>离职日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo添加搜索插件-hexo-generator-searchdb</title>
+    <url>/2023/04/25/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6-hexo-generator-searchdb/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://blog.csdn.net/nineya_com/article/details/103338696#2hexogeneratorsearchdb_10">【CSDN】hexo博客添加本地搜索功能</a></p>
+</blockquote>
+<hr>
+<h2 id="到blog目录下"><a href="#到blog目录下" class="headerlink" title="到blog目录下"></a>到<code>blog</code>目录下</h2><p><img src="/2023/04/25/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6-hexo-generator-searchdb/Snipaste_2023-04-25_11-08-07.jpg"></p>
+<h2 id="添加插件-hexo-generator-searchdb"><a href="#添加插件-hexo-generator-searchdb" class="headerlink" title="添加插件 hexo-generator-searchdb"></a>添加插件 hexo-generator-searchdb</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<p><img src="/2023/04/25/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6-hexo-generator-searchdb/Snipaste_2023-04-25_11-09-16.jpg"></p>
+<h2 id="修改博客目录下-config-yml配置文件"><a href="#修改博客目录下-config-yml配置文件" class="headerlink" title="修改博客目录下_config.yml配置文件"></a>修改博客目录下_config.yml配置文件</h2><blockquote>
+<p>添加以下内容</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  content: true</span><br><span class="line">  format: html</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2023/04/25/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6-hexo-generator-searchdb/Snipaste_2023-04-25_11-12-40.jpg"></p>
+<p><em>补充描述：</em></p>
+<blockquote>
+<p><code>path：</code>表示搜索后生成的文件路径，可以生成xml和json两种格式</p>
+<p><code>field：</code>表示搜索的范围，有“post、page和all”三种值</p>
+<blockquote>
+<p> post：所有的文章；</p>
+<p> page：所有顶部导航选项的页面；</p>
+<p> all：所有的文章和顶部导航选项的页面。</p>
+</blockquote>
+<p><code> content：</code>是否包含搜索到的文章的全部内容。如果false，生成的结果只包括标题和创建时间这些信息，没有文章主体。默认情况下是true.</p>
+<p><code>format：</code>搜索到的内容、选项的格式。</p>
+<blockquote>
+<p>html(默认)：将html原文本缩略。</p>
+<p>striptags：将html原文本缩略，并删除所有标记。</p>
+<p>raw：记下每一篇文章或每一页的文字。</p>
+</blockquote>
+</blockquote>
+<h2 id="修改主题Theme目录下-config-yml配置文件"><a href="#修改主题Theme目录下-config-yml配置文件" class="headerlink" title="修改主题Theme目录下_config.yml配置文件"></a>修改主题Theme目录下_config.yml配置文件</h2><p><img src="/2023/04/25/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6-hexo-generator-searchdb/Snipaste_2023-04-25_11-15-46.jpg"></p>
+<h2 id="启动Hexo"><a href="#启动Hexo" class="headerlink" title="启动Hexo"></a>启动Hexo</h2><p><img src="/2023/04/25/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6-hexo-generator-searchdb/Snipaste_2023-04-25_11-19-29.jpg"></p>
+]]></content>
+      <tags>
+        <tag>Hexo博客相关</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>离职日记 04.23</title>
+    <url>/2023/04/23/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-23/</url>
+    <content><![CDATA[<p>昨天晚上是10:30样子睡觉的吧，然后今天早上很早就醒了。我看了下手环上的时间，我都觉得惊讶…<br>基本上现在10点多开始休息，然后早上基本在05:30左右样子就会醒来的，生物钟的习惯已养成~<br><img src="/2023/04/23/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-23/20230423192619.jpg"></p>
+<p>因为昨天晚上回家的时候外边有一点在下小雨，所以就没有去小区门口的的面包店买面包，所以上午的早饭是去菁英公寓旁边的和善园买的梅干菜肉包*2，就着之前搞活动花1元领的牛奶吃的早饭。<br><img src="/2023/04/23/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-23/20230423192638.jpg"></p>
+<p>今天早上起来就开始在研究Hexo搭建个人博客的，稍微花了一些时间整理了初版的第一份教程，后面时间赋予下来还是会把后续相关的给完善的。目前写博客是分两份，一份是私有仓库备份，一份是公开仓库做个人博客记录。<br><img src="/2023/04/23/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-23/Snipaste_2023-04-23_19-36-55.jpg"></p>
+<p>下午的话，原本出去吃了个面条回来，正常来说我应该是准备午休的咯！<br><img src="/2023/04/23/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-23/20230423192644.jpg"></p>
+<p>我看见手机上有一个未接来电，因为我没有备注是谁，然后我就打回去了，发现是BOSS，他说我为啥两面三刀的，难道不晓得现在公司多忙嘛？然后叫我把离职前还剩下一点的项目给做完。<br>我当时人都傻了，就这？？？我之前产品-胡、人事-荆联系我说这个事情的时候，我说了我离职了已经，并且我不愿意干开发的工作的，结果没想到BOSS来压我了。就因为我心里对公司有愧疚基于那次重大事故的原因！<br>我也想好了，我后续不会在接公司兼职给我的开发外包、运维兼职的工作先做两个月在找到新工作之后交付出去给前通知运维-徐来兼职接手吧。<br>我当时第一反应就是觉得很不爽，我都离职了，我还要把离职前没做完的工作给做了？ 确实如此！<br>后面的话把ylfpay-裂变项目的剩下的功能（云平台提现、二维码生成）代码实现了，就直接给当前技术部项目主管-郝说了这件事情了。算是把自己要写的功能也补全了，撇干净自己和公司的关系。<br><img src="/2023/04/23/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-23/Snipaste_2023-04-23_19-44-58.jpg"></p>
+<p>今天的话倒是其他的工作没怎么做，正好的是昨天毕业答辩回来之后就把答辩老师提出的论文修改部分给完善了，今天刚刚好这边老师在问我们要修改后的论文，如果昨天回来懒了没有动，那估计这件事情就又往后面拖了，拖延症要不得！！！<br><img src="/2023/04/23/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-23/Snipaste_2023-04-23_19-49-33.jpg"></p>
+<p>今天下午在写代码空隙休息时间还给老妈开了下视频，也讲了下5.1就不回去了，就在这边呆着反正交了房租的，还有就是回去的话也是没啥好耍的，也耍不长久，家里房子租出去了的，即使说能在家里住也是短住几天，没有那个必要的。就在NJ这边好好呆着吧~顺便把简历准备好，面试准备知识点背背之类的，争取就是一个月之内把工作事情给落实了。</p>
+<br/>
+
+<p>今天外边在下小雨，原本说准备晚上出去吃的，后面看着雨一直没停就懒得出门了，晚上给自己点了一个外卖。然后我这次买了吐司面包回来，明天早上就不用出门买早饭了的打算。</p>
+<p><img src="/2023/04/23/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-23/20230423195313.jpg"></p>
+<p>我感觉哈，这家外卖不好吃，味道一般，然后价格的话只能说正常区间用完卷￥21.98，意面没味道很淡、然后那个烤饼的话感觉肉一般，芝士香气挺浓郁的，里面还有玉米粒很甜。总是给不到预期的感受，我的评分是※※※（满分5※）</p>
+<p><img src="/2023/04/23/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-23/Snipaste_2023-04-23_19-55-02.jpg"></p>
+]]></content>
+      <tags>
+        <tag>离职日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>离职日记 04.24</title>
+    <url>/2023/04/24/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-24/</url>
+    <content><![CDATA[<h2 id="又是5点30多醒了下"><a href="#又是5点30多醒了下" class="headerlink" title="又是5点30多醒了下"></a>又是5点30多醒了下</h2><p>今天早上一如既往的还是5点30左右醒了的。不明白的就是为啥 都离职了，明明没有那么多的事情要考虑、也没有所谓服务器挂了的压力之类的，我还是不能够睡到8点起来呢？？？ 我就很羡慕那些睡觉一直睡到9、10点的人（那种熬夜很晚睡的不算）。<br><br><br><img src="/2023/04/24/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-24/20230424195811.jpg"></p>
+<h2 id="开始起床"><a href="#开始起床" class="headerlink" title="开始起床"></a>开始起床</h2><p>早上07:46我终于起床了，是起床哈！反正之前05点多醒了之后，还是尽力在继续睡觉的，基本是在06:30我就基本清醒然后在床上玩了玩手机的。</p>
+<p>手机锁屏壁纸很好看 hhh 特别逗我觉得！目前的手机这个壁纸我是比较喜欢的，但是我这个人吧，有时候心浮气躁的，不知大那天就又换了一个咯！只能说目前来讲，深得我心~</p>
+<br>
+
+<p><img src="/2023/04/24/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-24/20230424195824.jpg"></p>
+<h2 id="记单词啦"><a href="#记单词啦" class="headerlink" title="记单词啦"></a>记单词啦</h2><p><img src="/2023/04/24/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-24/Snipaste_2023-04-24_20-09-56.jpg"><br>今天从08:22-10:33一直在哪里记单词 <a href="https://oduoduoke.github.io/2023/04/24/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E7%99%BE%E8%AF%8D%E6%96%A9-%E8%AE%B0%E5%8D%95%E8%AF%8D0424/">百词斩-记单词0424</a> ，就是一边记单词 一边输出到博客中。37个单词，但是耗时居然2小时！！！我觉得是有点吃惊的，而且我中间没有休息中断，可能感觉效率会有一点低哎！然后就是整个上午的时间基本花在记单词这件事情上了，其他的啥也没干。</p>
+<p><img src="/2023/04/24/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-24/20230424195831.jpg"></p>
+<h2 id="我还没投简历，只是挂着而已"><a href="#我还没投简历，只是挂着而已" class="headerlink" title="我还没投简历，只是挂着而已"></a>我还没投简历，只是挂着而已</h2><p>对方HR找的我，大概了解了下就是单休，然后工作时间基本是晚上9点下班，但是工作不会特别饱和，然后呢 五险都是全额缴纳，没有公积金，我是准备如果有机会就面试试试看自己到底啥个水平，至少了解到自己的底细吧！</p>
+<p><img src="/2023/04/24/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-24/Snipaste_2023-04-24_19-58-58.jpg"></p>
+<h2 id="下午在做面试准备"><a href="#下午在做面试准备" class="headerlink" title="下午在做面试准备"></a>下午在做面试准备</h2><p><img src="/2023/04/24/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-24/Snipaste_2023-04-24_20-13-51.jpg"></p>
+<p>我自己的感觉就是，<strong>基础很差</strong>！！！有一些很基础的JAVA知识我其实掌握的并不深，可以说懂一点皮毛。自我分析下来就是，培训班出来了之后，虽然工作了几年，但是这几年的工作没有深入学习，一直在<strong>CURD</strong>所以导致我现在很尴尬的就是，当我从公司裸辞出来了之后，我发现我要对下一份面试工作准备时候，我好多东西都不太懂的！心里草泥马飞过…</p>
+<p>下午看了一会面试题，也是在一边查资料一边输出记录到博客中，但最后结果是只搞了一半不到，还有就是 我可能比较担心的就是，可能我查的网上的一些资料并不是很准确！就是可能别人也说的是错的那种。但是没办法的啊，我只有多查下，多看几篇文章确认。还有就是自己动手能力太弱了，有的东西掌握的太浅层的，之前的工作基本就是简单的CURD还有一些是面向百度编程了的。所以说<strong>过的太安逸是会害死人的</strong>。</p>
+<h2 id="出去刮了个彩票，意外之喜"><a href="#出去刮了个彩票，意外之喜" class="headerlink" title="出去刮了个彩票，意外之喜"></a>出去刮了个彩票，意外之喜</h2><p>我抱着送钱的态度去买了一张20的彩票刮，是竖着刮下来的，然后就是前面几排都是无了，最后一排20元！啊哈！这就是意外之喜啊，我原本就没想着会中的，然后就是 既然中了，那么就不玩了，不亏也挺好的！</p>
+<p><img src="/2023/04/24/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-24/20230424195921.jpg"></p>
+<p>中的20元拿在手里，比手机里面的数字看着更舒服哎！</p>
+<p><img src="/2023/04/24/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-24/20230424195928.jpg"></p>
+<h2 id="晚上吃大饼-可乐"><a href="#晚上吃大饼-可乐" class="headerlink" title="晚上吃大饼+可乐"></a>晚上吃大饼+可乐</h2><p>晚餐花费5+2一共7元，中午吃的面条（豌杂面），晚上就吃点其他的，而且确实好久没吃过咯！凑合凑合又是一顿挨过去~（目前离职状态，感觉贫穷在向我挥挥手，即将给我一个拥抱）<br><img src="/2023/04/24/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-24/20230424195934.jpg"></p>
+<h2 id="我和我大哥如图所示"><a href="#我和我大哥如图所示" class="headerlink" title="我和我大哥如图所示"></a>我和我大哥如图所示</h2><p>哎，现在女孩子真的是大哥！我反正惹不起，一开始就被我大哥征服了，我现在就是小喽喽。有时候这个娃儿能气死我，有时候把 我又很想保护她，不过我还是大部分时候很想收拾她一顿（揪脸吨儿）哼，让你不乖！</p>
+<p><img src="/2023/04/24/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-24/20230424195913.jpg"></p>
+]]></content>
+      <tags>
+        <tag>离职日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>百词斩-记单词 04.25</title>
+    <url>/2023/04/25/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E7%99%BE%E8%AF%8D%E6%96%A9-%E8%AE%B0%E5%8D%95%E8%AF%8D-04-25/</url>
+    <content><![CDATA[<blockquote>
+<p>数据来源：百词斩APP</p>
+</blockquote>
+<h2 id="faulty"><a href="#faulty" class="headerlink" title="faulty"></a><a href="https://oduoduoke.github.io/2023/04/24/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E7%99%BE%E8%AF%8D%E6%96%A9-%E8%AE%B0%E5%8D%95%E8%AF%8D0424/#faulty">faulty</a></h2>]]></content>
+      <tags>
+        <tag>英语学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>百词斩-记单词0424</title>
+    <url>/2023/04/24/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E7%99%BE%E8%AF%8D%E6%96%A9-%E8%AE%B0%E5%8D%95%E8%AF%8D0424/</url>
+    <content><![CDATA[<p><img src="/2023/04/24/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E7%99%BE%E8%AF%8D%E6%96%A9-%E8%AE%B0%E5%8D%95%E8%AF%8D0424/Snipaste_2023-04-24_10-33-39.jpg"></p>
+<hr>
+<blockquote>
+<p>数据来源：百词斩APP</p>
+</blockquote>
+<h2 id="steak"><a href="#steak" class="headerlink" title="steak"></a>steak</h2><p>音标：&#x2F;steik&#x2F;</p>
+<p>助记词：<em>斯特课</em></p>
+<p>复数形式：<strong>steaks</strong></p>
+<p>名词（n）： 牛排；鱼块；</p>
+<p>图文</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#叉子上叉了两块美味的牛排。</span><br><span class="line">There are tow pieces of delicious `steak` on the fork. </span><br></pre></td></tr></table></figure>
+
+
+<hr>
+<h2 id="cough"><a href="#cough" class="headerlink" title="cough"></a>cough</h2><p>音标：&#x2F;kɔːf&#x2F;</p>
+<p>助记词：<em>卡夫</em></p>
+<p>动词（v）：咳嗽</p>
+<p>名词（n）：咳嗽</p>
+<p>复数：coughs</p>
+<p>第三人称单数：coughs</p>
+<p>现在分词：coughing</p>
+<p>过去式：coughed</p>
+<p>过去分词：coughed</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#他生病时咳嗽的厉害</span><br><span class="line">He coughed badly when he was ill .</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="pressure"><a href="#pressure" class="headerlink" title="pressure"></a>pressure</h2><p>音标：&#x2F;ˈpreʃər&#x2F;</p>
+<p>助记词：<em>普睿西儿</em></p>
+<p>名词（n）：压力</p>
+<p>及物动词（vt）：对…施加压力</p>
+<p>复数：pressures</p>
+<p>第三人称单数： pressures</p>
+<p>现在分词：pressuring</p>
+<p>过去式：pressured</p>
+<p>过去分词： pressured</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#这个大梨的压力实在是难以承受。</span><br><span class="line">The pressure of ths giant pear is unbearable.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="hinder"><a href="#hinder" class="headerlink" title="hinder"></a>hinder</h2><p>音标：&#x2F;ˈhɪndər&#x2F;</p>
+<p>助记词：<em>哼der</em></p>
+<p>动词（v）：阻碍、妨碍</p>
+<p>第三人称单数：hinders</p>
+<p>现在分词： hindering</p>
+<p>过去式：hindered</p>
+<p>过去分词：hindered</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#这个障碍物实在是阻碍我前进</span><br><span class="line">The obstacle really `hinders` my forward progress.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="raw"><a href="#raw" class="headerlink" title="raw"></a>raw</h2><p>音标：&#x2F;rɔː&#x2F;</p>
+<p>助记词：<em>若</em></p>
+<p>形容词（adj）：生的、为煮过的；（因皮肤开裂）疼痛的</p>
+<p>比较级：rawer</p>
+<p>最高级：rawest</p>
+<p>名词：rawness</p>
+<p>副词：rawly</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#木板上的牛肉是生的。</span><br><span class="line">The beef on the wooden board is `raw`.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="luggage"><a href="#luggage" class="headerlink" title="luggage"></a>luggage</h2><p>音标：&#x2F;ˈlʌɡɪdʒ&#x2F;</p>
+<p>助记词：<em>拉给及</em></p>
+<p>名词（n）：行李</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#你可以从这些行李箱中选择任意的尺寸和颜色的一个作为你的行李箱。</span><br><span class="line">You can choose your `luggage` of any size and color from these ones.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="extent"><a href="#extent" class="headerlink" title="extent"></a>extent</h2><p>音标：&#x2F;ɪkˈstent&#x2F;</p>
+<p>助记词：<em>一可斯坦特</em></p>
+<p>名词（n）：范围；长度；程度；</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#围栏以内都是我的财产范围。</span><br><span class="line">The `extent` of my property is marked by a fence.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="faulty"><a href="#faulty" class="headerlink" title="faulty"></a>faulty</h2><p>音标：&#x2F;ˈfɔːlti&#x2F;</p>
+<p>助记词：<em>佛提</em></p>
+<p>比较级：faultier</p>
+<p>最高级：faultiest</p>
+<p>名词：faultiness</p>
+<p>副词：faultily</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#快跑！这个烤面包机出故障了，它随时都可能毁了你的面包！</span><br><span class="line">Run! This toaster is `faulty` and might kill your toast at </span><br><span class="line">any time !</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="ground"><a href="#ground" class="headerlink" title="ground"></a>ground</h2><p>音标：&#x2F;ɡraʊnd&#x2F;</p>
+<p>助记词：<em>过让得</em></p>
+<p>名词（n）：地面</p>
+<p>复数：grounds</p>
+<p>第三人称单数：grounds</p>
+<p>现在分词：grounding</p>
+<p>过去式：grounded</p>
+<p>过去分词：grounded</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">The man is lying on the `ground`.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="encounter"><a href="#encounter" class="headerlink" title="encounter"></a>encounter</h2><p>音标：&#x2F;ɪnˈkaʊntər&#x2F;</p>
+<p>助记词：<em>因康特儿</em></p>
+<p>及物动词（vt）：邂逅，偶遇</p>
+<p>名词（n）：偶然碰见，遭遇</p>
+<p>复数：encounters</p>
+<p>第三人称单数：encounters</p>
+<p>现在分词：encountering</p>
+<p>过去式：encountered</p>
+<p>过去分词:encountered</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#他在街上遇到了老朋友。</span><br><span class="line">He `encountered` his old friend on the street.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="reap"><a href="#reap" class="headerlink" title="reap"></a>reap</h2><p>音标：&#x2F;riːp&#x2F;</p>
+<p>助记词：<em>瑞普</em></p>
+<p>动词（v）：收割；获得；收获；</p>
+<p>第三人称单数：reaps</p>
+<p>现在分词：reaping </p>
+<p>过去式：reaped</p>
+<p>过去分词：reaped</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#庄稼已经完全成熟，是时候收割了。</span><br><span class="line">The crops are fully grown,and it`s time to `reap` them.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="nutrient"><a href="#nutrient" class="headerlink" title="nutrient"></a>nutrient</h2><p>音标：&#x2F;ˈnuːtriənt&#x2F;</p>
+<p>助记词：<em>牛醉ing嗯特</em></p>
+<p>名词（n）：营养物</p>
+<p>形容词（adj）：营养的</p>
+<p>复数：nutrients</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#苹果含有许多有益身体健康的营养成分。</span><br><span class="line">Apples contain many healthy `nutrients` for the body.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="fair"><a href="#fair" class="headerlink" title="fair"></a>fair</h2><p> 音标：&#x2F;fer&#x2F;</p>
+<p> 助记词：<em>菲尔</em></p>
+<p> 形容词（adj）：合理的，公平的；相当的，尚好的</p>
+<p> 名词（n）：集市，交易会</p>
+<p> 复数： fairs</p>
+<p> 第三人称单数：fairs</p>
+<p> 现在分词：fairing</p>
+<p> 过去式：faired</p>
+<p> 过去分词：faired</p>
+<p> 比较级：fairer</p>
+<p> 最高级：fairest</p>
+ <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#相比较左边的饮料，右边的饮料售价更合理。</span><br><span class="line">Compared to that on the left,the drink on the right is being sold at a `fair` price.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="bore"><a href="#bore" class="headerlink" title="bore"></a>bore</h2><p> 音标：&#x2F;bɔːr&#x2F;</p>
+<p> 助记词：<em>波儿</em></p>
+<p> 动词（v）：使厌烦</p>
+<p> 复数：bores</p>
+<p> 第三人称单数：bores</p>
+<p> 现在分词：boring</p>
+<p> 过去式：bored</p>
+<p> 过去分词：bored</p>
+ <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#这个男人冗长的讲话让同事们都厌烦的想睡觉了。</span><br><span class="line">The man`s endless talking has `bored` his colleagues to sleep.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="tragedy"><a href="#tragedy" class="headerlink" title="tragedy"></a>tragedy</h2><p> 音标：&#x2F;ˈtrædʒədi&#x2F;</p>
+<p> 助记词：<em>tra极地</em></p>
+<p> 名词（n）：悲剧</p>
+<p> 复数：targedies</p>
+ <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#这场车祸对于这个男人来说是场灾难。</span><br><span class="line">The car accident was `tragedy` for the man.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="abundance"><a href="#abundance" class="headerlink" title="abundance"></a>abundance</h2><p> 音标：&#x2F;əˈbʌndəns&#x2F;</p>
+<p> 助记词：<em>额班等斯</em> （a+bun+dan+ce）</p>
+<p> 名词（n）：大量；丰富</p>
+ <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#这只可爱的小动物有满满一堆的食物。</span><br><span class="line">This cute animal has an `abundance` of foood.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="emphasis"><a href="#emphasis" class="headerlink" title="emphasis"></a>emphasis</h2><p>音标：&#x2F;ˈemfəsɪs&#x2F;</p>
+<p>助记词：<em>嗯fo塞斯</em>（em+pha+sis）</p>
+<p>名词（n）：重点；强调；重要性；</p>
+<p>复数：emphases</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#标亮单词，以示重点。</span><br><span class="line">The word has been highlighted to provide `emphasis`.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="wage"><a href="#wage" class="headerlink" title="wage"></a>wage</h2><p>音标：&#x2F;weɪdʒ&#x2F;</p>
+<p>助记词：<em>为己</em>  （wa+ge）</p>
+<p>名词（n）：工资，薪水</p>
+<p>及物动词（vt）：开展，进行（战争、运动）</p>
+<p>复数：wages</p>
+<p>第三人称单数：wages</p>
+<p>现在分词：waging</p>
+<p>过去式：waged</p>
+<p>过去分词：waged</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#这个工人拿到工资的时候很开心。</span><br><span class="line">The worker was so happy when she got her `wages`.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="conservative"><a href="#conservative" class="headerlink" title="conservative"></a>conservative</h2><p>音标：&#x2F;kənˈsɜːrvətɪv&#x2F;</p>
+<p>助记词：<em>康色五提悟</em> （con+ser+va+tive）</p>
+<p>形容词（adj）：保守的；保守估计的；保守党的</p>
+<p>名词（n）：保守者；保守党党员</p>
+<p>复数：conservatives</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#这个人的态度如此保守，就连情侣牵手他都看不惯。</span><br><span class="line">The man has such a `conservative` attitude; he even despiese the couple holding hands.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="intermediate"><a href="#intermediate" class="headerlink" title="intermediate"></a>intermediate</h2><p>音标：&#x2F;ˌɪntərˈmiːdiət&#x2F;</p>
+<p>助记词：<em>因特儿米地儿特</em> （inter+me+di+ate）</p>
+<p>形容词（adj）：中间的</p>
+<p>名词（n）；媒介</p>
+<p>动词（v）：调节，干涉</p>
+<p>复数：intermediates</p>
+<p>第三人称单数：intermediates</p>
+<p>现在分词：intermediating</p>
+<p>过去式：intermediated</p>
+<p>过去分词：intermediated</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#中间物品的尺寸适中。</span><br><span class="line">The toy in the middle is of `intermediate` size.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="pursue"><a href="#pursue" class="headerlink" title="pursue"></a>pursue</h2><p>音标：&#x2F;pərˈsuː&#x2F;</p>
+<p>助记词：<em>per树</em> （pur+sue）</p>
+<p>动词（v）：追赶；进行，从事</p>
+<p>第三人称单数：pursues</p>
+<p>现在分词：pursuing</p>
+<p>过去式：pursued</p>
+<p>过去分词：pursued</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#警察正在追赶那两个小偷，他们偷了一个女人的钱包。</span><br><span class="line">The police were `pursuing` the two thieves who had stolen a woman`s purse.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="urgency"><a href="#urgency" class="headerlink" title="urgency"></a>urgency</h2><p>音标：&#x2F;ˈɜːrdʒənsi&#x2F;</p>
+<p>助记词：<em>儿金塞</em> （ur+gen+cy）</p>
+<p>名词（n）：紧急；紧急的事</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#她急匆匆的跑着，生怕开会迟到。</span><br><span class="line">She ran with a sence of `urgency`,afraid of being late for the meeting .</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="extinction"><a href="#extinction" class="headerlink" title="extinction"></a>extinction</h2><p>音标：&#x2F;ɪkˈstɪŋkʃn&#x2F;</p>
+<p>助记词：<em>一可斯滕行</em> （ex+tin+ction）</p>
+<p>名词（n）：灭绝</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#这类动物的灭绝发生在大约6600万年前。</span><br><span class="line">The `extinction` of this animal occourred around 66 million years ago.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="furniture"><a href="#furniture" class="headerlink" title="furniture"></a>furniture</h2><p>音标：&#x2F;ˈfɜːrnɪtʃər&#x2F;</p>
+<p>助记词：<em>fer尼切儿</em> （fur+ni+ture）</p>
+<p>名词（n）：家具；装置；设备</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#他的所有的家具都是成套的。</span><br><span class="line">All of his `furniture` came as a set.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="curb"><a href="#curb" class="headerlink" title="curb"></a>curb</h2><p>音标：&#x2F;kɜːrb&#x2F;</p>
+<p>助记词：<em>可布</em> （cur+b）</p>
+<p>动词（v）：勒住；印制；控制；约束<br>名词（n）：路缘；控制；约束</p>
+<p>复数：curbs</p>
+<p>第三人称单数：curbs</p>
+<p>现在分词：curbing</p>
+<p>过去式：curbed</p>
+<p>过去分词：curbed</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#在你的马掉下悬崖前，快勒住它！</span><br><span class="line">`Curb` your horse now before it runs off ths cliff!</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="analyst"><a href="#analyst" class="headerlink" title="analyst"></a>analyst</h2><p>音标：&#x2F;ˈænəlɪst&#x2F;</p>
+<p>助记词：<em>安no来斯特</em> （an+a+lyst）</p>
+<p>名词（n）：分析员</p>
+<p>复数：analysts</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#分析员正在解说股市走向。</span><br><span class="line">Ths `analyst` is explaining the trend of ths stock market.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="loosen"><a href="#loosen" class="headerlink" title="loosen"></a>loosen</h2><p>音标：&#x2F;ˈluːsn&#x2F;</p>
+<p>助记词：<em>路森</em>（loo+sen）</p>
+<p>动词（v）：松开；松弛</p>
+<p>第三人称单数：loosens</p>
+<p>现在分词：loosening</p>
+<p>过去式：loosened</p>
+<p>过去分词：loosened</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#在办公室工作一天后，我松了松领带。</span><br><span class="line">I `loosen` my tie after a long day in the office.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="appear"><a href="#appear" class="headerlink" title="appear"></a>appear</h2><p>音标：&#x2F;əˈpɪr&#x2F;</p>
+<p>助记词：<em>额皮儿</em> （app+ear）</p>
+<p>不及物动词（vi）：出现，露面</p>
+<p>第三人称单数：appears</p>
+<p>现在分词：appearing</p>
+<p>过去式：appeared</p>
+<p>过去分词：appeared</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#我实在太激动了！我的偶像马上就要出现在舞台上了。</span><br><span class="line">I`m so excited! My idol is about to `appear` on stage.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="mortgage"><a href="#mortgage" class="headerlink" title="mortgage"></a>mortgage</h2><p>音标：&#x2F;ˈmɔːrɡɪdʒ&#x2F;</p>
+<p>助记词：<em>莫儿给及</em> （mort+gage）</p>
+<p>名词（n）：抵押贷款</p>
+<p>动词（v）：抵押</p>
+<p>复数：mortgages</p>
+<p>第三人称单数：mortgages</p>
+<p>现在分词：mortgaging</p>
+<p>过去式：mortgaged</p>
+<p>过去分词：mortgaged</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#他办理过抵押贷款，这意味着他是借钱买的房子。</span><br><span class="line">He took out a `mortgage`,meaning he borrowed money to buy his home.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="reply"><a href="#reply" class="headerlink" title="reply"></a>reply</h2><p>音标：&#x2F;rɪˈplaɪ&#x2F;</p>
+<p>助记词：<em>瑞普来</em> （re+ply）</p>
+<p>动词（v）：答复</p>
+<p>名词（n）：答复</p>
+<p>复数：replies</p>
+<p>第三人称单数：replies</p>
+<p>现在分词：replying</p>
+<p>过去式：replied</p>
+<p>过去分词：replied</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#我给她发了好多条消息，她却只回复了一个字。</span><br><span class="line">I sent her many messages,but she `replied` with only one word.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="forgetful"><a href="#forgetful" class="headerlink" title="forgetful"></a>forgetful</h2><p>音标：&#x2F;fərˈɡetfl&#x2F;</p>
+<p>助记词：<em>非儿给特佛</em> （for+get+ful）</p>
+<p>形容词（adj）：健忘的；使遗忘…的</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#这位老人很健忘，他不记得自己在干什么。</span><br><span class="line">The old man is so `forgetful` that he can`t remember what he`s doing.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="theater"><a href="#theater" class="headerlink" title="theater"></a>theater</h2><p>音标：&#x2F;ˈθiːətər&#x2F;</p>
+<p>助记词：<em>非额切儿</em> （the+a+ter）</p>
+<p>复数：theaters</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#表演结束之后，戏院很快就空了。</span><br><span class="line">The `theater` quickly emptied when the performance ended.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="foremost"><a href="#foremost" class="headerlink" title="foremost"></a>foremost</h2><p>音标：&#x2F;ˈfɔːrmoʊst&#x2F;</p>
+<p>助记词：<em>佛儿眸斯特</em> （for+e+most）</p>
+<p>形容词（adj）：首要的</p>
+<p>副词（adv）：首先</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#特斯拉被视为他那一代人里最棒的发明家之一。</span><br><span class="line">Tesla is regarded as one of the `foremost` inventors of his generation.</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="correspond"><a href="#correspond" class="headerlink" title="correspond"></a>correspond</h2><p>音标：&#x2F;ˌkɔːrəˈspɑːnd&#x2F;</p>
+<p>助记词：<em>扩儿斯棒的</em> （corr+es+pond）</p>
+<p>不及物动词（vi）：通信；相似</p>
+<p>第三人称单数：corresponds</p>
+<p>现在分词：corresponding</p>
+<p>过去式：corresponded</p>
+<p>过去分词：corresponded</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#现如今，人们有许多不同的方式进行通信。</span><br><span class="line">Nowadays, People `correspond` with each other in many different ways.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="severe"><a href="#severe" class="headerlink" title="severe"></a>severe</h2><p>音标：&#x2F;sɪˈvɪr&#x2F;</p>
+<p>助记词：<em>赛V儿</em> （se+ve+re）</p>
+<p>形容词（adj）：极为恶劣的；严重的；严厉的；剧烈的</p>
+<p>比较级：severer</p>
+<p>最高级：severest</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#在如此恶劣的天气条件下，人们走的很艰难。</span><br><span class="line">It`s hard for people to wald in such `severe` weather conditions.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="bug"><a href="#bug" class="headerlink" title="bug"></a>bug</h2><p>音标：&#x2F;bʌɡ&#x2F;</p>
+<p>助记词：<em>巴格</em></p>
+<p>名词（n）：错入，故障</p>
+<p>及物动词（vt）：使厌烦</p>
+<p>复数：bugs</p>
+<p>第三人称单数：bugs</p>
+<p>现在分词：bugging</p>
+<p>过去式：bugged</p>
+<p>过去分词：bugged</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#程序员正在努力修复软件中的故障。</span><br><span class="line">The programmer is trying to fix the `bug` in the software.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="consensus"><a href="#consensus" class="headerlink" title="consensus"></a>consensus</h2><p>音标：&#x2F;kənˈsensəs&#x2F;</p>
+<p>助记词：<em>康森色斯</em> （con+sen+sus）</p>
+<p>名词（n）：一致同意</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#大家就聚餐吃什么问题达成了一致。</span><br><span class="line">They reached a `consensus` about what to eat for dinner.</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+]]></content>
+      <tags>
+        <tag>英语学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>面试准备|JAVA-基础</title>
+    <url>/2023/04/24/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87-JAVA-%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<h2 id="Java-中的几种基本数据类型是什么？对应的包装类型是什么？各自占用多少字节呢？"><a href="#Java-中的几种基本数据类型是什么？对应的包装类型是什么？各自占用多少字节呢？" class="headerlink" title="Java 中的几种基本数据类型是什么？对应的包装类型是什么？各自占用多少字节呢？"></a>Java 中的几种基本数据类型是什么？对应的包装类型是什么？各自占用多少字节呢？</h2><blockquote>
+<p><a href="https://blog.csdn.net/zhang_java_11/article/details/115171350">【CSDN】Java基本数据类型有哪些？他们分别占几个字节？为什么？</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/49970755">【知乎】Java包装类</a></p>
+</blockquote>
+<blockquote>
+<p>Java中提供了<strong>8</strong>种基本类型。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>基本类型</th>
+<th>包装类型</th>
+<th>区别</th>
+<th>占用字节</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>byte</td>
+<td>Byte</td>
+<td>整数类型</td>
+<td>1个字节</td>
+</tr>
+<tr>
+<td>short</td>
+<td>Short</td>
+<td>整数类型</td>
+<td>2个字节</td>
+</tr>
+<tr>
+<td>int</td>
+<td>Integer</td>
+<td>整数类型</td>
+<td>4个字节</td>
+</tr>
+<tr>
+<td>long</td>
+<td>Long</td>
+<td>整数类型</td>
+<td>8个字节</td>
+</tr>
+<tr>
+<td>float</td>
+<td>Float</td>
+<td>浮点类型</td>
+<td>4个字节</td>
+</tr>
+<tr>
+<td>double</td>
+<td>Double</td>
+<td>浮点类型</td>
+<td>8个字节</td>
+</tr>
+<tr>
+<td>char</td>
+<td>Character</td>
+<td>字符类型</td>
+<td>2个字节</td>
+</tr>
+<tr>
+<td>boolean</td>
+<td>Boolean</td>
+<td>布尔类型</td>
+<td>boolean单个占4个字节，boolean数组1个字节</td>
+</tr>
+</tbody></table>
+<p>问：一个汉字占用几个字节？</p>
+<blockquote>
+<p>答：这和编码有关，UTF8一个汉字占3个字节，GBK一个汉字占2个字节。</p>
+</blockquote>
+<hr>
+<h2 id="String-、-StringBuffer-和-StringBuilder-的区别是什么-String-为什么是不可变的"><a href="#String-、-StringBuffer-和-StringBuilder-的区别是什么-String-为什么是不可变的" class="headerlink" title="String 、 StringBuffer 和 StringBuilder 的区别是什么? String 为什么是不可变的?"></a>String 、 StringBuffer 和 StringBuilder 的区别是什么? String 为什么是不可变的?</h2><blockquote>
+<p><a href="https://blog.csdn.net/Turniper/article/details/111112824">【CSDN】String、StringBuffer、StringBuilder的区别——（详细叙述）</a></p>
+<p><a href="https://www.zhihu.com/question/20618891" title="摘选`JavaGuide`回答">【知乎】如何理解 String 类型值的不可变？</a></p>
+</blockquote>
+<p><strong>String 、 StringBuffer 和 StringBuilder 的区别</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>String</th>
+<th>StringBuffer</th>
+<th>StringBuilder</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>执行速度</td>
+<td>最差</td>
+<td>其次</td>
+<td>最高</td>
+</tr>
+<tr>
+<td>线程安全</td>
+<td>线程安全</td>
+<td>线程安全</td>
+<td>线程不安全</td>
+</tr>
+<tr>
+<td>使用场景</td>
+<td>少量字符串操作</td>
+<td>多线程环境下的大量操作</td>
+<td>单线程环境下的大量操作</td>
+</tr>
+</tbody></table>
+<p><strong>String 为什么是不可变的?</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">public final class String implements java.io.Serializable, Comparable&lt;String&gt;, CharSequence,Constable, ConstantDesc &#123;</span><br><span class="line">    private final byte[] value;</span><br><span class="line">    //...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>String 类被 final 修饰导致其不能被继承，进而避免了子类破坏 String 不可变</li>
+<li>保存字符串的数组被 final 修饰且为私有的，并且String 类没有提供&#x2F;暴露修改这个字符串的方法</li>
+</ul>
+<hr>
+<h2 id="String-s1-x3D-new-String-“abc”-这段代码创建了几个字符串对象？"><a href="#String-s1-x3D-new-String-“abc”-这段代码创建了几个字符串对象？" class="headerlink" title="String s1 &#x3D; new String(“abc”) 这段代码创建了几个字符串对象？"></a>String s1 &#x3D; new String(“abc”) 这段代码创建了几个字符串对象？</h2><blockquote>
+<p><a href="https://blog.csdn.net/luzhensmart/article/details/105679905">【CSDN】java中String s &#x3D; new String(“abc”)创建了几个对象</a></p>
+<p><a href="https://www.cnblogs.com/ydpvictor/archive/2012/09/09/2677260.html" title="解析讲解的比较好">【博客园】String s&#x3D;new String(“abc”)创建了几个对象?</a></p>
+</blockquote>
+<blockquote>
+<p>答案是<strong>两个</strong></p>
+</blockquote>
+<br>
+
+
+<p><em>例题解析：</em></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#创建了一个String对象</span><br><span class="line">String str=&quot;abc&quot;; </span><br><span class="line"></span><br><span class="line">#创建了一个String对象</span><br><span class="line">String a=&quot;abc&quot;;  String b=&quot;abc&quot;;</span><br><span class="line"></span><br><span class="line">#创建了三个String对象</span><br><span class="line">String a=&quot;ab&quot;+&quot;cd&quot;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>在JAVA虚拟机（JVM）中存在着一个<strong>字符串池</strong>，其中保存着很多String对象，并且可以被共享使用，因此它提高了效率。</p>
+<p><code>String a=&quot;abc&quot;</code>，这行代码被执行的时候，JAVA虚拟机首先在字符串池中查找是否已经存在了值为”abc”的这么一个对象，它的判断依据是<code>String类equals(Object obj)</code>方法的返回值。<br>如果有，则不再创建新的对象，直接返回已存在对象的引用；<br>如果没有，则先创建这个对象，然后把它加入到字符串池中，再将它的引用返回。</p>
+</blockquote>
+<p><em>哪些情况下可以加入字符串池？</em></p>
+<blockquote>
+<p>只有使用<strong>引号包含文本</strong>的方式创建的String对象之间使用“+”连接产生的新对象才会被<strong>加入字符串池</strong>中。<br>对于所有包含<strong>new方式新建对象（包括null）的“+”连接表达式</strong>，它所产生的新对象都<strong>不会被加入字符串池</strong>中</p>
+</blockquote>
+<p><em>扩充知识点：</em></p>
+<blockquote>
+<p>栈（stack）：主要保存基本类型（或者叫内置类型）（char、byte、short、int、long、float、double、boolean）和对象的引用，数据可以共享，速度仅次于寄存器（register），快于堆。</p>
+<p>堆（heap）：用于存储对象。</p>
+</blockquote>
+<hr>
+<h2 id="x3D-x3D-与-equals-hashCode-与-equals"><a href="#x3D-x3D-与-equals-hashCode-与-equals" class="headerlink" title="&#x3D;&#x3D; 与 equals?hashCode 与 equals ?"></a>&#x3D;&#x3D; 与 equals?hashCode 与 equals ?</h2><blockquote>
+<p><a href="https://blog.csdn.net/meism5/article/details/89029475">【CSDN】&#x3D;&#x3D; 和 equals 的区别</a></p>
+</blockquote>
+<p> <strong>&#x3D;&#x3D; ：</strong><br> <code>==</code>是操作符</p>
+<blockquote>
+<p>基本类型：比较值是否相等 （byte,short,char,int,long,float,double,boolean）<br>引用类型：比较堆内存地址是否相等 （new一个引用类型的对象，会重新分配堆内存空间，使用&#x3D;&#x3D;比较返回false）</p>
+</blockquote>
+<p> 补充：<code>==</code>运行速度比<code>equals()</code>快，因为&#x3D;&#x3D;只是比较引用</p>
+<p><strong>equals：</strong>　　<br><code>equals()</code>是Object类的一个方法，Java当中所有的类都是继承于Object这个超类。</p>
+<blockquote>
+<p>引用类型：默认情况下，比较内存地址值是否相等<br><code>一般重写都是自动生成，比较对象的成员变量值是否相同</code> 
+　　</p>
+</blockquote>
+<p><em>hashCode 与 equals ?</em></p>
+<blockquote>
+<p><a href="https://blog.csdn.net/maligebilaowang/article/details/129663874">【CSDN】java基础：hashCode() equals()总结</a></p>
+</blockquote>
+<p><em>equals()性质：</em></p>
+<ol>
+<li>自反性（reflexive）。对于任意不为null的引用值x，x.equals(x)一定是true。</li>
+<li>对称性（symmetric）。对于任意不为null的引用值x和y，当且仅当x.equals(y)是true时，y.equals(x)也是true。</li>
+<li>传递性（transitive）。对于任意不为null的引用值x、y和z，如果x.equals(y)是true，同时y.equals(z)是true，那么x.equals(z)一定是true。</li>
+<li>一致性（consistent）。对于任意不为null的引用值x和y，如果用于equals比较的对象信息没有被修改的话，多次调用时x.equals(y)要么一致地返回true要么一致地返回false。</li>
+<li>非空性。对于任意不为null的引用值x，x.equals(null)返回false。</li>
+</ol>
+<blockquote>
+<p>需要注意的是当equals()方法被override时，hashCode()也要被override。按照一般hashCode()方法的实现来说，相等的对象，它们的hash code一定相等。</p>
+</blockquote>
+<p><em>hashCode()方法</em></p>
+<blockquote>
+<p>hashCode()方法给对象返回一个hash code值。</p>
+</blockquote>
+<ol>
+<li>hashCode的存在主要是用于查找的快捷性，如Hashtable，HashMap等，hashCode是用来在散列存储结构中确定对象的存储地址的；</li>
+<li>如果两个对象相同，就是适用于equals(java.lang.Object) 方法，那么这两个对象的hashCode一定要相同；</li>
+<li>如果对象的equals方法被重写，那么对象的hashCode也尽量重写，并且产生hashCode使用的对象，一定要和equals方法中使用的一致，否则就会违反上面提到的第2点；</li>
+<li>两个对象的hashCode相同，并不一定表示两个对象就相同，也就是不一定适用于equals(java.lang.Object) 方法，只能够说明这两个对象在散列存储结构中，如Hashtable，他们“存放在同一个篮子里”</li>
+</ol>
+<hr>
+<h2 id="包装类型的缓存机制了解么？"><a href="#包装类型的缓存机制了解么？" class="headerlink" title="包装类型的缓存机制了解么？"></a>包装类型的缓存机制了解么？</h2><p><a href="https://blog.csdn.net/chenchuxu/article/details/78725966">【CSDN】java 包装类的缓存机制</a></p>
+<blockquote>
+<p>Integer 、Byte 、Short 、Long 、Character 五大包装类都有缓冲机制，且缓冲的默认值范围都是-128~127</p>
+<p>Float,Double,Boolean 三大包装类并没有缓冲机制</p>
+</blockquote>
+<ol>
+<li>前提：发生自动装箱的过程（基本类型–&gt;包装类型）</li>
+<li>机制：当通过自动装箱机制创建包装类对象时，首先会判断数值是否在-128—-127的范围内，如果满足条件，则会从缓存（常量池）中寻找指定数值，若找到缓存，则不会新建对象，只是指向指定数值对应的包装类对象，否则，新建对象。</li>
+<li><code>原理-请查阅参考博客资料</code></li>
+<li>缓存的作用<br>在缓存值范围内的对象可以直接在常量池中取出，不用创建新的对象；<br>当需要频繁的使用同一对象的时候，如果有缓存，则可以避免重复创建同一对象，节省空间开销和时间消耗，提升了性能</li>
+</ol>
+<hr>
+<h2 id="自动装箱与拆箱了解吗？原理是什么？"><a href="#自动装箱与拆箱了解吗？原理是什么？" class="headerlink" title="自动装箱与拆箱了解吗？原理是什么？"></a>自动装箱与拆箱了解吗？原理是什么？</h2><blockquote>
+<p><a href="https://www.cnblogs.com/niceyoo/p/12977541.html">【博客园】如何理解Java中的自动拆箱和自动装箱？</a></p>
+</blockquote>
+<blockquote>
+<p>定义：基本数据类型和包装类之间可以自动地相互转换</p>
+<p>理解：装箱就是自动将基本数据类型转换为封装类型，拆箱就是自动将封装类型转换为基本数据类型。</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 自动装箱</span><br><span class="line">1. Integer a = 100;</span><br><span class="line">// 自动拆箱</span><br><span class="line">2. int b = a;</span><br></pre></td></tr></table></figure>
+<p>自动<strong>装箱</strong>，相当于Java编译器替我们执行了 <code>Integer.valueOf(XXX)</code>;</p>
+<p>自动<strong>拆箱</strong>，相当于Java编译器替我们执行了 <code>Integer.intValue(XXX)</code>;</p>
+<hr>
+<h2 id="深拷贝和浅拷贝区别了解吗？什么是引用拷贝？"><a href="#深拷贝和浅拷贝区别了解吗？什么是引用拷贝？" class="headerlink" title="深拷贝和浅拷贝区别了解吗？什么是引用拷贝？"></a>深拷贝和浅拷贝区别了解吗？什么是引用拷贝？</h2><p><strong>浅拷贝和深拷贝的区别</strong></p>
+<blockquote>
+<p><a href="https://blog.csdn.net/MirkoWug/article/details/108889116">【CSDN】引用拷贝、浅拷贝和深拷贝区别</a></p>
+</blockquote>
+<p>拷贝一般分为二大类 <strong>引用拷贝</strong> 和 <strong>对象拷贝</strong>，我们通常讲的<strong>深拷贝</strong>和<strong>浅拷贝</strong>都属于对象拷贝</p>
+<p><strong>浅拷贝</strong>只复制对象的指针，指向同一块内存，而<strong>深拷贝</strong>复制对象本身，创建一个新的内存，修改一个对象不会影响另一个对象。</p>
+<blockquote>
+<p><strong>浅拷贝</strong>的属性如果是引用类型，会共享同一个地址，<strong>深拷贝</strong>的属性如果是引用类型，会拷贝地址指向的内存</p>
+</blockquote>
+<p><strong>引用拷贝</strong><br>顾名思义，即是对引用地址的拷贝，说明引用地址一样，指向堆中的对象是同一个对象。<br>如果对一个对象进行改变，其他对象也会跟着改变。</p>
+<hr>
+<h2 id="谈谈对-Java-注解的理解，解决了什么问题？"><a href="#谈谈对-Java-注解的理解，解决了什么问题？" class="headerlink" title="谈谈对 Java 注解的理解，解决了什么问题？"></a>谈谈对 Java 注解的理解，解决了什么问题？</h2><hr>
+<h2 id="Exception-和-Error-有什么区别？"><a href="#Exception-和-Error-有什么区别？" class="headerlink" title="Exception 和 Error 有什么区别？"></a>Exception 和 Error 有什么区别？</h2><blockquote>
+<p><a href="https://blog.csdn.net/single_0910/article/details/114258581">【CSDN】java之异常（Exception）与错误（Error）的区别</a></p>
+</blockquote>
+<p><strong>Exception:</strong><br>是指程序本身可以处理的异常（可以向上抛出或者捕获处理）</p>
+<p><strong>Error:</strong><br>程序无法处理，通常指程序中出现的严重问题</p>
+<p>Exception（异常）分为两大类：<strong>运行异常</strong>和<strong>编译异常</strong><br><strong>运行异常</strong>：顾名思义，是程序运行时才会出现的异常。运行异常是java.lang.RuntimeException类及其子类的统称。如NullPointerException（空指针异常）、IndexOutOfBoundsException（数组下标越界异常）等。运行异常一般是由程序逻辑错误导致的，可以通过捕获处理或向上抛出。运行异常的特点是Java编译器不会检查它，也就是说，当程序中可能出现运行异常，也会被编译通过。<br><strong>编译异常</strong>：顾名思义，是程序编译时就会出现的异常。编译异常是java.lang.RuntimeException以外的异常。编译异常必须进行处理，如果不处理，程序就不能编译通过。</p>
+<hr>
+<h2 id="Java-反射？反射有什么缺点？你是怎么理解反射的（为什么框架需要反射）？"><a href="#Java-反射？反射有什么缺点？你是怎么理解反射的（为什么框架需要反射）？" class="headerlink" title="Java 反射？反射有什么缺点？你是怎么理解反射的（为什么框架需要反射）？"></a>Java 反射？反射有什么缺点？你是怎么理解反射的（为什么框架需要反射）？</h2><p><strong>反射的优点：</strong></p>
+<ol>
+<li>增加程序的灵活性，避免将程序写死到代码里</li>
+<li>代码简洁，提高代码的复用率，外部调用方便</li>
+<li>对于任意一个类，都能够知道这个类的所有属性和方法；对于任意一个对象，都能够调用它的任意一个方法</li>
+</ol>
+<p><strong>反射的缺点：</strong></p>
+<ol>
+<li>性能问题</li>
+<li>安全限制</li>
+<li>程序健壮性</li>
+</ol>
+<hr>
+<h2 id="Java-泛型了解么？什么是类型擦除？介绍一下常用的通配符？"><a href="#Java-泛型了解么？什么是类型擦除？介绍一下常用的通配符？" class="headerlink" title="Java 泛型了解么？什么是类型擦除？介绍一下常用的通配符？"></a>Java 泛型了解么？什么是类型擦除？介绍一下常用的通配符？</h2><blockquote>
+<p><a href="https://blog.csdn.net/qq_41356873/article/details/108823040">Java泛型了解么？什么是类型擦除？介绍一下常用的通配符？</a></p>
+</blockquote>
+<p>Java的泛型是<strong>伪泛型</strong>，这是因为Java在编译期间，所有的泛型信息都会被擦掉，这也就是通常所说<code>类型擦除</code>。</p>
+<p><strong>常用的通配符：</strong>  ?,T,K,V,E</p>
+<ul>
+<li>？ 表示不确定的 java 类型</li>
+<li>T (type) 表示具体的一个java类型</li>
+<li>K V (key value) 分别代表java键值中的Key Value</li>
+<li>E (element) 代表Element</li>
+</ul>
+<hr>
+<h2 id="内部类了解吗？匿名内部类了解吗？"><a href="#内部类了解吗？匿名内部类了解吗？" class="headerlink" title="内部类了解吗？匿名内部类了解吗？"></a>内部类了解吗？匿名内部类了解吗？</h2><blockquote>
+<p><a href="https://blog.csdn.net/qq_41464123/article/details/107480664">【CSDN】Java的内部类和匿名类 ， 您了解过吗？</a></p>
+</blockquote>
+<p><strong>内部类：</strong><br>内部类就是类中类，依附于普通类中，可以间接实现Java类的多继承。</p>
+<ol>
+<li>成员内部类：就是内部类作为一个成员，存在于类中。<br><code>实例化方法：   外部类.内部类 内部类对象 = new 外部类().new 内部类();</code></li>
+<li>静态内部类，在成员内部类的基础上，多了一个static关键字，是静态的类，所有的对象都可以直接通过类名调用。<br><code>实例化方法：   内部类 内部类对象 = new new 内部类(); </code></li>
+<li>方法内部类，在类的方法中，定义内部类。<br><code>实例化方法：   new 内部类().内部类方法();   注意只能在当前方法中实例化。</code></li>
+<li>匿名内部类，直接new一个没有名字的类，并且直接调用其中的方法。<br><code>实例化方法：    new 内部类()&#123; ...... &#125;.内部类中的方法();</code></li>
+</ol>
+<hr>
+<h2 id="BIO-NIO-AIO-有什么区别"><a href="#BIO-NIO-AIO-有什么区别" class="headerlink" title="BIO,NIO,AIO 有什么区别?"></a>BIO,NIO,AIO 有什么区别?</h2><blockquote>
+<p><a href="https://blog.csdn.net/meism5/article/details/89469101">【CSDN】BIO、NIO、AIO 有什么区别？</a></p>
+</blockquote>
+<ul>
+<li>BIO：线程发起IO请求，不管内核是否准备好IO操作，从发起请求起，线程一直阻塞，直到操作完成。</li>
+<li>NIO：线程发起IO请求，立即返回；内核在做好IO操作的准备之后，通过调用注册的回调函数通知线程做IO操作，线程开始阻塞，直到操作完成。</li>
+<li>AIO：线程发起IO请求，立即返回；内存做好IO操作的准备之后，做IO操作，直到操作完成或者失败，通过调用注册的回调函数通知线程做IO操作完成或者失败。</li>
+</ul>
+<br>
+
+<ul>
+<li>BIO：同步并阻塞，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销，当然可以通过线程池机制改善。</li>
+<li>NIO：同步非阻塞，服务器实现模式为一个请求一个线程，即客户端发送的连接请求都会注册到多路复用器上，多路复用器轮询到连接有I&#x2F;O请求时才启动一个线程进行处理。</li>
+<li>AIO：异步非阻塞，服务器实现模式为一个有效请求一个线程，客户端的I&#x2F;O请求都是由OS先完成了再通知服务器应用去启动线程进行处理。</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>面试准备</tag>
+      </tags>
+  </entry>
+</search>
