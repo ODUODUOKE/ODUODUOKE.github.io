@@ -15,6 +15,9 @@
 <h2 id="下载所有分支代码"><a href="#下载所有分支代码" class="headerlink" title="下载所有分支代码"></a>下载所有分支代码</h2><p><img src="/2023/04/21/GIT%E7%9B%B8%E5%85%B3/Git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%AB%AF%E6%89%80%E6%9C%89%E5%88%86%E6%94%AF/4.jpg" title="下载所有分支代码"></p>
 <h2 id="打开Idea查看项目所有分支代码下载结果"><a href="#打开Idea查看项目所有分支代码下载结果" class="headerlink" title="打开Idea查看项目所有分支代码下载结果"></a>打开Idea查看项目所有分支代码下载结果</h2><p><img src="/2023/04/21/GIT%E7%9B%B8%E5%85%B3/Git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%AB%AF%E6%89%80%E6%9C%89%E5%88%86%E6%94%AF/5.jpg" title="打开Idea查看项目所有分支代码下载结果"></p>
 ]]></content>
+      <categories>
+        <category>GIT</category>
+      </categories>
       <tags>
         <tag>GIT</tag>
       </tags>
@@ -69,8 +72,11 @@
 </ol>
 <h2 id="补充vscode下编辑md文件的相关插件"><a href="#补充vscode下编辑md文件的相关插件" class="headerlink" title="补充vscode下编辑md文件的相关插件"></a>补充vscode下编辑md文件的相关插件</h2><p><img src="/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E8%A7%A3%E5%86%B3/Snipaste_2023-04-23_21-48-18.jpg"></p>
 ]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
       <tags>
-        <tag>Hexo博客相关</tag>
+        <tag>hexo-renderer-marked</tag>
       </tags>
   </entry>
   <entry>
@@ -109,8 +115,11 @@
 <h2 id="修改主题Theme目录下-config-yml配置文件"><a href="#修改主题Theme目录下-config-yml配置文件" class="headerlink" title="修改主题Theme目录下_config.yml配置文件"></a>修改主题Theme目录下_config.yml配置文件</h2><p><img src="/2023/04/25/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6-hexo-generator-searchdb/Snipaste_2023-04-25_11-15-46.jpg"></p>
 <h2 id="启动Hexo"><a href="#启动Hexo" class="headerlink" title="启动Hexo"></a>启动Hexo</h2><p><img src="/2023/04/25/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6-hexo-generator-searchdb/Snipaste_2023-04-25_11-19-29.jpg"></p>
 ]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
       <tags>
-        <tag>Hexo博客相关</tag>
+        <tag>hexo-generator-searchdb</tag>
       </tags>
   </entry>
   <entry>
@@ -161,8 +170,11 @@
 <p>存在空格的情况影响执行命令<code>hexo n</code>的结果-&gt;失败!</p>
 </blockquote>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">chcp 65001</span><br><span class="line">@echo off</span><br><span class="line">SETLOCAL ENABLEDELAYEDEXPANSION</span><br><span class="line">set abc=                          uvwxyz</span><br><span class="line"></span><br><span class="line">:delleft</span><br><span class="line">if &quot;%abc:~0,1%&quot;==&quot; &quot; set abc=%abc:~1%&amp;&amp;goto delleft</span><br><span class="line">echo 去除左边空格后结果为:%abc%</span><br><span class="line"></span><br><span class="line">set abc=uvwxyz                                                   </span><br><span class="line">:delright</span><br><span class="line">if &quot;%abc:~-1%&quot;==&quot; &quot; set abc=%abc:~0,-1%&amp;&amp;goto delright</span><br><span class="line">echo 去掉右边空格后结果为:%abc%</span><br><span class="line"></span><br><span class="line">set abc=  u  v  w  x  y  z   </span><br><span class="line">set &quot;abc=%abc: =%&quot;</span><br><span class="line">echo 去除所有空格后结果为:%abc%</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
       <tags>
-        <tag>Hexo博客相关</tag>
+        <tag>Windowsin系统bat脚本</tag>
       </tags>
   </entry>
   <entry>
@@ -307,9 +319,17 @@
 
 <p>通过<code>hexo g</code>在public下生成新的待发布页面，通过命令<code>copy</code>到克隆下的仓库中，在通过<code>git</code>命令进行<code>push</code>到远端仓库进行发布</p>
 ]]></content>
-      <tags>
-        <tag>Hexo博客相关</tag>
-      </tags>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>我就是个大傻叉</title>
+    <url>/2023/04/25/%E4%B8%AA%E4%BA%BA%E5%BF%83%E6%83%85/%E6%88%91%E5%B0%B1%E6%98%AF%E4%B8%AA%E5%A4%A7%E5%82%BB%E5%8F%89/</url>
+    <content><![CDATA[<h2 id="【官方教程-butterfly】"><a href="#【官方教程-butterfly】" class="headerlink" title="【官方教程-butterfly】"></a><a href="https://butterfly.js.org/">【官方教程-butterfly】</a></h2><h3 id="我没有好好看github的readmd文件，里面官方教程写的很清楚如何使用主题、美化主题…-我绕了大半个圈子在网上这里查哪里查的…"><a href="#我没有好好看github的readmd文件，里面官方教程写的很清楚如何使用主题、美化主题…-我绕了大半个圈子在网上这里查哪里查的…" class="headerlink" title="我没有好好看github的readmd文件，里面官方教程写的很清楚如何使用主题、美化主题… 我绕了大半个圈子在网上这里查哪里查的…!!!"></a>我没有好好看github的readmd文件，里面官方教程写的很清楚如何使用主题、美化主题… 我绕了大半个圈子在网上这里查哪里查的…!!!</h3><h3 id="仅以此记录愚蠢的自己"><a href="#仅以此记录愚蠢的自己" class="headerlink" title="仅以此记录愚蠢的自己!!!"></a>仅以此记录愚蠢的自己!!!</h3>]]></content>
+      <categories>
+        <category>个人心情</category>
+      </categories>
   </entry>
   <entry>
     <title>离职日记 04.22</title>
@@ -322,9 +342,9 @@
 <h2 id="第六小节"><a href="#第六小节" class="headerlink" title="第六小节"></a>第六小节</h2><p>下午大概4点多样子，和欧阳讨论了下YLFPAY-裂变版本，就是我离职之前经手的项目一些需求上的问题，后面的话因为好像自己又留了小坑在里面，就请欧阳顺便吃了个晚饭出来。<br><img src="/2023/04/22/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-22/20230422212627.jpg" title="我的番茄拌面"><br><img src="/2023/04/22/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-22/20230422212643.jpg" title="欧阳大哥的三鲜炒面"></p>
 <h2 id="第七小节"><a href="#第七小节" class="headerlink" title="第七小节"></a>第七小节</h2><p>晚上的话，研究了下github的page页面部署个人博客的事项，给我的感觉就是 我这边提交了代码，github的page页面隔了很久才刷新出来。就因为这个延时的关系，我一直以为我这部署提交代码没有效果呢！<br>还研究了下如何本地配置管理多个git-ssh的令牌，顺便把之前JMT的gitlab的ssh配置删除了。 我想我应不会在有和原公司项目有关联了。</p>
 ]]></content>
-      <tags>
-        <tag>离职日记</tag>
-      </tags>
+      <categories>
+        <category>离职日记</category>
+      </categories>
   </entry>
   <entry>
     <title>离职日记 04.23</title>
@@ -343,9 +363,9 @@
 <p>我感觉哈，这家外卖不好吃，味道一般，然后价格的话只能说正常区间用完卷￥21.98，意面没味道很淡、然后那个烤饼的话感觉肉一般，芝士香气挺浓郁的，里面还有玉米粒很甜。总是给不到预期的感受，我的评分是※※※（满分5※）</p>
 <p><img src="/2023/04/23/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-23/Snipaste_2023-04-23_19-55-02.jpg"></p>
 ]]></content>
-      <tags>
-        <tag>离职日记</tag>
-      </tags>
+      <categories>
+        <category>离职日记</category>
+      </categories>
   </entry>
   <entry>
     <title>离职日记 04.24</title>
@@ -371,9 +391,9 @@
 <h2 id="我和我大哥如图所示"><a href="#我和我大哥如图所示" class="headerlink" title="我和我大哥如图所示"></a>我和我大哥如图所示</h2><p>哎，现在女孩子真的是大哥！我反正惹不起，一开始就被我大哥征服了，我现在就是小喽喽。有时候这个娃儿能气死我，有时候把 我又很想保护她，不过我还是大部分时候很想收拾她一顿（揪脸吨儿）哼，让你不乖！</p>
 <p><img src="/2023/04/24/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0-04-24/20230424195913.jpg"></p>
 ]]></content>
-      <tags>
-        <tag>离职日记</tag>
-      </tags>
+      <categories>
+        <category>离职日记</category>
+      </categories>
   </entry>
   <entry>
     <title>离职日记-04-25</title>
@@ -398,9 +418,9 @@
 <p><a href="https://oduoduoke.github.io/2023/04/25/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E9%80%9A%E8%BF%87windows%E7%9A%84bat%E8%84%9A%E6%9C%AC%E8%81%94%E5%8A%A8/">Hexo通过windows的bat脚本联动</a></p>
 </blockquote>
 ]]></content>
-      <tags>
-        <tag>离职日记</tag>
-      </tags>
+      <categories>
+        <category>离职日记</category>
+      </categories>
   </entry>
   <entry>
     <title>百词斩-记单词 04.25</title>
@@ -409,8 +429,11 @@
 <p>数据来源：百词斩APP</p>
 </blockquote>
 <h2 id="faulty"><a href="#faulty" class="headerlink" title="faulty"></a><a href="https://oduoduoke.github.io/2023/04/24/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E7%99%BE%E8%AF%8D%E6%96%A9-%E8%AE%B0%E5%8D%95%E8%AF%8D0424/#faulty">faulty</a></h2>]]></content>
+      <categories>
+        <category>English</category>
+      </categories>
       <tags>
-        <tag>英语学习</tag>
+        <tag>百词斩</tag>
       </tags>
   </entry>
   <entry>
@@ -747,8 +770,11 @@
 
 
 ]]></content>
+      <categories>
+        <category>English</category>
+      </categories>
       <tags>
-        <tag>英语学习</tag>
+        <tag>百词斩</tag>
       </tags>
   </entry>
   <entry>
@@ -1023,6 +1049,9 @@
 <li>AIO：异步非阻塞，服务器实现模式为一个有效请求一个线程，客户端的I&#x2F;O请求都是由OS先完成了再通知服务器应用去启动线程进行处理。</li>
 </ul>
 ]]></content>
+      <categories>
+        <category>JAVA</category>
+      </categories>
       <tags>
         <tag>面试准备</tag>
       </tags>
