@@ -147,6 +147,61 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo通过windows的bat脚本联动</title>
+    <url>/2023/04/25/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E9%80%9A%E8%BF%87windows%E7%9A%84bat%E8%84%9A%E6%9C%AC%E8%81%94%E5%8A%A8/</url>
+    <content><![CDATA[<h2 id="想法初衷"><a href="#想法初衷" class="headerlink" title="想法初衷"></a>想法初衷</h2><blockquote>
+<p>通过Windows的bat脚本一键化对hexo执行部署打包等相关命令</p>
+</blockquote>
+<hr>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://blog.csdn.net/u012815136/article/details/101549751">bat批处理脚本中文乱码问题解决</a></p>
+<p><a href="https://blog.csdn.net/laozhuxinlu/article/details/52853787">.Bat之批处理实现手动输入变量参数</a></p>
+<p><a href="https://blog.csdn.net/s_y_w123/article/details/111353912">使用bat脚本自动打开cmd并执行命令</a></p>
+<p><a href="https://blog.csdn.net/weixin_46909756/article/details/108726489">写一个打开cmd窗口并执行cmd命令的Windows脚本（.bat文件）</a></p>
+<p><a href="https://blog.csdn.net/sinat_16741503/article/details/72869123">bat文件命令行去除变量的空格</a></p>
+<p><a href="https://blog.csdn.net/l_o_s/article/details/103417243">Bat 等待一段指定的时间</a></p>
+<p><a href="https://blog.csdn.net/JintGuo/article/details/77542490">Windows copy命令</a></p>
+<p><a href="https://blog.csdn.net/weixin_40277264/article/details/121531320">bat 复制文件和文件夹（目录</a></p>
+<hr>
+<blockquote>
+<p>未使用，但是觉得以后会涉及，于是记录下来</p>
+</blockquote>
+<p><a href="https://blog.csdn.net/Lvbey/article/details/118611287">在批处理(cmd，bat)下传递参数和获取参数</a></p>
+<hr>
+<h2 id="代码命令"><a href="#代码命令" class="headerlink" title="代码命令"></a>代码命令</h2><h3 id="一键运行hexo-s"><a href="#一键运行hexo-s" class="headerlink" title="一键运行hexo s"></a>一键运行<code>hexo s</code></h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 获取最新代码</span><br><span class="line">start cmd /c &quot;cd/d D:\workSpace\Blog\blog\themes\butterfly &amp;&amp; git pull &quot;</span><br><span class="line">:: 清空public打包目录/打包资源/本地部署</span><br><span class="line">start cmd /k &quot;cd/d D:\workSpace\Blog\blog &amp;&amp; hexo clean &amp;&amp; hexo g &amp;&amp; hexo s&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="通过bat脚本替代hexo-n命令创建新页面"><a href="#通过bat脚本替代hexo-n命令创建新页面" class="headerlink" title="通过bat脚本替代hexo n命令创建新页面"></a>通过bat脚本替代<code>hexo n</code>命令创建新页面</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">:: 不打印其他命令的回显(放在&#x27;@echo off&#x27;上此注释会被输出到控制台)</span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 配合&#x27;goto begin&#x27;回到此处重复执行操作</span><br><span class="line">:: :begin</span><br><span class="line"></span><br><span class="line">:: 获取输入</span><br><span class="line">set input=</span><br><span class="line">set /p input=请输入新增页面名称:</span><br><span class="line"></span><br><span class="line">:: 去除输入的所有空格（因为空格会导致hexo n创建新页面失败）</span><br><span class="line">set &quot;input=%input: =%&quot;</span><br><span class="line"></span><br><span class="line">:: 打印用户输入参数</span><br><span class="line">echo %input%</span><br><span class="line"></span><br><span class="line">:: 执行cmd命令(cmd /c 表示执行完毕后关闭窗口)</span><br><span class="line">start cmd /c &quot;cd/d D:\workSpace\Blog\blog &amp;&amp; hexo n &#x27;%input%&#x27; &quot;</span><br><span class="line"></span><br><span class="line">:: 可配合&#x27;:begin&#x27;进行重复执行操作</span><br><span class="line">:: goto begin</span><br><span class="line"></span><br><span class="line">:: 暂停</span><br><span class="line">:: pause</span><br><span class="line"></span><br><span class="line">:: 退出关闭窗口</span><br><span class="line">exit</span><br></pre></td></tr></table></figure>
+
+<h3 id="通过bat脚本替代hexo-n命令创建新页面-2-0"><a href="#通过bat脚本替代hexo-n命令创建新页面-2-0" class="headerlink" title="通过bat脚本替代hexo n命令创建新页面 2.0"></a>通过bat脚本替代<code>hexo n</code>命令创建新页面 2.0</h3><blockquote>
+<p>对创建完成的文件及文件夹复制到指定目录下(vscode工作目录)</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">:: 不打印其他命令的回显(放在&#x27;@echo off&#x27;上此注释会被输出到控制台)</span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 初始化参数配置</span><br><span class="line">set BlogPath=D:\workSpace\Blog\blog</span><br><span class="line">echo 博客目录：%BlogPath%</span><br><span class="line">set CopyFrom=D:\workSpace\Blog\blog\source\_posts\</span><br><span class="line">echo 复制目录：%CopyFrom%</span><br><span class="line">set ParseTo=D:\</span><br><span class="line">echo 粘贴目录：%ParseTo%</span><br><span class="line"></span><br><span class="line">:: 配合&#x27;goto begin&#x27;回到此处重复执行操作</span><br><span class="line">:: :begin</span><br><span class="line"></span><br><span class="line">:: 获取输入</span><br><span class="line">set input=</span><br><span class="line">set /p input=请输入新增页面名称:</span><br><span class="line"></span><br><span class="line">:: 去除输入的所有空格（因为空格会导致hexo n创建新页面失败）</span><br><span class="line">set &quot;input=%input: =%&quot;</span><br><span class="line"></span><br><span class="line">:: 打印用户输入参数</span><br><span class="line">echo %input%</span><br><span class="line"></span><br><span class="line">:: 执行cmd命令(cmd /c 表示执行完毕后关闭窗口)</span><br><span class="line">start cmd /c &quot;cd/d %BlogPath% &amp;&amp; hexo n &#x27;%input%&#x27; &quot;</span><br><span class="line"></span><br><span class="line">:: 等待最长5s继续往下执行操作（原因：需要等待 hexo n 的文件创建好，然后执行复制操作!）</span><br><span class="line">timeout /t 5 /nobreak &gt; NUL</span><br><span class="line"></span><br><span class="line">:: 复制创建文件到vscode工作目录下</span><br><span class="line">copy  %CopyFrom%%input%.md  %ParseTo%</span><br><span class="line">:: 创建空文件夹</span><br><span class="line">md %ParseTo%%input%</span><br><span class="line"></span><br><span class="line">:: 可配合&#x27;:begin&#x27;进行重复执行操作</span><br><span class="line">:: goto begin</span><br><span class="line"></span><br><span class="line">:: 暂停</span><br><span class="line">:: pause</span><br><span class="line"></span><br><span class="line">:: 退出关闭窗口</span><br><span class="line">exit</span><br></pre></td></tr></table></figure>
+
+<h3 id="通过bat脚本替代hexo-n命令创建新页面-3-0"><a href="#通过bat脚本替代hexo-n命令创建新页面-3-0" class="headerlink" title="通过bat脚本替代hexo n命令创建新页面 3.0"></a>通过bat脚本替代<code>hexo n</code>命令创建新页面 3.0</h3><blockquote>
+<p>选择一个目录下，创建新页面（便于管理文件）</p>
+</blockquote>
+<pre><code>暂时搁置，待后续更新~
+</code></pre>
+<h2 id="一键推送提交代码"><a href="#一键推送提交代码" class="headerlink" title="一键推送提交代码"></a>一键推送提交代码</h2><blockquote>
+<p>vscode里面的文件写好了需要提交仓库（备份用途）<br>hexo下的文件（处理图片问题）打包之后也需要提交推送到仓库</p>
+</blockquote>
+<h3 id="vscode下文件提交git"><a href="#vscode下文件提交git" class="headerlink" title="vscode下文件提交git"></a>vscode下文件提交git</h3><blockquote>
+<p>todo</p>
+</blockquote>
+<h3 id="hexo下部署文件提交git"><a href="#hexo下部署文件提交git" class="headerlink" title="hexo下部署文件提交git"></a>hexo下部署文件提交git</h3><blockquote>
+<p>todo</p>
+</blockquote>
+<h2 id="bat命令行去除空格命令"><a href="#bat命令行去除空格命令" class="headerlink" title="bat命令行去除空格命令"></a>bat命令行去除空格命令</h2><blockquote>
+<p>存在空格的情况影响执行命令<code>hexo n</code>的结果-&gt;失败!</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">chcp 65001</span><br><span class="line">@echo off</span><br><span class="line">SETLOCAL ENABLEDELAYEDEXPANSION</span><br><span class="line">set abc=                          uvwxyz</span><br><span class="line"></span><br><span class="line">:delleft</span><br><span class="line">if &quot;%abc:~0,1%&quot;==&quot; &quot; set abc=%abc:~1%&amp;&amp;goto delleft</span><br><span class="line">echo 去除左边空格后结果为:%abc%</span><br><span class="line"></span><br><span class="line">set abc=uvwxyz                                                   </span><br><span class="line">:delright</span><br><span class="line">if &quot;%abc:~-1%&quot;==&quot; &quot; set abc=%abc:~0,-1%&amp;&amp;goto delright</span><br><span class="line">echo 去掉右边空格后结果为:%abc%</span><br><span class="line"></span><br><span class="line">set abc=  u  v  w  x  y  z   </span><br><span class="line">set &quot;abc=%abc: =%&quot;</span><br><span class="line">echo 去除所有空格后结果为:%abc%</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Windowsin系统bat脚本</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>基于Hexo+GitHub Page搭建个人博客</title>
     <url>/2023/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/%E5%9F%BA%E4%BA%8EHexo-GitHub-Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<br/>
@@ -299,61 +354,6 @@
       <categories>
         <category>个人心情</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Hexo通过windows的bat脚本联动</title>
-    <url>/2023/04/25/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E9%80%9A%E8%BF%87windows%E7%9A%84bat%E8%84%9A%E6%9C%AC%E8%81%94%E5%8A%A8/</url>
-    <content><![CDATA[<h2 id="想法初衷"><a href="#想法初衷" class="headerlink" title="想法初衷"></a>想法初衷</h2><blockquote>
-<p>通过Windows的bat脚本一键化对hexo执行部署打包等相关命令</p>
-</blockquote>
-<hr>
-<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://blog.csdn.net/u012815136/article/details/101549751">bat批处理脚本中文乱码问题解决</a></p>
-<p><a href="https://blog.csdn.net/laozhuxinlu/article/details/52853787">.Bat之批处理实现手动输入变量参数</a></p>
-<p><a href="https://blog.csdn.net/s_y_w123/article/details/111353912">使用bat脚本自动打开cmd并执行命令</a></p>
-<p><a href="https://blog.csdn.net/weixin_46909756/article/details/108726489">写一个打开cmd窗口并执行cmd命令的Windows脚本（.bat文件）</a></p>
-<p><a href="https://blog.csdn.net/sinat_16741503/article/details/72869123">bat文件命令行去除变量的空格</a></p>
-<p><a href="https://blog.csdn.net/l_o_s/article/details/103417243">Bat 等待一段指定的时间</a></p>
-<p><a href="https://blog.csdn.net/JintGuo/article/details/77542490">Windows copy命令</a></p>
-<p><a href="https://blog.csdn.net/weixin_40277264/article/details/121531320">bat 复制文件和文件夹（目录</a></p>
-<hr>
-<blockquote>
-<p>未使用，但是觉得以后会涉及，于是记录下来</p>
-</blockquote>
-<p><a href="https://blog.csdn.net/Lvbey/article/details/118611287">在批处理(cmd，bat)下传递参数和获取参数</a></p>
-<hr>
-<h2 id="代码命令"><a href="#代码命令" class="headerlink" title="代码命令"></a>代码命令</h2><h3 id="一键运行hexo-s"><a href="#一键运行hexo-s" class="headerlink" title="一键运行hexo s"></a>一键运行<code>hexo s</code></h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 获取最新代码</span><br><span class="line">start cmd /c &quot;cd/d D:\workSpace\Blog\blog\themes\butterfly &amp;&amp; git pull &quot;</span><br><span class="line">:: 清空public打包目录/打包资源/本地部署</span><br><span class="line">start cmd /k &quot;cd/d D:\workSpace\Blog\blog &amp;&amp; hexo clean &amp;&amp; hexo g &amp;&amp; hexo s&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="通过bat脚本替代hexo-n命令创建新页面"><a href="#通过bat脚本替代hexo-n命令创建新页面" class="headerlink" title="通过bat脚本替代hexo n命令创建新页面"></a>通过bat脚本替代<code>hexo n</code>命令创建新页面</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">:: 不打印其他命令的回显(放在&#x27;@echo off&#x27;上此注释会被输出到控制台)</span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 配合&#x27;goto begin&#x27;回到此处重复执行操作</span><br><span class="line">:: :begin</span><br><span class="line"></span><br><span class="line">:: 获取输入</span><br><span class="line">set input=</span><br><span class="line">set /p input=请输入新增页面名称:</span><br><span class="line"></span><br><span class="line">:: 去除输入的所有空格（因为空格会导致hexo n创建新页面失败）</span><br><span class="line">set &quot;input=%input: =%&quot;</span><br><span class="line"></span><br><span class="line">:: 打印用户输入参数</span><br><span class="line">echo %input%</span><br><span class="line"></span><br><span class="line">:: 执行cmd命令(cmd /c 表示执行完毕后关闭窗口)</span><br><span class="line">start cmd /c &quot;cd/d D:\workSpace\Blog\blog &amp;&amp; hexo n &#x27;%input%&#x27; &quot;</span><br><span class="line"></span><br><span class="line">:: 可配合&#x27;:begin&#x27;进行重复执行操作</span><br><span class="line">:: goto begin</span><br><span class="line"></span><br><span class="line">:: 暂停</span><br><span class="line">:: pause</span><br><span class="line"></span><br><span class="line">:: 退出关闭窗口</span><br><span class="line">exit</span><br></pre></td></tr></table></figure>
-
-<h3 id="通过bat脚本替代hexo-n命令创建新页面-2-0"><a href="#通过bat脚本替代hexo-n命令创建新页面-2-0" class="headerlink" title="通过bat脚本替代hexo n命令创建新页面 2.0"></a>通过bat脚本替代<code>hexo n</code>命令创建新页面 2.0</h3><blockquote>
-<p>对创建完成的文件及文件夹复制到指定目录下(vscode工作目录)</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">:: 不打印其他命令的回显(放在&#x27;@echo off&#x27;上此注释会被输出到控制台)</span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 初始化参数配置</span><br><span class="line">set BlogPath=D:\workSpace\Blog\blog</span><br><span class="line">echo 博客目录：%BlogPath%</span><br><span class="line">set CopyFrom=D:\workSpace\Blog\blog\source\_posts\</span><br><span class="line">echo 复制目录：%CopyFrom%</span><br><span class="line">set ParseTo=D:\</span><br><span class="line">echo 粘贴目录：%ParseTo%</span><br><span class="line"></span><br><span class="line">:: 配合&#x27;goto begin&#x27;回到此处重复执行操作</span><br><span class="line">:: :begin</span><br><span class="line"></span><br><span class="line">:: 获取输入</span><br><span class="line">set input=</span><br><span class="line">set /p input=请输入新增页面名称:</span><br><span class="line"></span><br><span class="line">:: 去除输入的所有空格（因为空格会导致hexo n创建新页面失败）</span><br><span class="line">set &quot;input=%input: =%&quot;</span><br><span class="line"></span><br><span class="line">:: 打印用户输入参数</span><br><span class="line">echo %input%</span><br><span class="line"></span><br><span class="line">:: 执行cmd命令(cmd /c 表示执行完毕后关闭窗口)</span><br><span class="line">start cmd /c &quot;cd/d %BlogPath% &amp;&amp; hexo n &#x27;%input%&#x27; &quot;</span><br><span class="line"></span><br><span class="line">:: 等待最长5s继续往下执行操作（原因：需要等待 hexo n 的文件创建好，然后执行复制操作!）</span><br><span class="line">timeout /t 5 /nobreak &gt; NUL</span><br><span class="line"></span><br><span class="line">:: 复制创建文件到vscode工作目录下</span><br><span class="line">copy  %CopyFrom%%input%.md  %ParseTo%</span><br><span class="line">:: 创建空文件夹</span><br><span class="line">md %ParseTo%%input%</span><br><span class="line"></span><br><span class="line">:: 可配合&#x27;:begin&#x27;进行重复执行操作</span><br><span class="line">:: goto begin</span><br><span class="line"></span><br><span class="line">:: 暂停</span><br><span class="line">:: pause</span><br><span class="line"></span><br><span class="line">:: 退出关闭窗口</span><br><span class="line">exit</span><br></pre></td></tr></table></figure>
-
-<h3 id="通过bat脚本替代hexo-n命令创建新页面-3-0"><a href="#通过bat脚本替代hexo-n命令创建新页面-3-0" class="headerlink" title="通过bat脚本替代hexo n命令创建新页面 3.0"></a>通过bat脚本替代<code>hexo n</code>命令创建新页面 3.0</h3><blockquote>
-<p>选择一个目录下，创建新页面（便于管理文件）</p>
-</blockquote>
-<pre><code>暂时搁置，待后续更新~
-</code></pre>
-<h2 id="一键推送提交代码"><a href="#一键推送提交代码" class="headerlink" title="一键推送提交代码"></a>一键推送提交代码</h2><blockquote>
-<p>vscode里面的文件写好了需要提交仓库（备份用途）<br>hexo下的文件（处理图片问题）打包之后也需要提交推送到仓库</p>
-</blockquote>
-<h3 id="vscode下文件提交git"><a href="#vscode下文件提交git" class="headerlink" title="vscode下文件提交git"></a>vscode下文件提交git</h3><blockquote>
-<p>todo</p>
-</blockquote>
-<h3 id="hexo下部署文件提交git"><a href="#hexo下部署文件提交git" class="headerlink" title="hexo下部署文件提交git"></a>hexo下部署文件提交git</h3><blockquote>
-<p>todo</p>
-</blockquote>
-<h2 id="bat命令行去除空格命令"><a href="#bat命令行去除空格命令" class="headerlink" title="bat命令行去除空格命令"></a>bat命令行去除空格命令</h2><blockquote>
-<p>存在空格的情况影响执行命令<code>hexo n</code>的结果-&gt;失败!</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">chcp 65001</span><br><span class="line">@echo off</span><br><span class="line">SETLOCAL ENABLEDELAYEDEXPANSION</span><br><span class="line">set abc=                          uvwxyz</span><br><span class="line"></span><br><span class="line">:delleft</span><br><span class="line">if &quot;%abc:~0,1%&quot;==&quot; &quot; set abc=%abc:~1%&amp;&amp;goto delleft</span><br><span class="line">echo 去除左边空格后结果为:%abc%</span><br><span class="line"></span><br><span class="line">set abc=uvwxyz                                                   </span><br><span class="line">:delright</span><br><span class="line">if &quot;%abc:~-1%&quot;==&quot; &quot; set abc=%abc:~0,-1%&amp;&amp;goto delright</span><br><span class="line">echo 去掉右边空格后结果为:%abc%</span><br><span class="line"></span><br><span class="line">set abc=  u  v  w  x  y  z   </span><br><span class="line">set &quot;abc=%abc: =%&quot;</span><br><span class="line">echo 去除所有空格后结果为:%abc%</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Windowsin系统bat脚本</tag>
-      </tags>
   </entry>
   <entry>
     <title>离职日记 04.22</title>
