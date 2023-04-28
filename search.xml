@@ -167,33 +167,32 @@
 </blockquote>
 <p><a href="https://blog.csdn.net/Lvbey/article/details/118611287">在批处理(cmd，bat)下传递参数和获取参数</a></p>
 <hr>
-<h2 id="代码命令"><a href="#代码命令" class="headerlink" title="代码命令"></a>代码命令</h2><h3 id="一键运行hexo-s"><a href="#一键运行hexo-s" class="headerlink" title="一键运行hexo s"></a>一键运行<code>hexo s</code></h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 获取最新代码</span><br><span class="line">start cmd /c &quot;cd/d D:\workSpace\Blog\blog\themes\butterfly &amp;&amp; git pull &quot;</span><br><span class="line">:: 清空public打包目录/打包资源/本地部署</span><br><span class="line">start cmd /k &quot;cd/d D:\workSpace\Blog\blog &amp;&amp; hexo clean &amp;&amp; hexo g &amp;&amp; hexo s&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="脚本代码"><a href="#脚本代码" class="headerlink" title="脚本代码"></a>脚本代码</h2><h3 id="通过bat脚本替代hexo-n命令创建页面"><a href="#通过bat脚本替代hexo-n命令创建页面" class="headerlink" title="通过bat脚本替代hexo n命令创建页面"></a>通过bat脚本替代<code>hexo n</code>命令创建页面</h3><blockquote>
+<p>在vscode中进行编辑，编辑完成后直接<strong>处理图片前缀</strong>后部署本地环境预览后发布</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">:: 不打印其他命令的回显(放在&#x27;@echo off&#x27;上此注释会被输出到控制台)</span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 初始化参数配置</span><br><span class="line">set BlogPath=D:\workSpace\Hexo\blog</span><br><span class="line">echo 博客目录：%BlogPath%</span><br><span class="line"></span><br><span class="line">set CopyFrom=D:\workSpace\Hexo\blog\source\_posts\</span><br><span class="line">echo 复制目录：%CopyFrom%</span><br><span class="line"></span><br><span class="line">set ParseTo=D:\workSpace\Vscode\</span><br><span class="line">echo 粘贴目录：%ParseTo%</span><br><span class="line"></span><br><span class="line">:: 配合&#x27;goto begin&#x27;回到此处重复执行操作</span><br><span class="line">:: :begin</span><br><span class="line"></span><br><span class="line">:: 获取输入</span><br><span class="line">set input=</span><br><span class="line">set /p input=请输入新增页面名称:</span><br><span class="line"></span><br><span class="line">:: 去除输入的所有空格（因为空格会导致hexo n创建新页面失败）</span><br><span class="line">set &quot;input=%input: =%&quot;</span><br><span class="line"></span><br><span class="line">:: 打印用户输入参数</span><br><span class="line">echo %input%</span><br><span class="line"></span><br><span class="line">:: 执行cmd命令(cmd /c 表示执行完毕后关闭窗口)</span><br><span class="line">start cmd /c &quot;cd/d %BlogPath% &amp;&amp; hexo n &#x27;%input%&#x27; &quot;</span><br><span class="line"></span><br><span class="line">:: 等待最长5s继续往下执行操作（原因：需要等待 hexo n 的文件创建好，然后执行复制操作!）</span><br><span class="line">:: timeout /t 5 /nobreak &gt; NUL</span><br><span class="line"></span><br><span class="line">:: 复制创建文件到vscode工作目录下</span><br><span class="line">:: copy  %CopyFrom%%input%.md  %ParseTo%</span><br><span class="line"></span><br><span class="line">:: 创建空文件夹</span><br><span class="line">:: md %ParseTo%%input%</span><br><span class="line"></span><br><span class="line">:: 可配合&#x27;:begin&#x27;进行重复执行操作</span><br><span class="line">:: goto begin</span><br><span class="line"></span><br><span class="line">:: 暂停</span><br><span class="line">:: pause</span><br><span class="line"></span><br><span class="line">:: 退出关闭窗口</span><br><span class="line">exit</span><br></pre></td></tr></table></figure>
 
-<h3 id="通过bat脚本替代hexo-n命令创建新页面"><a href="#通过bat脚本替代hexo-n命令创建新页面" class="headerlink" title="通过bat脚本替代hexo n命令创建新页面"></a>通过bat脚本替代<code>hexo n</code>命令创建新页面</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">:: 不打印其他命令的回显(放在&#x27;@echo off&#x27;上此注释会被输出到控制台)</span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 配合&#x27;goto begin&#x27;回到此处重复执行操作</span><br><span class="line">:: :begin</span><br><span class="line"></span><br><span class="line">:: 获取输入</span><br><span class="line">set input=</span><br><span class="line">set /p input=请输入新增页面名称:</span><br><span class="line"></span><br><span class="line">:: 去除输入的所有空格（因为空格会导致hexo n创建新页面失败）</span><br><span class="line">set &quot;input=%input: =%&quot;</span><br><span class="line"></span><br><span class="line">:: 打印用户输入参数</span><br><span class="line">echo %input%</span><br><span class="line"></span><br><span class="line">:: 执行cmd命令(cmd /c 表示执行完毕后关闭窗口)</span><br><span class="line">start cmd /c &quot;cd/d D:\workSpace\Blog\blog &amp;&amp; hexo n &#x27;%input%&#x27; &quot;</span><br><span class="line"></span><br><span class="line">:: 可配合&#x27;:begin&#x27;进行重复执行操作</span><br><span class="line">:: goto begin</span><br><span class="line"></span><br><span class="line">:: 暂停</span><br><span class="line">:: pause</span><br><span class="line"></span><br><span class="line">:: 退出关闭窗口</span><br><span class="line">exit</span><br></pre></td></tr></table></figure>
 
-<h3 id="通过bat脚本替代hexo-n命令创建新页面-2-0"><a href="#通过bat脚本替代hexo-n命令创建新页面-2-0" class="headerlink" title="通过bat脚本替代hexo n命令创建新页面 2.0"></a>通过bat脚本替代<code>hexo n</code>命令创建新页面 2.0</h3><blockquote>
-<p>对创建完成的文件及文件夹复制到指定目录下(vscode工作目录)</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">:: 不打印其他命令的回显(放在&#x27;@echo off&#x27;上此注释会被输出到控制台)</span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 初始化参数配置</span><br><span class="line">set BlogPath=D:\workSpace\Blog\blog</span><br><span class="line">echo 博客目录：%BlogPath%</span><br><span class="line">set CopyFrom=D:\workSpace\Blog\blog\source\_posts\</span><br><span class="line">echo 复制目录：%CopyFrom%</span><br><span class="line">set ParseTo=D:\</span><br><span class="line">echo 粘贴目录：%ParseTo%</span><br><span class="line"></span><br><span class="line">:: 配合&#x27;goto begin&#x27;回到此处重复执行操作</span><br><span class="line">:: :begin</span><br><span class="line"></span><br><span class="line">:: 获取输入</span><br><span class="line">set input=</span><br><span class="line">set /p input=请输入新增页面名称:</span><br><span class="line"></span><br><span class="line">:: 去除输入的所有空格（因为空格会导致hexo n创建新页面失败）</span><br><span class="line">set &quot;input=%input: =%&quot;</span><br><span class="line"></span><br><span class="line">:: 打印用户输入参数</span><br><span class="line">echo %input%</span><br><span class="line"></span><br><span class="line">:: 执行cmd命令(cmd /c 表示执行完毕后关闭窗口)</span><br><span class="line">start cmd /c &quot;cd/d %BlogPath% &amp;&amp; hexo n &#x27;%input%&#x27; &quot;</span><br><span class="line"></span><br><span class="line">:: 等待最长5s继续往下执行操作（原因：需要等待 hexo n 的文件创建好，然后执行复制操作!）</span><br><span class="line">timeout /t 5 /nobreak &gt; NUL</span><br><span class="line"></span><br><span class="line">:: 复制创建文件到vscode工作目录下</span><br><span class="line">copy  %CopyFrom%%input%.md  %ParseTo%</span><br><span class="line">:: 创建空文件夹</span><br><span class="line">md %ParseTo%%input%</span><br><span class="line"></span><br><span class="line">:: 可配合&#x27;:begin&#x27;进行重复执行操作</span><br><span class="line">:: goto begin</span><br><span class="line"></span><br><span class="line">:: 暂停</span><br><span class="line">:: pause</span><br><span class="line"></span><br><span class="line">:: 退出关闭窗口</span><br><span class="line">exit</span><br></pre></td></tr></table></figure>
+<h3 id="一键运行hexo-s"><a href="#一键运行hexo-s" class="headerlink" title="一键运行hexo s"></a>一键运行<code>hexo s</code></h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 获取最新代码</span><br><span class="line">start cmd /c &quot;cd/d D:\workSpace\Blog\blog\themes\butterfly &amp;&amp; git pull &quot;</span><br><span class="line">:: 清空public打包目录/打包资源/本地部署</span><br><span class="line">start cmd /k &quot;cd/d D:\workSpace\Blog\blog &amp;&amp; hexo clean &amp;&amp; hexo g &amp;&amp; hexo s&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<h3 id="通过bat脚本替代hexo-n命令创建新页面-3-0"><a href="#通过bat脚本替代hexo-n命令创建新页面-3-0" class="headerlink" title="通过bat脚本替代hexo n命令创建新页面 3.0"></a>通过bat脚本替代<code>hexo n</code>命令创建新页面 3.0</h3><blockquote>
-<p>选择一个目录下，创建新页面（便于管理文件）</p>
+<h3 id="提交代码及文件到仓库"><a href="#提交代码及文件到仓库" class="headerlink" title="提交代码及文件到仓库"></a>提交代码及文件到仓库</h3><blockquote>
+<p>vscode编辑的原文件及资源，我提交的<code>gitee</code><br>hexo打包的部署页面这个提交是<code>github pages</code></p>
 </blockquote>
-<pre><code>暂时搁置，待后续更新~
-</code></pre>
-<h2 id="一键推送提交代码"><a href="#一键推送提交代码" class="headerlink" title="一键推送提交代码"></a>一键推送提交代码</h2><blockquote>
-<p>vscode里面的文件写好了需要提交仓库（备份用途）<br>hexo下的文件（处理图片问题）打包之后也需要提交推送到仓库</p>
+<h4 id="vscode下文件提交git"><a href="#vscode下文件提交git" class="headerlink" title="vscode下文件提交git"></a>vscode下文件提交git</h4><blockquote>
+<p>安装git插件，直接在vscode中将相关文件提交至仓库</p>
 </blockquote>
-<h3 id="vscode下文件提交git"><a href="#vscode下文件提交git" class="headerlink" title="vscode下文件提交git"></a>vscode下文件提交git</h3><blockquote>
-<p>todo</p>
+<h4 id="hexo下部署文件提交git"><a href="#hexo下部署文件提交git" class="headerlink" title="hexo下部署文件提交git"></a>hexo下部署文件提交git</h4><blockquote>
+<ol>
+<li><a href="#%E4%B8%80%E9%94%AE%E8%BF%90%E8%A1%8Chexo-s">【一键运行 hexo s】</a></li>
+<li>将<code>public</code>目录下所有代码复制到<code>.deploy</code>进行覆盖</li>
+<li><a href="#%E4%B8%80%E9%94%AE%E6%8E%A8%E9%80%81%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81">【一键推送提交代码】</a></li>
+</ol>
 </blockquote>
-<h3 id="hexo下部署文件提交git"><a href="#hexo下部署文件提交git" class="headerlink" title="hexo下部署文件提交git"></a>hexo下部署文件提交git</h3><blockquote>
-<p>todo</p>
+<h3 id="一键推送部署github-pages"><a href="#一键推送部署github-pages" class="headerlink" title="一键推送部署github pages"></a>一键推送部署<code>github pages</code></h3><blockquote>
+<p>原文件的编辑更新代码提交<code>giteee</code>信息规范即可，提交到<code>github pages</code>仓库部署的页面可随意。</p>
 </blockquote>
-<h2 id="bat命令行去除空格命令"><a href="#bat命令行去除空格命令" class="headerlink" title="bat命令行去除空格命令"></a>bat命令行去除空格命令</h2><blockquote>
-<p>存在空格的情况影响执行命令<code>hexo n</code>的结果-&gt;失败!</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">chcp 65001</span><br><span class="line">@echo off</span><br><span class="line">SETLOCAL ENABLEDELAYEDEXPANSION</span><br><span class="line">set abc=                          uvwxyz</span><br><span class="line"></span><br><span class="line">:delleft</span><br><span class="line">if &quot;%abc:~0,1%&quot;==&quot; &quot; set abc=%abc:~1%&amp;&amp;goto delleft</span><br><span class="line">echo 去除左边空格后结果为:%abc%</span><br><span class="line"></span><br><span class="line">set abc=uvwxyz                                                   </span><br><span class="line">:delright</span><br><span class="line">if &quot;%abc:~-1%&quot;==&quot; &quot; set abc=%abc:~0,-1%&amp;&amp;goto delright</span><br><span class="line">echo 去掉右边空格后结果为:%abc%</span><br><span class="line"></span><br><span class="line">set abc=  u  v  w  x  y  z   </span><br><span class="line">set &quot;abc=%abc: =%&quot;</span><br><span class="line">echo 去除所有空格后结果为:%abc%</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">start cmd /c &quot;cd/d D:\workSpace\Hexo\blog\.deploy\ODUODUOKE.github.io &amp;&amp; git add . &amp;&amp; git commit -m &quot;update&quot; &amp;&amp; git push origin main&quot;</span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
@@ -984,7 +983,10 @@
   <entry>
     <title>面试准备-JAVA集合框架</title>
     <url>/2023/04/27/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87-JAVA%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/</url>
-    <content><![CDATA[<h1 id="说说-List-Set-Map-三者的区别？三者底层的数据结构？"><a href="#说说-List-Set-Map-三者的区别？三者底层的数据结构？" class="headerlink" title="说说 List,Set,Map 三者的区别？三者底层的数据结构？"></a>说说 List,Set,Map 三者的区别？三者底层的数据结构？</h1><ul>
+    <content><![CDATA[<blockquote>
+<p>未注明来源出处资料：部分来源JavaGuide文档或其他</p>
+</blockquote>
+<h1 id="说说-List-Set-Map-三者的区别？三者底层的数据结构？"><a href="#说说-List-Set-Map-三者的区别？三者底层的数据结构？" class="headerlink" title="说说 List,Set,Map 三者的区别？三者底层的数据结构？"></a>说说 List,Set,Map 三者的区别？三者底层的数据结构？</h1><ul>
 <li>List：储存元素是有序的、可重复的。</li>
 <li>Set：储存元素是无序的、不可重复的。</li>
 <li>Map：使用键值对（key-value）储存，key是无序、不可重复的；value是无序、可重复的。</li>
@@ -1153,7 +1155,67 @@
 </ul>
 </li>
 </ul>
-<h1 id="HashMap-的底层实现"><a href="#HashMap-的底层实现" class="headerlink" title="HashMap 的底层实现"></a>HashMap 的底层实现</h1>]]></content>
+<h1 id="HashMap-的底层实现"><a href="#HashMap-的底层实现" class="headerlink" title="HashMap 的底层实现"></a>HashMap 的底层实现</h1><h2 id="JDK1-8之前"><a href="#JDK1-8之前" class="headerlink" title="JDK1.8之前"></a>JDK1.8之前</h2><p>JDK1.8 之前 HashMap 底层是 <code>数组</code>和<code>链表</code> 结合在⼀起使⽤也就是<code>链表散列</code>。</p>
+<p>所谓 “拉链法” 就是：将链表和数组相结合。也就是说创建⼀个链表数组，数组中每⼀格就是⼀个链<br>表。若遇到哈希冲突，则将冲突的值加到链表中即可。</p>
+<p><img src="/2023/04/27/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87-JAVA%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/Snipaste_2023-04-28_07-50-09.jpg"></p>
+<h2 id="JDK1-8之后"><a href="#JDK1-8之后" class="headerlink" title="JDK1.8之后"></a>JDK1.8之后</h2><p>JDK1.8 之后在解决哈希冲突时有了较⼤的变化，当链表⻓度⼤于阈值（默认为8）（将链表转换成红⿊树前会判断，如果当前数组的⻓度⼩于 64，那么会选择先进⾏数组扩容，⽽不是转换为红⿊树）时，将链表转化为红⿊树，以减少搜索时间。<br><img src="/2023/04/27/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87-JAVA%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/Snipaste_2023-04-28_07-49-57.jpg"></p>
+<blockquote>
+<p>TreeMap、TreeSet 以及 JDK1.8 之后的 HashMap 底层都⽤到了红⿊树。红⿊树就是为了解决⼆叉查找树的缺陷，因为⼆叉查找树在某些情况下会退化成⼀个线性结构。</p>
+</blockquote>
+<h1 id="HashMap-的长度为什么是-2-的幂次方"><a href="#HashMap-的长度为什么是-2-的幂次方" class="headerlink" title="HashMap 的长度为什么是 2 的幂次方"></a>HashMap 的长度为什么是 2 的幂次方</h1><p>为了能让 HashMap 存取⾼效，尽量减少碰撞，也就是要尽量把数据分配均匀。我们上⾯也讲到了过了，Hash 值的范围值-2147483648 - 2147483647，前后加起来⼤概 40 亿的映射空间，只要哈希函数映射得⽐较均匀松散，⼀般应⽤是很难出现碰撞的。<br>但问题是⼀个 40 亿⻓度的数组，内存是放不下的。所以这个散列值是不能直接拿来⽤的。⽤之前还要先做对数组的⻓度取模运算，得到的余数才能⽤来要存放的位置也就是对应的数组下标。这个数组下标的计算⽅法是“ (n - 1) &amp; hash ”。（n代表数组⻓度）。这也就解释了 HashMap 的⻓度为什么是 2 的幂次⽅。</p>
+<blockquote>
+<p>我们⾸先可能会想到采⽤%取余的操作来实现。但是，重点来了：“取余(%)操作中如果除数是 2 的幂次则等价于与其除数减⼀的与(&amp;)操作（也就是说 hash%length&#x3D;&#x3D;hash&amp;(length-1)的前提是length 是 2 的 n 次⽅；）。” 并且 采⽤⼆进制位操作 &amp;，相对于%能够提⾼运算效率，这就解释了HashMap 的⻓度为什么是 2 的幂次⽅。</p>
+</blockquote>
+<h1 id="ConcurrentHashMap-和-Hashtable-的区别？"><a href="#ConcurrentHashMap-和-Hashtable-的区别？" class="headerlink" title="ConcurrentHashMap 和 Hashtable 的区别？"></a>ConcurrentHashMap 和 Hashtable 的区别？</h1><p>ConcurrentHashMap 和 Hashtable 的区别主要体现在实现线程安全的⽅式上不同。</p>
+<ul>
+<li><p>底层数据结构：</p>
+<ul>
+<li>ConcurrentHashMap<ul>
+<li>JDK 1.7：ConcurrentHashMap 底层采⽤<code>分段的数组+链表</code>实现</li>
+<li>JDK1.8 : ConcurrentHashMap 底层采⽤采⽤的数据结构跟 HashMap1.8 的结构⼀样，<code>数组+链表/红⿊⼆叉树</code>。</li>
+</ul>
+</li>
+<li>Hashtable: Hashtable 和 JDK1.8 之前的 HashMap 的底层数据结构类似都是采⽤ <code>数组+链表</code> 的形式，数组是 HashMap 的主体，链表则是主要为了解决哈希冲突⽽存在的</li>
+</ul>
+</li>
+<li><p><font color='red'>实现线程安全的方式：</font></p>
+<ul>
+<li>ConcurrentHashMap：<ul>
+<li>JDK 1.7: ConcurrentHashMap 对整个桶数组进⾏了分割分段( Segment ，分段锁)，每⼀把锁只锁容器其中⼀部分数据，多线程访问容器⾥不同数据段的数据，就不会存在锁竞争，提⾼并发访问率。</li>
+<li>JDK 1.8: Node 数组+链表+红⿊树的数据结构来实现，并发控制使⽤ synchronized 和 CAS 来操作。</li>
+</ul>
+</li>
+<li>HashTable (同⼀把锁) : 使⽤ synchronized 来保证线程安全，效率⾮常低下。当⼀个线程访问同步⽅法时，其他线程也访问同步⽅法，可能会进⼊阻塞或轮询状态，如使⽤ put 添加元素，另⼀个线程不能使⽤ put 添加元素，也不能使⽤ get，竞争会越来越激烈效率越低。</li>
+</ul>
+<br>
+
+<p><strong>数据结构：</strong><br><img src="/2023/04/27/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87-JAVA%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/Snipaste_2023-04-28_08-04-59.jpg"><br><img src="/2023/04/27/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87-JAVA%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/Snipaste_2023-04-28_08-05-24.jpg"><br><img src="/2023/04/27/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87-JAVA%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/Snipaste_2023-04-28_08-06-00.jpg"></p>
+</li>
+</ul>
+<h1 id="ConcurrentHashMap-线程安全的具体实现方式-x2F-底层具体实现"><a href="#ConcurrentHashMap-线程安全的具体实现方式-x2F-底层具体实现" class="headerlink" title="ConcurrentHashMap 线程安全的具体实现方式&#x2F;底层具体实现"></a>ConcurrentHashMap 线程安全的具体实现方式&#x2F;底层具体实现</h1><p><strong>JDK 1.8 之前</strong><br><img src="/2023/04/27/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87-JAVA%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/Snipaste_2023-04-28_08-10-38.jpg"></p>
+<p><code>ConcurrentHashMap</code> 是由 <code>Segment</code> 数组结构和 <code>HashEntry</code> 数组结构组成。</p>
+<p><code>Segment</code> 继承了 <code>ReentrantLock</code> ,所以 <code>Segment</code> 是⼀种可重⼊锁，扮演锁的⻆⾊。 <code>HashEntry</code> ⽤于<br>存储键值对数据。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">static class Segment&lt;K,V&gt; extends ReentrantLock implements Serializable &#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<p>⼀个 <code>ConcurrentHashMap</code> ⾥包含⼀个 <code>Segment</code> 数组， <code>Segment</code> 的个数⼀旦初始化就不能改变。<br><code>Segment</code> 数组的⼤⼩默认是 16，也就是说默认可以同时⽀持 16 个线程并发写。<code>Segment</code> 的结构和 HashMap 类似，是⼀种数组和链表结构，⼀个 <code>Segment</code> 包含⼀个 HashEntry数组，每个 HashEntry 是⼀个链表结构的元素，每个 <code>Segment</code> 守护着⼀个 HashEntry 数组⾥的元素，当对 HashEntry 数组的数据进⾏修改时，必须⾸先获得对应的 <code>Segment</code> 的锁。也就是说，对同⼀ <code>Segment</code> 的并发写⼊会被阻塞，不同 <code>Segment</code> 的写⼊是可以并发执⾏的。</p>
+<h2 id="JDK-1-7-和-JDK-1-8-的-ConcurrentHashMap-实现有什么不同？"><a href="#JDK-1-7-和-JDK-1-8-的-ConcurrentHashMap-实现有什么不同？" class="headerlink" title="JDK 1.7 和 JDK 1.8 的 ConcurrentHashMap 实现有什么不同？"></a>JDK 1.7 和 JDK 1.8 的 ConcurrentHashMap 实现有什么不同？</h2><ul>
+<li>线程安全实现⽅式:<ul>
+<li>JDK 1.7 采⽤ Segment 分段锁来保证安全， Segment 是继承⾃ReentrantLock 。</li>
+<li>JDK1.8 放弃了 Segment 分段锁的设计，采⽤ Node + CAS + synchronized 保证线程安全，锁粒度更细， synchronized 只锁定当前链表或红⿊⼆叉树的⾸节点。</li>
+</ul>
+</li>
+<li>Hash 碰撞解决⽅法:<ul>
+<li>JDK 1.7 采⽤拉链法，JDK1.8 采⽤拉链法结合红⿊树（链表⻓度超过⼀定阈值时，将链表转换为红⿊树）</li>
+</ul>
+</li>
+<li>并发度: <ul>
+<li>JDK 1.7 最⼤并发度是 Segment 的个数，默认是 16。JDK 1.8 最⼤并发度是 Node 数组的⼤⼩，并发度更⼤。</li>
+</ul>
+</li>
+</ul>
+<p><strong>JDK 1.8 之后</strong><br><img src="/2023/04/27/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87-JAVA%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/Snipaste_2023-04-28_08-14-15.jpg"></p>
+<p><code>ConcurrentHashMap</code> 取消了 <code>Segment</code> 分段锁，采⽤ <code>Node + CAS + synchronized</code> 来保证并发安全。数据结构跟 HashMap 1.8 的结构类似，<code>数组+链表/红⿊⼆叉树</code>。Java 8 在链表⻓度超过⼀定阈值（8）时将链表（寻址时间复杂度为 O(N)）转换为红⿊树（寻址时间复杂度为 O(log(N))）。</p>
+]]></content>
       <categories>
         <category>Java|面试题</category>
       </categories>
