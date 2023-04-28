@@ -177,30 +177,6 @@
 <p>通过Windows的bat脚本一键化对hexo执行部署打包等相关命令</p>
 </blockquote>
 <hr>
-<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://blog.csdn.net/u012815136/article/details/101549751">bat批处理脚本中文乱码问题解决</a></p>
-<p><a href="https://blog.csdn.net/laozhuxinlu/article/details/52853787">.Bat之批处理实现手动输入变量参数</a></p>
-<p><a href="https://blog.csdn.net/s_y_w123/article/details/111353912">使用bat脚本自动打开cmd并执行命令</a></p>
-<p><a href="https://blog.csdn.net/weixin_46909756/article/details/108726489">写一个打开cmd窗口并执行cmd命令的Windows脚本（.bat文件）</a></p>
-<p><a href="https://blog.csdn.net/sinat_16741503/article/details/72869123">bat文件命令行去除变量的空格</a></p>
-<p><a href="https://blog.csdn.net/l_o_s/article/details/103417243">Bat 等待一段指定的时间</a></p>
-<p><a href="https://blog.csdn.net/JintGuo/article/details/77542490">Windows copy命令</a></p>
-<p><a href="https://blog.csdn.net/weixin_40277264/article/details/121531320">bat 复制文件和文件夹（目录</a></p>
-<p><a href="https://blog.csdn.net/shijianduan1/article/details/105718813">BAT —- 删除部分文件和文件夹，仅保留指定文件、和文件夹</a></p>
-<p><a href="https://www.cnblogs.com/wangyh702/p/11420287.html">curl http_code 状态码</a></p>
-<p><a href="https://blog.csdn.net/zsx18273117003/article/details/93421783">windows下bat脚本监听http服务</a></p>
-<p><a href="https://blog.csdn.net/weixin_42585386/article/details/106767065">Curl学习日记2 - 在Windows CMD命令行中使用Curl</a></p>
-<hr>
-<blockquote>
-<p>未使用，但是觉得以后会涉及，于是记录下来</p>
-</blockquote>
-<p><a href="https://blog.csdn.net/Lvbey/article/details/118611287">在批处理(cmd，bat)下传递参数和获取参数</a></p>
-<hr>
-<blockquote>
-<p>robocopy 的使用教程忘记留存链接下来了。</p>
-</blockquote>
-<p>原本使用xcopy，经过测试发现复制过来的文件和原目录的文件里面多出来一个page文件夹和一个content.json （应该使我哪里步骤有问题导致的）。</p>
-<p><strong>备注： 如果复制到的目录下存在<code>.git</code>目录，文件会自动暂存区，导致我明明把目录下文件删除了，然后执行脚本复制好几次都失败！当时使用的<code>xcopy</code>，它输出日志100%copyied ，然后实际目录下是空的。</strong></p>
-<hr>
 <h2 id="脚本代码"><a href="#脚本代码" class="headerlink" title="脚本代码"></a>脚本代码</h2><h3 id="一键运行hexo-n"><a href="#一键运行hexo-n" class="headerlink" title="一键运行hexo n"></a>一键运行<code>hexo n</code></h3><blockquote>
 <p>在vscode中进行编辑，编辑完成后直接<strong>处理图片前缀</strong>后部署本地环境预览后发布</p>
 </blockquote>
@@ -226,11 +202,39 @@
 <p>通过脚本推送部署,不需要人工干预</p>
 </blockquote>
 <h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2><p>后续期望是通过一键脚本启动完服务后，通过<code>curl</code>监听到指定端口地址访问状态正常，然后启动浏览器（无需人工启动浏览器进行预览）。</p>
-<h2 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h2><h3 id="一键部署github-pages注意事项"><a href="#一键部署github-pages注意事项" class="headerlink" title="一键部署github pages注意事项"></a>一键部署<code>github pages</code>注意事项</h3><p><img src="/posts/15065/Snipaste_2023-04-28_10-37-15.jpg"></p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="一键部署github-pages注意事项"><a href="#一键部署github-pages注意事项" class="headerlink" title="一键部署github pages注意事项"></a>一键部署<code>github pages</code>注意事项</h3><p><img src="/posts/15065/Snipaste_2023-04-28_10-37-15.jpg"></p>
 <p>.gitgnore文件内容如下：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">del.bat</span><br></pre></td></tr></table></figure>
 
-<h3 id="del-bat-脚本命令代码"><a href="#del-bat-脚本命令代码" class="headerlink" title="del.bat 脚本命令代码"></a>del.bat 脚本命令代码</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 设置保护目录、文件参数配置</span><br><span class="line">set defendDirName01=.git</span><br><span class="line">set defendBatSelf01=del.bat</span><br><span class="line">set defendBatSelf02=.gitignore</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">for /D %%i in (*) DO (</span><br><span class="line">	if not %%i==%defendDirName01% (</span><br><span class="line">		if not %%i==保留文件夹02（示例） (</span><br><span class="line">			rem echo 删文件夹：%%i </span><br><span class="line">			rd /S /Q %%i</span><br><span class="line">		)</span><br><span class="line">	)</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">for %%i in (*) DO (</span><br><span class="line">	if not %%i==%defendBatSelf01% (</span><br><span class="line">		if not %%i==%defendBatSelf02% (</span><br><span class="line">			rem echo 删除文件：%%i </span><br><span class="line">			del %%i </span><br><span class="line">		) </span><br><span class="line">	)</span><br><span class="line">)</span><br></pre></td></tr></table></figure>]]></content>
+<h3 id="del-bat-脚本命令代码"><a href="#del-bat-脚本命令代码" class="headerlink" title="del.bat 脚本命令代码"></a>del.bat 脚本命令代码</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 设置保护目录、文件参数配置</span><br><span class="line">set defendDirName01=.git</span><br><span class="line">set defendBatSelf01=del.bat</span><br><span class="line">set defendBatSelf02=.gitignore</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">for /D %%i in (*) DO (</span><br><span class="line">	if not %%i==%defendDirName01% (</span><br><span class="line">		if not %%i==保留文件夹02（示例） (</span><br><span class="line">			rem echo 删文件夹：%%i </span><br><span class="line">			rd /S /Q %%i</span><br><span class="line">		)</span><br><span class="line">	)</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">for %%i in (*) DO (</span><br><span class="line">	if not %%i==%defendBatSelf01% (</span><br><span class="line">		if not %%i==%defendBatSelf02% (</span><br><span class="line">			rem echo 删除文件：%%i </span><br><span class="line">			del %%i </span><br><span class="line">		) </span><br><span class="line">	)</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><p><a href="https://blog.csdn.net/u012815136/article/details/101549751">bat批处理脚本中文乱码问题解决</a></p>
+<p><a href="https://blog.csdn.net/laozhuxinlu/article/details/52853787">.Bat之批处理实现手动输入变量参数</a></p>
+<p><a href="https://blog.csdn.net/s_y_w123/article/details/111353912">使用bat脚本自动打开cmd并执行命令</a></p>
+<p><a href="https://blog.csdn.net/weixin_46909756/article/details/108726489">写一个打开cmd窗口并执行cmd命令的Windows脚本（.bat文件）</a></p>
+<p><a href="https://blog.csdn.net/sinat_16741503/article/details/72869123">bat文件命令行去除变量的空格</a></p>
+<p><a href="https://blog.csdn.net/l_o_s/article/details/103417243">Bat 等待一段指定的时间</a></p>
+<p><a href="https://blog.csdn.net/JintGuo/article/details/77542490">Windows copy命令</a></p>
+<p><a href="https://blog.csdn.net/weixin_40277264/article/details/121531320">bat 复制文件和文件夹（目录</a></p>
+<p><a href="https://blog.csdn.net/shijianduan1/article/details/105718813">BAT —- 删除部分文件和文件夹，仅保留指定文件、和文件夹</a></p>
+<p><a href="https://www.cnblogs.com/wangyh702/p/11420287.html">curl http_code 状态码</a></p>
+<p><a href="https://blog.csdn.net/zsx18273117003/article/details/93421783">windows下bat脚本监听http服务</a></p>
+<p><a href="https://blog.csdn.net/weixin_42585386/article/details/106767065">Curl学习日记2 - 在Windows CMD命令行中使用Curl</a></p>
+<hr>
+<blockquote>
+<p>未使用，但是觉得以后会涉及，于是记录下来</p>
+</blockquote>
+<p><a href="https://blog.csdn.net/Lvbey/article/details/118611287">在批处理(cmd，bat)下传递参数和获取参数</a></p>
+<hr>
+<blockquote>
+<p>robocopy 的使用教程忘记留存链接下来了。</p>
+</blockquote>
+<p>原本使用xcopy，经过测试发现复制过来的文件和原目录的文件里面多出来一个page文件夹和一个content.json （应该使我哪里步骤有问题导致的）。</p>
+<p><strong>备注： 如果复制到的目录下存在<code>.git</code>目录，文件会自动暂存区，导致我明明把目录下文件删除了，然后执行脚本复制好几次都失败！当时使用的<code>xcopy</code>，它输出日志100%copyied ，然后实际目录下是空的。</strong></p>
+<hr>
+]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
