@@ -161,6 +161,7 @@
 <p><a href="https://blog.csdn.net/l_o_s/article/details/103417243">Bat 等待一段指定的时间</a></p>
 <p><a href="https://blog.csdn.net/JintGuo/article/details/77542490">Windows copy命令</a></p>
 <p><a href="https://blog.csdn.net/weixin_40277264/article/details/121531320">bat 复制文件和文件夹（目录</a></p>
+<p><a href="https://blog.csdn.net/shijianduan1/article/details/105718813">BAT —- 删除部分文件和文件夹，仅保留指定文件、和文件夹</a></p>
 <hr>
 <blockquote>
 <p>未使用，但是觉得以后会涉及，于是记录下来</p>
@@ -185,7 +186,7 @@
 <ol>
 <li><a href="#%E4%B8%80%E9%94%AE%E8%BF%90%E8%A1%8Chexo-s">【一键运行 hexo s】</a></li>
 <li>将<code>public</code>目录下所有代码复制到<code>.deploy</code>进行覆盖</li>
-<li><a href="#%E4%B8%80%E9%94%AE%E6%8E%A8%E9%80%81%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81">【一键推送提交代码】</a></li>
+<li><a href="#%E4%B8%80%E9%94%AE%E6%8E%A8%E9%80%81%E9%83%A8%E7%BD%B2github-pages">【一键推送提交代码】</a></li>
 </ol>
 </blockquote>
 <h3 id="一键推送部署github-pages"><a href="#一键推送部署github-pages" class="headerlink" title="一键推送部署github pages"></a>一键推送部署<code>github pages</code></h3><blockquote>
