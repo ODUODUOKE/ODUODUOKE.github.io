@@ -168,32 +168,41 @@
 </blockquote>
 <p><a href="https://blog.csdn.net/Lvbey/article/details/118611287">在批处理(cmd，bat)下传递参数和获取参数</a></p>
 <hr>
-<h2 id="脚本代码"><a href="#脚本代码" class="headerlink" title="脚本代码"></a>脚本代码</h2><h3 id="通过bat脚本替代hexo-n命令创建页面"><a href="#通过bat脚本替代hexo-n命令创建页面" class="headerlink" title="通过bat脚本替代hexo n命令创建页面"></a>通过bat脚本替代<code>hexo n</code>命令创建页面</h3><blockquote>
+<blockquote>
+<p>robocopy 的使用教程忘记留存链接下来了。</p>
+</blockquote>
+<p>原本使用xcopy，经过测试发现复制过来的文件和原目录的文件里面多出来一个page文件夹和一个content.json （应该使我哪里步骤有问题导致的）。</p>
+<p><strong>备注： 如果复制到的目录下存在<code>.git</code>目录，文件会自动暂存区，导致我明明把目录下文件删除了，然后执行脚本复制好几次都失败！当时使用的<code>xcopy</code>，它输出日志100%copyied ，然后实际目录下是空的。</strong></p>
+<hr>
+<h2 id="脚本代码"><a href="#脚本代码" class="headerlink" title="脚本代码"></a>脚本代码</h2><h3 id="一键运行hexo-n"><a href="#一键运行hexo-n" class="headerlink" title="一键运行hexo n"></a>一键运行<code>hexo n</code></h3><blockquote>
 <p>在vscode中进行编辑，编辑完成后直接<strong>处理图片前缀</strong>后部署本地环境预览后发布</p>
 </blockquote>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">:: 不打印其他命令的回显(放在&#x27;@echo off&#x27;上此注释会被输出到控制台)</span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 初始化参数配置</span><br><span class="line">set BlogPath=D:\workSpace\Hexo\blog</span><br><span class="line">echo 博客目录：%BlogPath%</span><br><span class="line"></span><br><span class="line">set CopyFrom=D:\workSpace\Hexo\blog\source\_posts\</span><br><span class="line">echo 复制目录：%CopyFrom%</span><br><span class="line"></span><br><span class="line">set ParseTo=D:\workSpace\Vscode\</span><br><span class="line">echo 粘贴目录：%ParseTo%</span><br><span class="line"></span><br><span class="line">:: 配合&#x27;goto begin&#x27;回到此处重复执行操作</span><br><span class="line">:: :begin</span><br><span class="line"></span><br><span class="line">:: 获取输入</span><br><span class="line">set input=</span><br><span class="line">set /p input=请输入新增页面名称:</span><br><span class="line"></span><br><span class="line">:: 去除输入的所有空格（因为空格会导致hexo n创建新页面失败）</span><br><span class="line">set &quot;input=%input: =%&quot;</span><br><span class="line"></span><br><span class="line">:: 打印用户输入参数</span><br><span class="line">echo %input%</span><br><span class="line"></span><br><span class="line">:: 执行cmd命令(cmd /c 表示执行完毕后关闭窗口)</span><br><span class="line">start cmd /c &quot;cd/d %BlogPath% &amp;&amp; hexo n &#x27;%input%&#x27; &quot;</span><br><span class="line"></span><br><span class="line">:: 等待最长5s继续往下执行操作（原因：需要等待 hexo n 的文件创建好，然后执行复制操作!）</span><br><span class="line">:: timeout /t 5 /nobreak &gt; NUL</span><br><span class="line"></span><br><span class="line">:: 复制创建文件到vscode工作目录下</span><br><span class="line">:: copy  %CopyFrom%%input%.md  %ParseTo%</span><br><span class="line"></span><br><span class="line">:: 创建空文件夹</span><br><span class="line">:: md %ParseTo%%input%</span><br><span class="line"></span><br><span class="line">:: 可配合&#x27;:begin&#x27;进行重复执行操作</span><br><span class="line">:: goto begin</span><br><span class="line"></span><br><span class="line">:: 暂停</span><br><span class="line">:: pause</span><br><span class="line"></span><br><span class="line">:: 退出关闭窗口</span><br><span class="line">exit</span><br></pre></td></tr></table></figure>
 
 
-<h3 id="一键运行hexo-s"><a href="#一键运行hexo-s" class="headerlink" title="一键运行hexo s"></a>一键运行<code>hexo s</code></h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 获取最新代码</span><br><span class="line">start cmd /c &quot;cd/d D:\workSpace\Blog\blog\themes\butterfly &amp;&amp; git pull &quot;</span><br><span class="line">:: 清空public打包目录/打包资源/本地部署</span><br><span class="line">start cmd /k &quot;cd/d D:\workSpace\Blog\blog &amp;&amp; hexo clean &amp;&amp; hexo g &amp;&amp; hexo s&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="一键运行hexo-s"><a href="#一键运行hexo-s" class="headerlink" title="一键运行hexo s"></a>一键运行<code>hexo s</code></h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 获取最新代码（关闭自动更新）</span><br><span class="line">:: start cmd /c &quot;cd/d D:\workSpace\Blog\blog\themes\butterfly &amp;&amp; git pull &quot;</span><br><span class="line">:: 清空public打包目录/打包资源/本地部署</span><br><span class="line">start cmd /k &quot;cd/d D:\workSpace\Hexo\blog &amp;&amp; hexo clean &amp;&amp; hexo g &amp;&amp; hexo s&quot;</span><br></pre></td></tr></table></figure>
 
-<h3 id="提交代码及文件到仓库"><a href="#提交代码及文件到仓库" class="headerlink" title="提交代码及文件到仓库"></a>提交代码及文件到仓库</h3><blockquote>
-<p>vscode编辑的原文件及资源，我提交的<code>gitee</code><br>hexo打包的部署页面这个提交是<code>github pages</code></p>
-</blockquote>
-<h4 id="vscode下文件提交git"><a href="#vscode下文件提交git" class="headerlink" title="vscode下文件提交git"></a>vscode下文件提交git</h4><blockquote>
-<p>安装git插件，直接在vscode中将相关文件提交至仓库</p>
-</blockquote>
-<h4 id="hexo下部署文件提交git"><a href="#hexo下部署文件提交git" class="headerlink" title="hexo下部署文件提交git"></a>hexo下部署文件提交git</h4><blockquote>
-<ol>
-<li><a href="#%E4%B8%80%E9%94%AE%E8%BF%90%E8%A1%8Chexo-s">【一键运行 hexo s】</a></li>
-<li>将<code>public</code>目录下所有代码复制到<code>.deploy</code>进行覆盖</li>
-<li><a href="#%E4%B8%80%E9%94%AE%E6%8E%A8%E9%80%81%E9%83%A8%E7%BD%B2github-pages">【一键推送提交代码】</a></li>
-</ol>
-</blockquote>
-<h3 id="一键推送部署github-pages"><a href="#一键推送部署github-pages" class="headerlink" title="一键推送部署github pages"></a>一键推送部署<code>github pages</code></h3><blockquote>
+
+<h3 id="一键部署github-pages"><a href="#一键部署github-pages" class="headerlink" title="一键部署github pages"></a>一键部署<code>github pages</code></h3><blockquote>
 <p>原文件的编辑更新代码提交<code>giteee</code>信息规范即可，提交到<code>github pages</code>仓库部署的页面可随意。</p>
 </blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">start cmd /c &quot;cd/d D:\workSpace\Hexo\blog\.deploy\ODUODUOKE.github.io &amp;&amp; git add . &amp;&amp; git commit -m &quot;update&quot; &amp;&amp; git push origin main&quot;</span><br></pre></td></tr></table></figure>
-]]></content>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 初始化参数配置</span><br><span class="line">set BlogDeployPath=D:\workSpace\Hexo\blog\.deploy\ODUODUOKE.github.io</span><br><span class="line">set HexoPublicPath=D:\workSpace\Hexo\blog\public</span><br><span class="line">set delBatName=del.bat</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">start cmd /c &quot;cd/d %BlogDeployPath% &amp;&amp; call %delBatName%&quot;</span><br><span class="line">timeout /t 5 /nobreak </span><br><span class="line"></span><br><span class="line">start cmd /c &quot;robocopy.exe %HexoPublicPath% %BlogDeployPath% /E /COPY:DAT /DCOPY:T&quot;</span><br><span class="line">timeout /t 5 /nobreak </span><br><span class="line"></span><br><span class="line">start cmd /c &quot;cd/d %BlogDeployPath% &amp;&amp; git add . &amp;&amp; git commit -m &quot;update&quot; &amp;&amp; git push origin main&quot;</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="提交推送"><a href="#提交推送" class="headerlink" title="提交推送"></a>提交推送</h2><blockquote>
+<p>vscode编辑的原文件及资源，我提交的<code>gitee</code><br>hexo打包的部署页面这个提交是<code>github pages</code></p>
+</blockquote>
+<h3 id="vscode下文件提交git"><a href="#vscode下文件提交git" class="headerlink" title="vscode下文件提交git"></a>vscode下文件提交git</h3><blockquote>
+<p>安装git插件，直接在vscode中将相关文件提交至仓库</p>
+</blockquote>
+<h3 id="hexo下部署文件提交git"><a href="#hexo下部署文件提交git" class="headerlink" title="hexo下部署文件提交git"></a>hexo下部署文件提交git</h3><blockquote>
+<p>通过脚本推送部署,不需要人工干预</p>
+</blockquote>
+<h2 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h2><h3 id="一键部署github-pages注意事项"><a href="#一键部署github-pages注意事项" class="headerlink" title="一键部署github pages注意事项"></a>一键部署<code>github pages</code>注意事项</h3><p><img src="/2023/04/25/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo%E9%80%9A%E8%BF%87windows%E7%9A%84bat%E8%84%9A%E6%9C%AC%E8%81%94%E5%8A%A8/Snipaste_2023-04-28_10-37-15.jpg"></p>
+<p>.gitgnore文件内容如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">del.bat</span><br></pre></td></tr></table></figure>
+
+<h3 id="del-bat-脚本命令代码"><a href="#del-bat-脚本命令代码" class="headerlink" title="del.bat 脚本命令代码"></a>del.bat 脚本命令代码</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:: 防止中文乱码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">:: 设置保护目录、文件参数配置</span><br><span class="line">set defendDirName01=.git</span><br><span class="line">set defendBatSelf01=del.bat</span><br><span class="line">set defendBatSelf02=.gitignore</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">for /D %%i in (*) DO (</span><br><span class="line">	if not %%i==%defendDirName01% (</span><br><span class="line">		if not %%i==保留文件夹02（示例） (</span><br><span class="line">			rem echo 删文件夹：%%i </span><br><span class="line">			rd /S /Q %%i</span><br><span class="line">		)</span><br><span class="line">	)</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">for %%i in (*) DO (</span><br><span class="line">	if not %%i==%defendBatSelf01% (</span><br><span class="line">		if not %%i==%defendBatSelf02% (</span><br><span class="line">			rem echo 删除文件：%%i </span><br><span class="line">			del %%i </span><br><span class="line">		) </span><br><span class="line">	)</span><br><span class="line">)</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
