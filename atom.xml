@@ -6,7 +6,7 @@
   <link href="https://hexo.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://hexo.wo0ow.com/"/>
-  <updated>2023-04-28T06:17:56.274Z</updated>
+  <updated>2023-04-29T00:42:35.389Z</updated>
   <id>https://hexo.wo0ow.com/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo博客相关文档</title>
+    <link href="https://hexo.wo0ow.com/posts/7324.html"/>
+    <id>https://hexo.wo0ow.com/posts/7324.html</id>
+    <published>2023-04-28T23:52:32.000Z</published>
+    <updated>2023-04-29T00:42:35.389Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;仅作记录，汇总相关Hexo的博客&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;Hexo主题美化&quot;&gt;&lt;a href=&quot;#Hexo主题美化&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://hexo.wo0ow.com/categories/Hexo/"/>
+    
+    
+    <category term="Hexo主题butterfly美化" scheme="https://hexo.wo0ow.com/tags/Hexo%E4%B8%BB%E9%A2%98butterfly%E7%BE%8E%E5%8C%96/"/>
+    
+    <category term="Hexo文章置顶" scheme="https://hexo.wo0ow.com/tags/Hexo%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo启动报错port问题</title>
     <link href="https://hexo.wo0ow.com/posts/38317.html"/>
     <id>https://hexo.wo0ow.com/posts/38317.html</id>
     <published>2023-04-28T05:31:20.000Z</published>
-    <updated>2023-04-28T06:17:56.274Z</updated>
+    <updated>2023-04-28T23:54:32.300Z</updated>
     
     
       
@@ -105,7 +135,7 @@
     <link href="https://hexo.wo0ow.com/posts/15065.html"/>
     <id>https://hexo.wo0ow.com/posts/15065.html</id>
     <published>2023-04-25T06:28:27.000Z</published>
-    <updated>2023-04-28T08:31:00.908Z</updated>
+    <updated>2023-04-29T00:40:37.719Z</updated>
     
     
       
