@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hexo.wo0ow.com/posts/36128.html</loc>
+    
+    <lastmod>2023-04-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hexo.wo0ow.com/posts/7324.html</loc>
     
     <lastmod>2023-04-29</lastmod>
@@ -155,13 +164,6 @@
 
   
   <url>
-    <loc>https://hexo.wo0ow.com/tags/GIT/</loc>
-    <lastmod>2023-04-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://hexo.wo0ow.com/tags/Hexo%E4%B8%BB%E9%A2%98butterfly%E7%BE%8E%E5%8C%96/</loc>
     <lastmod>2023-04-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -170,6 +172,13 @@
   
   <url>
     <loc>https://hexo.wo0ow.com/tags/Hexo%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6/</loc>
+    <lastmod>2023-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hexo.wo0ow.com/tags/GIT/</loc>
     <lastmod>2023-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -211,6 +220,13 @@
   </url>
   
   <url>
+    <loc>https://hexo.wo0ow.com/tags/vscode%E6%8F%92%E4%BB%B6/</loc>
+    <lastmod>2023-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://hexo.wo0ow.com/tags/%E7%99%BE%E8%AF%8D%E6%96%A9/</loc>
     <lastmod>2023-04-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -227,6 +243,13 @@
 
   
   <url>
+    <loc>https://hexo.wo0ow.com/categories/Hexo/</loc>
+    <lastmod>2023-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://hexo.wo0ow.com/categories/GIT/</loc>
     <lastmod>2023-04-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -234,7 +257,7 @@
   </url>
   
   <url>
-    <loc>https://hexo.wo0ow.com/categories/Hexo/</loc>
+    <loc>https://hexo.wo0ow.com/categories/VsCode/</loc>
     <lastmod>2023-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
