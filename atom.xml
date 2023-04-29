@@ -6,7 +6,7 @@
   <link href="https://hexo.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://hexo.wo0ow.com/"/>
-  <updated>2023-04-29T01:57:09.130Z</updated>
+  <updated>2023-04-29T10:51:21.877Z</updated>
   <id>https://hexo.wo0ow.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>近期计划安排</title>
+    <link href="https://hexo.wo0ow.com/posts/43241.html"/>
+    <id>https://hexo.wo0ow.com/posts/43241.html</id>
+    <published>2023-04-29T10:45:01.000Z</published>
+    <updated>2023-04-29T10:51:21.877Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;暂无&quot;&gt;&lt;a href=&quot;#暂无&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>VsCode相关集合</title>
@@ -46,7 +67,7 @@
     <link href="https://hexo.wo0ow.com/posts/7324.html"/>
     <id>https://hexo.wo0ow.com/posts/7324.html</id>
     <published>2023-04-28T23:52:32.000Z</published>
-    <updated>2023-04-29T07:23:11.273Z</updated>
+    <updated>2023-04-29T11:05:11.957Z</updated>
     
     
       
@@ -156,6 +177,31 @@
   </entry>
   
   <entry>
+    <title>我就是个大傻叉</title>
+    <link href="https://hexo.wo0ow.com/posts/28879.html"/>
+    <id>https://hexo.wo0ow.com/posts/28879.html</id>
+    <published>2023-04-25T14:30:47.000Z</published>
+    <updated>2023-04-29T10:44:24.989Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;【官方教程-butterfly】&quot;&gt;&lt;a href=&quot;#【官方教程-butterfly】&quot; class=&quot;headerlink&quot; title=&quot;【官方教程-butterfly】&quot;&gt;&lt;/a&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="我的生活" scheme="https://hexo.wo0ow.com/categories/%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="个人心情" scheme="https://hexo.wo0ow.com/categories/%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB/%E4%B8%AA%E4%BA%BA%E5%BF%83%E6%83%85/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hexo通过windows的bat脚本联动</title>
     <link href="https://hexo.wo0ow.com/posts/15065.html"/>
     <id>https://hexo.wo0ow.com/posts/15065.html</id>
@@ -238,14 +284,16 @@
     <link href="https://hexo.wo0ow.com/posts/30626.html"/>
     <id>https://hexo.wo0ow.com/posts/30626.html</id>
     <published>2023-04-24T00:24:21.000Z</published>
-    <updated>2023-04-28T06:17:56.320Z</updated>
+    <updated>2023-04-29T10:39:43.470Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
-    <category term="English" scheme="https://hexo.wo0ow.com/categories/English/"/>
+    <category term="我的生活" scheme="https://hexo.wo0ow.com/categories/%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="English" scheme="https://hexo.wo0ow.com/categories/%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB/English/"/>
     
     
     <category term="百词斩" scheme="https://hexo.wo0ow.com/tags/%E7%99%BE%E8%AF%8D%E6%96%A9/"/>
