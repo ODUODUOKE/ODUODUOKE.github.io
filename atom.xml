@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>已有全世界最好的女朋友</title>
+  <title>MBlog</title>
   
   
   <link href="https://hexo.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://hexo.wo0ow.com/"/>
-  <updated>2023-04-30T11:22:50.939Z</updated>
+  <updated>2023-05-01T00:25:57.373Z</updated>
   <id>https://hexo.wo0ow.com/</id>
   
   <author>
@@ -17,20 +17,49 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo自用插件记录</title>
+    <link href="https://hexo.wo0ow.com/posts/3085.html"/>
+    <id>https://hexo.wo0ow.com/posts/3085.html</id>
+    <published>2023-04-30T14:25:06.000Z</published>
+    <updated>2023-05-01T00:25:57.373Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;!-- # 现安装插件截图 --&gt;
+&lt;!-- ![](./Hexo自用插件记录/Snipaste_2023-04-30_22-27-05.jpg) --&gt;
+&lt;h1 id=&quot;TODO-待完善更新&quot;&gt;TODO 待完善更新&lt;a class=&quot;anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://hexo.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Hexo博客相关" scheme="https://hexo.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="Hexo自用插件集合" scheme="https://hexo.wo0ow.com/tags/Hexo%E8%87%AA%E7%94%A8%E6%8F%92%E4%BB%B6%E9%9B%86%E5%90%88/"/>
+    
+  </entry>
+  
+  <entry>
     <title>个人简历</title>
     <link href="https://hexo.wo0ow.com/posts/53088.html"/>
     <id>https://hexo.wo0ow.com/posts/53088.html</id>
     <published>2023-04-30T00:17:40.000Z</published>
-    <updated>2023-04-30T11:22:50.939Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
-    <category term="个人" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    <category term="个人博客" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="工作简历" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/%E5%B7%A5%E4%BD%9C%E7%AE%80%E5%8E%86/"/>
+    <category term="工作简历" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%B7%A5%E4%BD%9C%E7%AE%80%E5%8E%86/"/>
     
     
     <category term="个人简历" scheme="https://hexo.wo0ow.com/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/"/>
@@ -42,7 +71,7 @@
     <link href="https://hexo.wo0ow.com/posts/43241.html"/>
     <id>https://hexo.wo0ow.com/posts/43241.html</id>
     <published>2023-04-29T10:45:01.000Z</published>
-    <updated>2023-04-30T11:22:50.939Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
       
@@ -55,9 +84,9 @@
     
     
     
-    <category term="个人" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    <category term="个人博客" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="计划安排" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/%E8%AE%A1%E5%88%92%E5%AE%89%E6%8E%92/"/>
+    <category term="计划安排" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E8%AE%A1%E5%88%92%E5%AE%89%E6%8E%92/"/>
     
     
   </entry>
@@ -67,7 +96,7 @@
     <link href="https://hexo.wo0ow.com/posts/36128.html"/>
     <id>https://hexo.wo0ow.com/posts/36128.html</id>
     <published>2023-04-29T01:39:21.000Z</published>
-    <updated>2023-04-30T11:22:50.940Z</updated>
+    <updated>2023-05-01T00:25:57.373Z</updated>
     
     
       
@@ -94,7 +123,7 @@
     <link href="https://hexo.wo0ow.com/posts/7324.html"/>
     <id>https://hexo.wo0ow.com/posts/7324.html</id>
     <published>2023-04-28T23:52:32.000Z</published>
-    <updated>2023-04-30T12:26:36.283Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
       
@@ -126,7 +155,7 @@
     <link href="https://hexo.wo0ow.com/posts/38317.html"/>
     <id>https://hexo.wo0ow.com/posts/38317.html</id>
     <published>2023-04-28T05:31:20.000Z</published>
-    <updated>2023-04-30T11:22:50.939Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
       
@@ -156,7 +185,7 @@
     <link href="https://hexo.wo0ow.com/posts/54990.html"/>
     <id>https://hexo.wo0ow.com/posts/54990.html</id>
     <published>2023-04-27T06:41:59.000Z</published>
-    <updated>2023-04-30T11:22:50.939Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
       
@@ -172,9 +201,9 @@
     
     
     
-    <category term="个人" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    <category term="个人博客" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="面试准备" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
+    <category term="面试准备" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
     
     
     <category term="JAVA" scheme="https://hexo.wo0ow.com/tags/JAVA/"/>
@@ -186,16 +215,16 @@
     <link href="https://hexo.wo0ow.com/posts/24074.html"/>
     <id>https://hexo.wo0ow.com/posts/24074.html</id>
     <published>2023-04-26T11:24:43.000Z</published>
-    <updated>2023-04-30T11:22:50.939Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
-    <category term="个人" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    <category term="个人博客" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="离职日记" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
+    <category term="离职日记" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
     
     
     <category term="离职日记" scheme="https://hexo.wo0ow.com/tags/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
@@ -207,7 +236,7 @@
     <link href="https://hexo.wo0ow.com/posts/59357.html"/>
     <id>https://hexo.wo0ow.com/posts/59357.html</id>
     <published>2023-04-26T03:11:16.000Z</published>
-    <updated>2023-04-30T11:22:50.940Z</updated>
+    <updated>2023-05-01T00:25:57.373Z</updated>
     
     
       
@@ -237,16 +266,16 @@
     <link href="https://hexo.wo0ow.com/posts/28879.html"/>
     <id>https://hexo.wo0ow.com/posts/28879.html</id>
     <published>2023-04-25T14:30:47.000Z</published>
-    <updated>2023-04-30T11:22:50.939Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
-    <category term="个人" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    <category term="个人博客" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="个人心情" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/%E4%B8%AA%E4%BA%BA%E5%BF%83%E6%83%85/"/>
+    <category term="个人心情" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E4%B8%AA%E4%BA%BA%E5%BF%83%E6%83%85/"/>
     
     
     <category term="个人心情" scheme="https://hexo.wo0ow.com/tags/%E4%B8%AA%E4%BA%BA%E5%BF%83%E6%83%85/"/>
@@ -258,16 +287,16 @@
     <link href="https://hexo.wo0ow.com/posts/24394.html"/>
     <id>https://hexo.wo0ow.com/posts/24394.html</id>
     <published>2023-04-25T12:02:20.000Z</published>
-    <updated>2023-04-30T11:22:50.939Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
-    <category term="个人" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    <category term="个人博客" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="离职日记" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
+    <category term="离职日记" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
     
     
     <category term="离职日记" scheme="https://hexo.wo0ow.com/tags/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
@@ -279,7 +308,7 @@
     <link href="https://hexo.wo0ow.com/posts/15065.html"/>
     <id>https://hexo.wo0ow.com/posts/15065.html</id>
     <published>2023-04-25T06:28:27.000Z</published>
-    <updated>2023-04-30T11:22:50.940Z</updated>
+    <updated>2023-05-01T00:25:57.373Z</updated>
     
     
       
@@ -311,7 +340,7 @@
     <link href="https://hexo.wo0ow.com/posts/62708.html"/>
     <id>https://hexo.wo0ow.com/posts/62708.html</id>
     <published>2023-04-25T03:04:23.000Z</published>
-    <updated>2023-04-30T11:22:50.940Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
       
@@ -339,16 +368,16 @@
     <link href="https://hexo.wo0ow.com/posts/33402.html"/>
     <id>https://hexo.wo0ow.com/posts/33402.html</id>
     <published>2023-04-24T11:54:55.000Z</published>
-    <updated>2023-04-30T12:44:50.452Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
-    <category term="个人" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    <category term="个人博客" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="离职日记" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
+    <category term="离职日记" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
     
     
     <category term="离职日记" scheme="https://hexo.wo0ow.com/tags/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
@@ -360,7 +389,7 @@
     <link href="https://hexo.wo0ow.com/posts/53316.html"/>
     <id>https://hexo.wo0ow.com/posts/53316.html</id>
     <published>2023-04-24T06:14:12.000Z</published>
-    <updated>2023-04-30T11:22:50.939Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
       
@@ -373,9 +402,9 @@
     
     
     
-    <category term="个人" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    <category term="个人博客" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="面试准备" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
+    <category term="面试准备" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
     
     
     <category term="JAVA" scheme="https://hexo.wo0ow.com/tags/JAVA/"/>
@@ -387,16 +416,16 @@
     <link href="https://hexo.wo0ow.com/posts/30626.html"/>
     <id>https://hexo.wo0ow.com/posts/30626.html</id>
     <published>2023-04-24T00:24:21.000Z</published>
-    <updated>2023-04-30T11:22:50.939Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
-    <category term="个人" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    <category term="个人博客" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="英语学习" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
+    <category term="英语学习" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
     
     
     <category term="英语学习" scheme="https://hexo.wo0ow.com/tags/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
@@ -408,7 +437,7 @@
     <link href="https://hexo.wo0ow.com/posts/13094.html"/>
     <id>https://hexo.wo0ow.com/posts/13094.html</id>
     <published>2023-04-23T13:17:23.000Z</published>
-    <updated>2023-04-30T12:17:21.004Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
       
@@ -438,16 +467,16 @@
     <link href="https://hexo.wo0ow.com/posts/16443.html"/>
     <id>https://hexo.wo0ow.com/posts/16443.html</id>
     <published>2023-04-23T11:22:06.000Z</published>
-    <updated>2023-04-30T11:22:50.939Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
-    <category term="个人" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    <category term="个人博客" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="离职日记" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
+    <category term="离职日记" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
     
     
     <category term="离职日记" scheme="https://hexo.wo0ow.com/tags/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
@@ -459,7 +488,7 @@
     <link href="https://hexo.wo0ow.com/posts/47912.html"/>
     <id>https://hexo.wo0ow.com/posts/47912.html</id>
     <published>2023-04-23T01:17:48.000Z</published>
-    <updated>2023-04-30T11:22:50.940Z</updated>
+    <updated>2023-05-01T00:25:57.373Z</updated>
     
     
       
@@ -487,47 +516,19 @@
     <link href="https://hexo.wo0ow.com/posts/33018.html"/>
     <id>https://hexo.wo0ow.com/posts/33018.html</id>
     <published>2023-04-22T11:22:06.000Z</published>
-    <updated>2023-04-30T11:22:50.939Z</updated>
+    <updated>2023-05-01T00:25:57.372Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
-    <category term="个人" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    <category term="个人博客" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="离职日记" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
+    <category term="离职日记" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
     
     
     <category term="离职日记" scheme="https://hexo.wo0ow.com/tags/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git 拉取远端所有分支</title>
-    <link href="https://hexo.wo0ow.com/posts/32933.html"/>
-    <id>https://hexo.wo0ow.com/posts/32933.html</id>
-    <published>2023-04-21T11:22:06.000Z</published>
-    <updated>2023-04-30T11:22:50.939Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/weixin_42253753/article/details/116917450&quot;&gt;CSDN博客原文参考地址&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;关键命令代码&quot;&gt;关键命令代码&lt;a class=&quot;anchor&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://hexo.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="GIT相关" scheme="https://hexo.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/GIT%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="GIT" scheme="https://hexo.wo0ow.com/tags/GIT/"/>
     
   </entry>
   
