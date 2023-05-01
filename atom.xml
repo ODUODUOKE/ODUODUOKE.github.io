@@ -6,7 +6,7 @@
   <link href="https://hexo.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://hexo.wo0ow.com/"/>
-  <updated>2023-05-01T00:25:57.373Z</updated>
+  <updated>2023-05-01T03:07:48.001Z</updated>
   <id>https://hexo.wo0ow.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>面试自我介绍</title>
+    <link href="https://hexo.wo0ow.com/posts/40232.html"/>
+    <id>https://hexo.wo0ow.com/posts/40232.html</id>
+    <published>2023-05-01T01:54:19.000Z</published>
+    <updated>2023-05-01T03:07:48.001Z</updated>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    
+    
+    
+    <category term="个人博客" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="工作简历" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%B7%A5%E4%BD%9C%E7%AE%80%E5%8E%86/"/>
+    
+    
+    <category term="个人简历" scheme="https://hexo.wo0ow.com/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo自用插件记录</title>
@@ -96,7 +117,7 @@
     <link href="https://hexo.wo0ow.com/posts/36128.html"/>
     <id>https://hexo.wo0ow.com/posts/36128.html</id>
     <published>2023-04-29T01:39:21.000Z</published>
-    <updated>2023-05-01T00:25:57.373Z</updated>
+    <updated>2023-05-01T03:11:15.850Z</updated>
     
     
       
@@ -508,27 +529,6 @@
     
     <category term="Hexo博客相关" scheme="https://hexo.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>离职日记 04.22</title>
-    <link href="https://hexo.wo0ow.com/posts/33018.html"/>
-    <id>https://hexo.wo0ow.com/posts/33018.html</id>
-    <published>2023-04-22T11:22:06.000Z</published>
-    <updated>2023-05-01T00:25:57.372Z</updated>
-    
-    
-    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
-    
-    
-    
-    <category term="个人博客" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="离职日记" scheme="https://hexo.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="离职日记" scheme="https://hexo.wo0ow.com/tags/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
