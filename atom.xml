@@ -6,7 +6,7 @@
   <link href="https://blog.github.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://blog.github.wo0ow.com/"/>
-  <updated>2023-05-07T07:30:52.809Z</updated>
+  <updated>2023-05-10T13:12:27.286Z</updated>
   <id>https://blog.github.wo0ow.com/</id>
   
   <author>
@@ -17,18 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>JavaGuide面试突击版-学习-0507</title>
-    <link href="https://blog.github.wo0ow.com/posts/23720.html"/>
-    <id>https://blog.github.wo0ow.com/posts/23720.html</id>
-    <published>2023-05-07T05:29:26.000Z</published>
-    <updated>2023-05-07T07:30:52.809Z</updated>
+    <title>个人简历-运维岗</title>
+    <link href="https://blog.github.wo0ow.com/posts/9991.html"/>
+    <id>https://blog.github.wo0ow.com/posts/9991.html</id>
+    <published>2023-05-09T22:40:39.000Z</published>
+    <updated>2023-05-10T13:12:27.286Z</updated>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    
+    
+    
+    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="工作简历" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%B7%A5%E4%BD%9C%E7%AE%80%E5%8E%86/"/>
+    
+    
+    <category term="个人简历" scheme="https://blog.github.wo0ow.com/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一些大佬的网站</title>
+    <link href="https://blog.github.wo0ow.com/posts/5895.html"/>
+    <id>https://blog.github.wo0ow.com/posts/5895.html</id>
+    <published>2023-05-09T04:06:50.000Z</published>
+    <updated>2023-05-09T04:08:33.535Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;List-Set-Queue-Map-四者的区别&quot;&gt;List, Set, Queue, Map 四者的区别&lt;a class=&quot;anchor&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;Eurkon&quot;&gt;&lt;a href=&quot;https://blog.eurkon.com/&quot;&gt;Eurkon&lt;/a&gt;&lt;a class=&quot;anchor&quot; href=&quot;#Eurkon&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img</summary>
         
       
     
@@ -36,385 +58,71 @@
     
     <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
+    <category term="分享收藏" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%88%86%E4%BA%AB%E6%94%B6%E8%97%8F/"/>
     
     
-    <category term="Java集合" scheme="https://blog.github.wo0ow.com/tags/Java%E9%9B%86%E5%90%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaGuide面试突击版-Java基础</title>
-    <link href="https://blog.github.wo0ow.com/posts/58856.html"/>
-    <id>https://blog.github.wo0ow.com/posts/58856.html</id>
-    <published>2023-05-07T03:27:51.000Z</published>
-    <updated>2023-05-07T03:33:35.497Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;/posts/40038.html&quot;&gt;JavaGuide面试突击版-学习-0506&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
-    
-    
-    <category term="JavaGuide面试突击" scheme="https://blog.github.wo0ow.com/tags/JavaGuide%E9%9D%A2%E8%AF%95%E7%AA%81%E5%87%BB/"/>
-    
-    <category term="Java基础" scheme="https://blog.github.wo0ow.com/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    <category term="大佬网站" scheme="https://blog.github.wo0ow.com/tags/%E5%A4%A7%E4%BD%AC%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
   <entry>
-    <title>查看.class文件的字节码</title>
-    <link href="https://blog.github.wo0ow.com/posts/51115.html"/>
-    <id>https://blog.github.wo0ow.com/posts/51115.html</id>
-    <published>2023-05-07T00:58:55.000Z</published>
-    <updated>2023-05-07T01:08:17.593Z</updated>
+    <title>try-catch-finally的使用?</title>
+    <link href="https://blog.github.wo0ow.com/posts/45288.html"/>
+    <id>https://blog.github.wo0ow.com/posts/45288.html</id>
+    <published>2023-05-09T02:07:06.000Z</published>
+    <updated>2023-05-09T02:40:29.808Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;查看-class文件的字节码&quot;&gt;查看.class文件的字节码&lt;a class=&quot;anchor&quot; href=&quot;#查看-class文件的字节码&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;使用try-catch-finally关闭资源情况&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
         
       
     
     
     
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
     
-    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
+    <category term="面试问题解析汇总" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90%E6%B1%87%E6%80%BB/"/>
     
     
   </entry>
   
   <entry>
-    <title>JavaGuide面试突击版-学习-0507</title>
-    <link href="https://blog.github.wo0ow.com/posts/23719.html"/>
-    <id>https://blog.github.wo0ow.com/posts/23719.html</id>
-    <published>2023-05-07T00:16:33.000Z</published>
-    <updated>2023-05-07T03:44:03.082Z</updated>
+    <title>静态变量用什么修饰呢?有什么作用?</title>
+    <link href="https://blog.github.wo0ow.com/posts/39404.html"/>
+    <id>https://blog.github.wo0ow.com/posts/39404.html</id>
+    <published>2023-05-09T02:00:18.000Z</published>
+    <updated>2023-05-09T02:40:04.294Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;String-StringBuffer-StringBuilder的区别&quot;&gt;&lt;a href=&quot;/posts/21142.html&quot;&gt;String ,StringBuffer ,StringBuilder的区别?&lt;/a&gt;&lt;a class=&quot;anchor&quot;</summary>
+    <summary type="html">&lt;p&gt;&lt;code&gt;static&lt;/code&gt;关键字修饰&lt;/p&gt;
+</summary>
         
       
     
     
     
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
     
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
-    
-    
-    <category term="Java基础" scheme="https://blog.github.wo0ow.com/tags/Java%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>置顶文档导航</title>
-    <link href="https://blog.github.wo0ow.com/posts/20802.html"/>
-    <id>https://blog.github.wo0ow.com/posts/20802.html</id>
-    <published>2023-05-06T06:44:42.000Z</published>
-    <updated>2023-05-06T06:59:46.932Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">
-&lt;div id=&quot;calendar_box&quot; style=&quot;width:100%;overflow-x:auto;overflow-y:hidden;&quot;&gt;
-&lt;div id=&quot;calendar&quot; style=&quot;width:</summary>
-        
-      
-    
-    
-    
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="置顶文档" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E7%BD%AE%E9%A1%B6%E6%96%87%E6%A1%A3/"/>
+    <category term="面试复盘-网友分享-20230508_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
     
     
   </entry>
   
   <entry>
-    <title>个人时间轴</title>
-    <link href="https://blog.github.wo0ow.com/posts/42544.html"/>
-    <id>https://blog.github.wo0ow.com/posts/42544.html</id>
-    <published>2023-05-06T06:42:55.000Z</published>
-    <updated>2023-05-06T07:01:23.038Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;时间轴-2023&quot;&gt;时间轴 - 2023&lt;a class=&quot;anchor&quot; href=&quot;#时间轴-2023&quot;&gt;·&lt;/a&gt;&lt;/h1&gt;
-&lt;ul class=&quot;lvl-0&quot;&gt;
-&lt;li class=&quot;lvl-2&quot;&gt;
-&lt;/li&gt;
-&lt;li</summary>
-        
-      
-    
-    
-    
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="置顶文档" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E7%BD%AE%E9%A1%B6%E6%96%87%E6%A1%A3/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>为什么要有hashCode?</title>
-    <link href="https://blog.github.wo0ow.com/posts/42174.html"/>
-    <id>https://blog.github.wo0ow.com/posts/42174.html</id>
-    <published>2023-05-06T06:27:34.000Z</published>
-    <updated>2023-05-07T00:13:06.083Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;“-HashSet-如何检查重复”为例⼦来说明为什么要有-hashCode-？&quot;&gt;“ HashSet 如何检查重复”为例⼦来说明为什么要有 hashCode ？&lt;a class=&quot;anchor&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>常用md文档编辑示例</title>
-    <link href="https://blog.github.wo0ow.com/posts/1079.html"/>
-    <id>https://blog.github.wo0ow.com/posts/1079.html</id>
-    <published>2023-05-06T02:32:45.000Z</published>
-    <updated>2023-05-07T06:40:35.993Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;常用符号&quot;&gt;常用符号&lt;a class=&quot;anchor&quot; href=&quot;#常用符号&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;ul class=&quot;lvl-0&quot;&gt;
-&lt;li class=&quot;lvl-3&quot;&gt;⭐&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;编辑技巧&quot;&gt;编辑技巧&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="置顶文档" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E7%BD%AE%E9%A1%B6%E6%96%87%E6%A1%A3/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>JavaGuide面试突击版-学习-0506</title>
-    <link href="https://blog.github.wo0ow.com/posts/40038.html"/>
-    <id>https://blog.github.wo0ow.com/posts/40038.html</id>
-    <published>2023-05-06T01:42:56.000Z</published>
-    <updated>2023-05-07T03:26:11.555Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;JVM-JDK-JRE&quot;&gt;JVM&amp;amp;JDK&amp;amp;JRE&lt;a class=&quot;anchor&quot; href=&quot;#JVM-JDK-JRE&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;JVM&quot;&gt;JVM&lt;a class=&quot;anchor&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
-    
-    
-    <category term="Java基础" scheme="https://blog.github.wo0ow.com/tags/Java%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>离职日记-05-06</title>
-    <link href="https://blog.github.wo0ow.com/posts/49675.html"/>
-    <id>https://blog.github.wo0ow.com/posts/49675.html</id>
-    <published>2023-05-05T23:49:26.000Z</published>
-    <updated>2023-05-06T12:47:05.161Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;记录下昨天的相关信息&quot;&gt;记录下昨天的相关信息&lt;a class=&quot;anchor&quot; href=&quot;#记录下昨天的相关信息&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;昨天主要看了技术Redis的持久化&quot;&gt;昨天主要看了技术Redis的持久化&lt;a class=&quot;anchor&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="离职日记" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E7%A6%BB%E8%81%8C%E6%97%A5%E8%AE%B0/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Win11绕过TPM升级</title>
-    <link href="https://blog.github.wo0ow.com/posts/30832.html"/>
-    <id>https://blog.github.wo0ow.com/posts/30832.html</id>
-    <published>2023-05-05T23:27:58.000Z</published>
-    <updated>2023-05-05T23:42:21.857Z</updated>
-    
-    
-    <summary type="html">Win10(保留应用及数据)升级Win11绕过TPM检测</summary>
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Win11" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Win11/"/>
-    
-    
-    <category term="Win11" scheme="https://blog.github.wo0ow.com/tags/Win11/"/>
-    
-    <category term="TPM" scheme="https://blog.github.wo0ow.com/tags/TPM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Reids的持久化详解</title>
-    <link href="https://blog.github.wo0ow.com/posts/6387.html"/>
-    <id>https://blog.github.wo0ow.com/posts/6387.html</id>
-    <published>2023-05-05T01:04:58.000Z</published>
-    <updated>2023-05-05T02:01:07.966Z</updated>
-    
-    
-    <summary type="html">参考来源: https://blog.csdn.net/qq_45722267/article/details/124525345</summary>
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Redis" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Redis/"/>
-    
-    
-    <category term="AOF" scheme="https://blog.github.wo0ow.com/tags/AOF/"/>
-    
-    <category term="RDB" scheme="https://blog.github.wo0ow.com/tags/RDB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Docker下安装Redis并持久化设置</title>
-    <link href="https://blog.github.wo0ow.com/posts/25512.html"/>
-    <id>https://blog.github.wo0ow.com/posts/25512.html</id>
-    <published>2023-05-04T23:16:29.000Z</published>
-    <updated>2023-05-05T00:44:17.502Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;安装Redis镜像&quot;&gt;安装Redis镜像&lt;a class=&quot;anchor&quot; href=&quot;#安装Redis镜像&quot;&gt;·&lt;/a&gt;&lt;/h1&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Redis" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Redis/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>常见开发英文单词</title>
-    <link href="https://blog.github.wo0ow.com/posts/51038.html"/>
-    <id>https://blog.github.wo0ow.com/posts/51038.html</id>
-    <published>2023-05-04T06:24:59.000Z</published>
-    <updated>2023-05-07T03:19:44.164Z</updated>
-    
-    
-    <summary type="html">常见开发中遇到的英文单词</summary>
-    
-    
-    
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>SpringBoot支持哪些嵌入式web容器？</title>
-    <link href="https://blog.github.wo0ow.com/posts/24826.html"/>
-    <id>https://blog.github.wo0ow.com/posts/24826.html</id>
-    <published>2023-05-03T22:52:54.000Z</published>
-    <updated>2023-05-06T12:49:43.346Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/m0_51945027/article/details/117539357&quot;&gt;Spring</summary>
-        
-      
-    
-    
-    
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>SpringBoot的自动配置是如何实现的?</title>
-    <link href="https://blog.github.wo0ow.com/posts/6677.html"/>
-    <id>https://blog.github.wo0ow.com/posts/6677.html</id>
-    <published>2023-05-03T22:52:46.000Z</published>
-    <updated>2023-05-06T12:49:46.746Z</updated>
+    <title>Java是引用传递还是值传递?</title>
+    <link href="https://blog.github.wo0ow.com/posts/7068.html"/>
+    <id>https://blog.github.wo0ow.com/posts/7068.html</id>
+    <published>2023-05-09T01:30:52.000Z</published>
+    <updated>2023-05-09T01:58:48.841Z</updated>
     
     
       
@@ -428,46 +136,19 @@
     
     
     
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
     
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>SpringBootApplication注解</title>
-    <link href="https://blog.github.wo0ow.com/posts/59082.html"/>
-    <id>https://blog.github.wo0ow.com/posts/59082.html</id>
-    <published>2023-05-03T22:52:40.000Z</published>
-    <updated>2023-05-06T12:49:36.036Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;SpringBootApplication注解&quot;&gt;@SpringBootApplication注解&lt;a class=&quot;anchor&quot; href=&quot;#SpringBootApplication注解&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
+    <category term="面试复盘-网友分享-20230508_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
     
     
   </entry>
   
   <entry>
-    <title>什么是SpringBootStarter?</title>
-    <link href="https://blog.github.wo0ow.com/posts/15195.html"/>
-    <id>https://blog.github.wo0ow.com/posts/15195.html</id>
-    <published>2023-05-03T22:52:33.000Z</published>
-    <updated>2023-05-06T12:50:00.277Z</updated>
+    <title>成员变量和局部变量的区别?</title>
+    <link href="https://blog.github.wo0ow.com/posts/33408.html"/>
+    <id>https://blog.github.wo0ow.com/posts/33408.html</id>
+    <published>2023-05-09T00:48:55.000Z</published>
+    <updated>2023-05-09T01:27:54.298Z</updated>
     
     
       
@@ -475,7 +156,34 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/Jieur/article/details/122438549&quot;&gt;SpringBoot starter的理解与使用&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/haovip123/article/details/43883109&quot;&gt;成员变量&#92;局部变量&#92;静态变量的区别&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
+    
+    <category term="面试复盘-网友分享-20230508_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>redis是线程安全的吗?</title>
+    <link href="https://blog.github.wo0ow.com/posts/9984.html"/>
+    <id>https://blog.github.wo0ow.com/posts/9984.html</id>
+    <published>2023-05-08T09:34:09.000Z</published>
+    <updated>2023-05-08T09:43:33.701Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/diweikang/article/details/90264993&quot;&gt;Redis线程安全问题&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2</summary>
         
@@ -483,19 +191,19 @@
     
     
     
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
     
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
+    <category term="面试复盘-网友分享-20230508_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
     
     
   </entry>
   
   <entry>
-    <title>说出使用SpringBoot的主要优点</title>
-    <link href="https://blog.github.wo0ow.com/posts/1453.html"/>
-    <id>https://blog.github.wo0ow.com/posts/1453.html</id>
-    <published>2023-05-03T22:52:21.000Z</published>
-    <updated>2023-05-06T12:50:15.768Z</updated>
+    <title>redis的常用数据结构及使用场景?</title>
+    <link href="https://blog.github.wo0ow.com/posts/31486.html"/>
+    <id>https://blog.github.wo0ow.com/posts/31486.html</id>
+    <published>2023-05-08T09:15:08.000Z</published>
+    <updated>2023-05-08T13:46:34.478Z</updated>
     
     
       
@@ -503,28 +211,55 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/337079078&quot;&gt;SpringBoot优势&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_45076180/article/details/109458668&quot;&gt;redis的常用数据结构及使用场景&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
+    
+    <category term="面试复盘-网友分享-20230508_自我列举" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E8%87%AA%E6%88%91%E5%88%97%E4%B8%BE/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>redis的数据结构您知道都有哪些?</title>
+    <link href="https://blog.github.wo0ow.com/posts/13537.html"/>
+    <id>https://blog.github.wo0ow.com/posts/13537.html</id>
+    <published>2023-05-08T09:09:47.000Z</published>
+    <updated>2023-05-08T09:43:38.740Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Redis的数据结构&quot;&gt;Redis的数据结构&lt;a class=&quot;anchor&quot; href=&quot;#Redis的数据结构&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;String&lt;/li&gt;
 &lt;li</summary>
         
       
     
     
     
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
     
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
+    <category term="面试复盘-网友分享-20230508_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
     
     
   </entry>
   
   <entry>
-    <title>SpringBoot和Spring的区别</title>
-    <link href="https://blog.github.wo0ow.com/posts/9789.html"/>
-    <id>https://blog.github.wo0ow.com/posts/9789.html</id>
-    <published>2023-05-03T22:52:14.000Z</published>
-    <updated>2023-05-06T12:49:39.789Z</updated>
+    <title>分库分表了解吗?</title>
+    <link href="https://blog.github.wo0ow.com/posts/42625.html"/>
+    <id>https://blog.github.wo0ow.com/posts/42625.html</id>
+    <published>2023-05-08T08:11:52.000Z</published>
+    <updated>2023-05-08T09:43:55.427Z</updated>
     
     
       
@@ -532,15 +267,285 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/mengxin_chen/article/details/116240326&quot;&gt;Spring和Spring</summary>
+&lt;p&gt;&lt;a</summary>
         
       
     
     
     
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
     
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
+    <category term="面试复盘-网友分享-20230508_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我一个亿的订单数据，我要去怎么去设计这个表?</title>
+    <link href="https://blog.github.wo0ow.com/posts/28159.html"/>
+    <id>https://blog.github.wo0ow.com/posts/28159.html</id>
+    <published>2023-05-08T08:10:27.000Z</published>
+    <updated>2023-05-08T09:44:04.556Z</updated>
+    
+    
+    
+    
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
+    
+    <category term="面试复盘-网友分享-20230508_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Mysql的引擎</title>
+    <link href="https://blog.github.wo0ow.com/posts/56579.html"/>
+    <id>https://blog.github.wo0ow.com/posts/56579.html</id>
+    <published>2023-05-08T07:59:16.000Z</published>
+    <updated>2023-05-08T09:43:28.435Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/ademoa/article/details/79900187&quot;&gt;MySQL常用的四种引擎的介绍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
+    
+    <category term="面试复盘-网友分享-20230508_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>强制sql使用一个索引</title>
+    <link href="https://blog.github.wo0ow.com/posts/31049.html"/>
+    <id>https://blog.github.wo0ow.com/posts/31049.html</id>
+    <published>2023-05-08T07:53:39.000Z</published>
+    <updated>2023-05-08T09:44:21.023Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/muskter/article/details/79052884&quot;&gt;强制sql使用一个索引&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
+    
+    <category term="面试复盘-网友分享-20230508_自我列举" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E8%87%AA%E6%88%91%E5%88%97%E4%B8%BE/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>常见的SQL优化</title>
+    <link href="https://blog.github.wo0ow.com/posts/5829.html"/>
+    <id>https://blog.github.wo0ow.com/posts/5829.html</id>
+    <published>2023-05-08T07:07:35.000Z</published>
+    <updated>2023-05-08T09:44:00.249Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/wangzheweini/article/details/107019426&quot;&gt;SQL优化常用的几种方法&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
+    
+    <category term="面试复盘-网友分享-20230508_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Spring的两大特点是什么?</title>
+    <link href="https://blog.github.wo0ow.com/posts/50574.html"/>
+    <id>https://blog.github.wo0ow.com/posts/50574.html</id>
+    <published>2023-05-08T06:50:10.000Z</published>
+    <updated>2023-05-08T09:43:49.456Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;
+&lt;p&gt;IOC 控制反转&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;
+&lt;p&gt;AOP 面向切面编程&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;IOC&quot;&gt;IOC&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
+    
+    <category term="面试复盘-网友分享-20230508_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot对Spring框架有什么优势?</title>
+    <link href="https://blog.github.wo0ow.com/posts/49304.html"/>
+    <id>https://blog.github.wo0ow.com/posts/49304.html</id>
+    <published>2023-05-08T06:44:52.000Z</published>
+    <updated>2023-05-08T09:43:44.606Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/ffe5ebe17c3a&quot;&gt;Spring和SpringBoot比较，解惑区别&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li</summary>
+        
+      
+    
+    
+    
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
+    
+    <category term="面试复盘-网友分享-20230508_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>面试复盘-网友分享-20230508</title>
+    <link href="https://blog.github.wo0ow.com/posts/10254.html"/>
+    <id>https://blog.github.wo0ow.com/posts/10254.html</id>
+    <published>2023-05-08T06:40:55.000Z</published>
+    <updated>2023-05-09T02:14:46.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;网友面试复盘分享&quot;&gt;网友面试复盘分享&lt;a class=&quot;anchor&quot; href=&quot;#网友面试复盘分享&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;&lt;input type=&quot;checkbox&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
+    
+    <category term="面试复盘-网友分享" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>什么是类加载？何时类加载？类加载流程？</title>
+    <link href="https://blog.github.wo0ow.com/posts/26747.html"/>
+    <id>https://blog.github.wo0ow.com/posts/26747.html</id>
+    <published>2023-05-08T02:19:49.000Z</published>
+    <updated>2023-05-09T00:38:31.815Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;类加载&quot;&gt;类加载&lt;a class=&quot;anchor&quot; href=&quot;#类加载&quot;&gt;·&lt;/a&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
+    
+    <category term="面试问题解析汇总" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90%E6%B1%87%E6%80%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>jvm调优参数</title>
+    <link href="https://blog.github.wo0ow.com/posts/7617.html"/>
+    <id>https://blog.github.wo0ow.com/posts/7617.html</id>
+    <published>2023-05-08T02:17:30.000Z</published>
+    <updated>2023-05-09T00:38:24.442Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;jvm-调优参数&quot;&gt;jvm 调优参数&lt;a class=&quot;anchor&quot; href=&quot;#jvm-调优参数&quot;&gt;·&lt;/a&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
+    
+    <category term="面试问题解析汇总" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90%E6%B1%87%E6%80%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>jvm内存结构</title>
+    <link href="https://blog.github.wo0ow.com/posts/62546.html"/>
+    <id>https://blog.github.wo0ow.com/posts/62546.html</id>
+    <published>2023-05-08T02:08:37.000Z</published>
+    <updated>2023-05-09T00:38:15.660Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;jvm-内存结构&quot;&gt;jvm 内存结构&lt;a class=&quot;anchor&quot; href=&quot;#jvm-内存结构&quot;&gt;·&lt;/a&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
+    
+    <category term="面试问题解析汇总" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90%E6%B1%87%E6%80%BB/"/>
     
     
   </entry>
