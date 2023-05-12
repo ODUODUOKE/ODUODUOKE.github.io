@@ -6,7 +6,7 @@
   <link href="https://blog.github.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://blog.github.wo0ow.com/"/>
-  <updated>2023-05-10T13:12:27.286Z</updated>
+  <updated>2023-05-12T04:48:44.326Z</updated>
   <id>https://blog.github.wo0ow.com/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Linux系统修改主机名hostName</title>
+    <link href="https://blog.github.wo0ow.com/posts/24783.html"/>
+    <id>https://blog.github.wo0ow.com/posts/24783.html</id>
+    <published>2023-05-12T04:32:42.000Z</published>
+    <updated>2023-05-12T04:48:44.326Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;#%E4%B8%B4%E6%97%B6%E4%BF%AE%E6%94%B9%E4%B8%BB%E6%9C%BA%E5%90%8D%E9%87%8D%E5%90%AF%E5%90%8E%E5%A4%B1%E6%95%88&quot;&gt;临时修改主机名</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>个人简历-运维岗</title>
     <link href="https://blog.github.wo0ow.com/posts/9991.html"/>
     <id>https://blog.github.wo0ow.com/posts/9991.html</id>
     <published>2023-05-09T22:40:39.000Z</published>
-    <updated>2023-05-10T13:12:27.286Z</updated>
+    <updated>2023-05-11T09:26:55.849Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
@@ -509,33 +530,6 @@
         
         
     <summary type="html">&lt;h1 id=&quot;jvm-调优参数&quot;&gt;jvm 调优参数&lt;a class=&quot;anchor&quot; href=&quot;#jvm-调优参数&quot;&gt;·&lt;/a&gt;&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
-    
-    <category term="面试问题解析汇总" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90%E6%B1%87%E6%80%BB/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>jvm内存结构</title>
-    <link href="https://blog.github.wo0ow.com/posts/62546.html"/>
-    <id>https://blog.github.wo0ow.com/posts/62546.html</id>
-    <published>2023-05-08T02:08:37.000Z</published>
-    <updated>2023-05-09T00:38:15.660Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;jvm-内存结构&quot;&gt;jvm 内存结构&lt;a class=&quot;anchor&quot; href=&quot;#jvm-内存结构&quot;&gt;·&lt;/a&gt;&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a</summary>
         
