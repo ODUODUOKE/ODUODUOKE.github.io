@@ -6,7 +6,7 @@
   <link href="https://blog.github.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://blog.github.wo0ow.com/"/>
-  <updated>2023-05-12T04:48:44.326Z</updated>
+  <updated>2023-05-12T08:15:14.187Z</updated>
   <id>https://blog.github.wo0ow.com/</id>
   
   <author>
@@ -17,22 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>酸奶购买小常识</title>
+    <link href="https://blog.github.wo0ow.com/posts/14124.html"/>
+    <id>https://blog.github.wo0ow.com/posts/14124.html</id>
+    <published>2023-05-12T08:03:35.000Z</published>
+    <updated>2023-05-12T08:15:14.187Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;酸奶里的科技与狠活&quot;&gt;酸奶里的科技与狠活&lt;a class=&quot;anchor&quot; href=&quot;#酸奶里的科技与狠活&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;购买酸奶认准&lt;code&gt;三个字&lt;/code&gt;，避免&lt;code&gt;两个字&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font</summary>
+        
+      
+    
+    
+    
+    <category term="生活常识" scheme="https://blog.github.wo0ow.com/categories/%E7%94%9F%E6%B4%BB%E5%B8%B8%E8%AF%86/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Linux系统修改主机名hostName</title>
     <link href="https://blog.github.wo0ow.com/posts/24783.html"/>
     <id>https://blog.github.wo0ow.com/posts/24783.html</id>
     <published>2023-05-12T04:32:42.000Z</published>
-    <updated>2023-05-12T04:48:44.326Z</updated>
+    <updated>2023-05-12T04:50:42.702Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;#%E4%B8%B4%E6%97%B6%E4%BF%AE%E6%94%B9%E4%B8%BB%E6%9C%BA%E5%90%8D%E9%87%8D%E5%90%AF%E5%90%8E%E5%A4%B1%E6%95%88&quot;&gt;临时修改主机名</summary>
+    <summary type="html">&lt;h2 id=&quot;临时修改主机名（重启后失效）&quot;&gt;临时修改主机名（重启后失效）&lt;a class=&quot;anchor&quot; href=&quot;#临时修改主机名（重启后失效）&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;命令修改主机名&quot;&gt;命令修改主机名&lt;a class=&quot;anchor&quot;</summary>
         
       
     
     
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
     
     
   </entry>
@@ -42,7 +72,7 @@
     <link href="https://blog.github.wo0ow.com/posts/9991.html"/>
     <id>https://blog.github.wo0ow.com/posts/9991.html</id>
     <published>2023-05-09T22:40:39.000Z</published>
-    <updated>2023-05-11T09:26:55.849Z</updated>
+    <updated>2023-05-13T00:02:26.564Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
@@ -503,33 +533,6 @@
         
         
     <summary type="html">&lt;h1 id=&quot;类加载&quot;&gt;类加载&lt;a class=&quot;anchor&quot; href=&quot;#类加载&quot;&gt;·&lt;/a&gt;&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
-    
-    <category term="面试问题解析汇总" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90%E6%B1%87%E6%80%BB/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>jvm调优参数</title>
-    <link href="https://blog.github.wo0ow.com/posts/7617.html"/>
-    <id>https://blog.github.wo0ow.com/posts/7617.html</id>
-    <published>2023-05-08T02:17:30.000Z</published>
-    <updated>2023-05-09T00:38:24.442Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;jvm-调优参数&quot;&gt;jvm 调优参数&lt;a class=&quot;anchor&quot; href=&quot;#jvm-调优参数&quot;&gt;·&lt;/a&gt;&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a</summary>
         
