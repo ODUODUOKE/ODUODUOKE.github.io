@@ -6,7 +6,7 @@
   <link href="https://blog.github.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://blog.github.wo0ow.com/"/>
-  <updated>2023-05-12T08:15:14.187Z</updated>
+  <updated>2023-05-14T08:00:25.781Z</updated>
   <id>https://blog.github.wo0ow.com/</id>
   
   <author>
@@ -17,27 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>酸奶购买小常识</title>
-    <link href="https://blog.github.wo0ow.com/posts/14124.html"/>
-    <id>https://blog.github.wo0ow.com/posts/14124.html</id>
-    <published>2023-05-12T08:03:35.000Z</published>
-    <updated>2023-05-12T08:15:14.187Z</updated>
+    <title>合同定金还是订金？</title>
+    <link href="https://blog.github.wo0ow.com/posts/26288.html"/>
+    <id>https://blog.github.wo0ow.com/posts/26288.html</id>
+    <published>2023-05-14T07:43:45.000Z</published>
+    <updated>2023-05-14T08:00:25.781Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;酸奶里的科技与狠活&quot;&gt;酸奶里的科技与狠活&lt;a class=&quot;anchor&quot; href=&quot;#酸奶里的科技与狠活&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;购买酸奶认准&lt;code&gt;三个字&lt;/code&gt;，避免&lt;code&gt;两个字&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;font</summary>
-        
-      
+    <summary type="html">关于合同中&#39;定&#39;/&#39;订&#39;金怎么写</summary>
     
     
     
     <category term="生活常识" scheme="https://blog.github.wo0ow.com/categories/%E7%94%9F%E6%B4%BB%E5%B8%B8%E8%AF%86/"/>
     
+    <category term="合同相关" scheme="https://blog.github.wo0ow.com/categories/%E7%94%9F%E6%B4%BB%E5%B8%B8%E8%AF%86/%E5%90%88%E5%90%8C%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="合同" scheme="https://blog.github.wo0ow.com/tags/%E5%90%88%E5%90%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>酸奶购买小常识</title>
+    <link href="https://blog.github.wo0ow.com/posts/14124.html"/>
+    <id>https://blog.github.wo0ow.com/posts/14124.html</id>
+    <published>2023-05-12T08:03:35.000Z</published>
+    <updated>2023-05-14T07:59:42.881Z</updated>
+    
+    
+    <summary type="html">购买酸奶尽量选择三个字&quot;发酵乳&quot;</summary>
+    
+    
+    
+    <category term="生活常识" scheme="https://blog.github.wo0ow.com/categories/%E7%94%9F%E6%B4%BB%E5%B8%B8%E8%AF%86/"/>
+    
+    <category term="酸奶购买" scheme="https://blog.github.wo0ow.com/categories/%E7%94%9F%E6%B4%BB%E5%B8%B8%E8%AF%86/%E9%85%B8%E5%A5%B6%E8%B4%AD%E4%B9%B0/"/>
+    
+    
+    <category term="酸奶" scheme="https://blog.github.wo0ow.com/tags/%E9%85%B8%E5%A5%B6/"/>
     
   </entry>
   
@@ -64,27 +81,6 @@
     
     <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>个人简历-运维岗</title>
-    <link href="https://blog.github.wo0ow.com/posts/9991.html"/>
-    <id>https://blog.github.wo0ow.com/posts/9991.html</id>
-    <published>2023-05-09T22:40:39.000Z</published>
-    <updated>2023-05-13T00:02:26.564Z</updated>
-    
-    
-    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
-    
-    
-    
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="工作简历" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%B7%A5%E4%BD%9C%E7%AE%80%E5%8E%86/"/>
-    
-    
-    <category term="个人简历" scheme="https://blog.github.wo0ow.com/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/"/>
     
   </entry>
   
