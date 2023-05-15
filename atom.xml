@@ -6,7 +6,7 @@
   <link href="https://blog.github.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://blog.github.wo0ow.com/"/>
-  <updated>2023-05-14T08:00:25.781Z</updated>
+  <updated>2023-05-15T03:48:55.344Z</updated>
   <id>https://blog.github.wo0ow.com/</id>
   
   <author>
@@ -15,6 +15,107 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tomcat安装部署常规配置</title>
+    <link href="https://blog.github.wo0ow.com/posts/19881.html"/>
+    <id>https://blog.github.wo0ow.com/posts/19881.html</id>
+    <published>2023-05-15T01:59:03.000Z</published>
+    <updated>2023-05-15T03:48:55.344Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Tomcat配置优化&quot;&gt;Tomcat配置优化&lt;a class=&quot;anchor&quot; href=&quot;#Tomcat配置优化&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;修改server-xml&quot;&gt;修改&lt;code&gt;server.xml&lt;/code&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Tomcat" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Tomcat/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx漏扫响应头缺失问题处理</title>
+    <link href="https://blog.github.wo0ow.com/posts/42494.html"/>
+    <id>https://blog.github.wo0ow.com/posts/42494.html</id>
+    <published>2023-05-14T22:47:58.000Z</published>
+    <updated>2023-05-14T23:50:10.809Z</updated>
+    
+    
+    <summary type="html">Nginx常见响应头缺失问题处理</summary>
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Nginx" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Nginx/"/>
+    
+    
+    <category term="Nginx" scheme="https://blog.github.wo0ow.com/tags/Nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>副业赚钱方式记录</title>
+    <link href="https://blog.github.wo0ow.com/posts/46384.html"/>
+    <id>https://blog.github.wo0ow.com/posts/46384.html</id>
+    <published>2023-05-14T10:31:02.000Z</published>
+    <updated>2023-05-14T11:26:39.419Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;抖音-中视频计划&quot;&gt;抖音-中视频计划&lt;a class=&quot;anchor&quot; href=&quot;#抖音-中视频计划&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;门槛条件&lt;/strong&gt; （数据截至： 2023.05.14 统计）：&lt;/p&gt;
+&lt;ul</summary>
+        
+      
+    
+    
+    
+    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="副业兼职" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%89%AF%E4%B8%9A%E5%85%BC%E8%81%8C/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>面试复盘-网友分享-20230513</title>
+    <link href="https://blog.github.wo0ow.com/posts/32590.html"/>
+    <id>https://blog.github.wo0ow.com/posts/32590.html</id>
+    <published>2023-05-14T08:11:04.000Z</published>
+    <updated>2023-05-14T10:34:53.217Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;网友面试复盘分享-20230513&quot;&gt;网友面试复盘分享-20230513&lt;a class=&quot;anchor&quot; href=&quot;#网友面试复盘分享-20230513&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li</summary>
+        
+      
+    
+    
+    
+    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
+    
+    <category term="面试复盘-网友分享" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>合同定金还是订金？</title>
@@ -423,122 +524,6 @@
     <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
     
     <category term="面试复盘-网友分享-20230508_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Spring的两大特点是什么?</title>
-    <link href="https://blog.github.wo0ow.com/posts/50574.html"/>
-    <id>https://blog.github.wo0ow.com/posts/50574.html</id>
-    <published>2023-05-08T06:50:10.000Z</published>
-    <updated>2023-05-08T09:43:49.456Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ul class=&quot;lvl-0&quot;&gt;
-&lt;li class=&quot;lvl-2&quot;&gt;
-&lt;p&gt;IOC 控制反转&lt;/p&gt;
-&lt;/li&gt;
-&lt;li class=&quot;lvl-2&quot;&gt;
-&lt;p&gt;AOP 面向切面编程&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;IOC&quot;&gt;IOC&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
-    
-    <category term="面试复盘-网友分享-20230508_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>SpringBoot对Spring框架有什么优势?</title>
-    <link href="https://blog.github.wo0ow.com/posts/49304.html"/>
-    <id>https://blog.github.wo0ow.com/posts/49304.html</id>
-    <published>2023-05-08T06:44:52.000Z</published>
-    <updated>2023-05-08T09:43:44.606Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/ffe5ebe17c3a&quot;&gt;Spring和SpringBoot比较，解惑区别&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol&gt;
-&lt;li</summary>
-        
-      
-    
-    
-    
-    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
-    
-    <category term="面试复盘-网友分享-20230508_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230508-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>面试复盘-网友分享-20230508</title>
-    <link href="https://blog.github.wo0ow.com/posts/10254.html"/>
-    <id>https://blog.github.wo0ow.com/posts/10254.html</id>
-    <published>2023-05-08T06:40:55.000Z</published>
-    <updated>2023-05-09T02:14:46.591Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;网友面试复盘分享&quot;&gt;网友面试复盘分享&lt;a class=&quot;anchor&quot; href=&quot;#网友面试复盘分享&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;ul class=&quot;lvl-0&quot;&gt;
-&lt;li class=&quot;lvl-2&quot;&gt;&lt;input type=&quot;checkbox&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
-    
-    <category term="面试复盘-网友分享" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>什么是类加载？何时类加载？类加载流程？</title>
-    <link href="https://blog.github.wo0ow.com/posts/26747.html"/>
-    <id>https://blog.github.wo0ow.com/posts/26747.html</id>
-    <published>2023-05-08T02:19:49.000Z</published>
-    <updated>2023-05-09T00:38:31.815Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;类加载&quot;&gt;类加载&lt;a class=&quot;anchor&quot; href=&quot;#类加载&quot;&gt;·&lt;/a&gt;&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
-    
-    <category term="面试问题解析汇总" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90%E6%B1%87%E6%80%BB/"/>
     
     
   </entry>
