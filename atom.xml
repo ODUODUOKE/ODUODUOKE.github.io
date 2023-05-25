@@ -6,7 +6,7 @@
   <link href="https://blog.github.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://blog.github.wo0ow.com/"/>
-  <updated>2023-05-23T21:47:11.715Z</updated>
+  <updated>2023-05-25T12:34:12.151Z</updated>
   <id>https://blog.github.wo0ow.com/</id>
   
   <author>
@@ -15,6 +15,81 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java创建线程池7种方法</title>
+    <link href="https://blog.github.wo0ow.com/posts/10804.html"/>
+    <id>https://blog.github.wo0ow.com/posts/10804.html</id>
+    <published>2023-05-25T12:23:23.000Z</published>
+    <updated>2023-05-25T12:34:12.151Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/xhhhx_/article/details/124366229&quot;&gt;Java创建线程池7种方法&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java面试复盘</title>
+    <link href="https://blog.github.wo0ow.com/posts/62634.html"/>
+    <id>https://blog.github.wo0ow.com/posts/62634.html</id>
+    <published>2023-05-25T08:57:53.000Z</published>
+    <updated>2023-05-25T09:12:41.110Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; id=&quot;checkbox240&quot;&gt;&lt;label for=&quot;checkbox240&quot;&gt;JDK1.8的新特性&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Jdk1.8新特性</title>
+    <link href="https://blog.github.wo0ow.com/posts/13923.html"/>
+    <id>https://blog.github.wo0ow.com/posts/13923.html</id>
+    <published>2023-05-25T08:45:11.000Z</published>
+    <updated>2023-05-25T08:49:40.369Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_29411737/article/details/80835658&quot;&gt;JDK1.8 新特性&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;JDK1.8新特性&lt;/p&gt;
+&lt;ul</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Redis的缓存击穿、穿透、雪崩</title>
@@ -457,74 +532,6 @@
     <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
     
     <category term="面试复盘-网友分享" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>合同定金还是订金？</title>
-    <link href="https://blog.github.wo0ow.com/posts/26288.html"/>
-    <id>https://blog.github.wo0ow.com/posts/26288.html</id>
-    <published>2023-05-14T07:43:45.000Z</published>
-    <updated>2023-05-14T08:00:25.781Z</updated>
-    
-    
-    <summary type="html">关于合同中&#39;定&#39;/&#39;订&#39;金怎么写</summary>
-    
-    
-    
-    <category term="生活常识" scheme="https://blog.github.wo0ow.com/categories/%E7%94%9F%E6%B4%BB%E5%B8%B8%E8%AF%86/"/>
-    
-    <category term="合同相关" scheme="https://blog.github.wo0ow.com/categories/%E7%94%9F%E6%B4%BB%E5%B8%B8%E8%AF%86/%E5%90%88%E5%90%8C%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="合同" scheme="https://blog.github.wo0ow.com/tags/%E5%90%88%E5%90%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>酸奶购买小常识</title>
-    <link href="https://blog.github.wo0ow.com/posts/14124.html"/>
-    <id>https://blog.github.wo0ow.com/posts/14124.html</id>
-    <published>2023-05-12T08:03:35.000Z</published>
-    <updated>2023-05-14T07:59:42.881Z</updated>
-    
-    
-    <summary type="html">购买酸奶尽量选择三个字&quot;发酵乳&quot;</summary>
-    
-    
-    
-    <category term="生活常识" scheme="https://blog.github.wo0ow.com/categories/%E7%94%9F%E6%B4%BB%E5%B8%B8%E8%AF%86/"/>
-    
-    <category term="酸奶购买" scheme="https://blog.github.wo0ow.com/categories/%E7%94%9F%E6%B4%BB%E5%B8%B8%E8%AF%86/%E9%85%B8%E5%A5%B6%E8%B4%AD%E4%B9%B0/"/>
-    
-    
-    <category term="酸奶" scheme="https://blog.github.wo0ow.com/tags/%E9%85%B8%E5%A5%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux系统修改主机名hostName</title>
-    <link href="https://blog.github.wo0ow.com/posts/24783.html"/>
-    <id>https://blog.github.wo0ow.com/posts/24783.html</id>
-    <published>2023-05-12T04:32:42.000Z</published>
-    <updated>2023-05-12T04:50:42.702Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;临时修改主机名（重启后失效）&quot;&gt;临时修改主机名（重启后失效）&lt;a class=&quot;anchor&quot; href=&quot;#临时修改主机名（重启后失效）&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;命令修改主机名&quot;&gt;命令修改主机名&lt;a class=&quot;anchor&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
     
     
   </entry>
