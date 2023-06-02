@@ -6,7 +6,7 @@
   <link href="https://blog.github.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://blog.github.wo0ow.com/"/>
-  <updated>2023-05-25T12:34:12.151Z</updated>
+  <updated>2023-06-02T07:12:31.329Z</updated>
   <id>https://blog.github.wo0ow.com/</id>
   
   <author>
@@ -17,11 +17,415 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>MySQL数据库两种存储引擎的区别?</title>
+    <link href="https://blog.github.wo0ow.com/posts/65022.html"/>
+    <id>https://blog.github.wo0ow.com/posts/65022.html</id>
+    <published>2023-06-02T07:03:11.000Z</published>
+    <updated>2023-06-02T07:12:31.329Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="MySQL" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/MySQL/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java内存模型？volatile 关键字？synchronized 关键字和 volatile 关键字的区别?</title>
+    <link href="https://blog.github.wo0ow.com/posts/50822.html"/>
+    <id>https://blog.github.wo0ow.com/posts/50822.html</id>
+    <published>2023-06-02T06:44:58.000Z</published>
+    <updated>2023-06-02T06:53:07.922Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Java内存模型&quot;&gt;Java内存模型&lt;a class=&quot;anchor&quot; href=&quot;#Java内存模型&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>实现Runnable接口和Callable接口的区别</title>
+    <link href="https://blog.github.wo0ow.com/posts/54835.html"/>
+    <id>https://blog.github.wo0ow.com/posts/54835.html</id>
+    <published>2023-06-02T06:28:30.000Z</published>
+    <updated>2023-06-02T06:35:48.976Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/meism5/article/details/90176922&quot;&gt;Runnable 和 Callable</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java线程池有哪些参数？阻塞队列有几种？拒绝策略有几种？新线程添加的流程?</title>
+    <link href="https://blog.github.wo0ow.com/posts/50604.html"/>
+    <id>https://blog.github.wo0ow.com/posts/50604.html</id>
+    <published>2023-06-02T04:46:09.000Z</published>
+    <updated>2023-06-02T05:01:54.755Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/ye17186/article/details/89467919&quot;&gt;Java线程池七个参数详解&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>说说sleep()方法和wait()方法区别和共同点?</title>
+    <link href="https://blog.github.wo0ow.com/posts/31949.html"/>
+    <id>https://blog.github.wo0ow.com/posts/31949.html</id>
+    <published>2023-06-02T04:37:12.000Z</published>
+    <updated>2023-06-02T04:42:49.785Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/qq_38197844/article/details/109131330&quot;&gt;sleep（）和wait（）的区别和共同点&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL事务隔离级别？默认是什么级别？</title>
+    <link href="https://blog.github.wo0ow.com/posts/30299.html"/>
+    <id>https://blog.github.wo0ow.com/posts/30299.html</id>
+    <published>2023-06-01T11:31:08.000Z</published>
+    <updated>2023-06-01T11:38:03.764Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a href=&quot;https://zhuanlan.zhihu.com/p/117476959&quot;&gt;MySQL事务隔离级别和实现原理&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;四种事务隔离级别&quot;&gt;四种事务隔离级别&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="MySQL" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/MySQL/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Redis实现分布式锁</title>
+    <link href="https://blog.github.wo0ow.com/posts/2567.html"/>
+    <id>https://blog.github.wo0ow.com/posts/2567.html</id>
+    <published>2023-06-01T05:47:15.000Z</published>
+    <updated>2023-06-01T05:51:00.031Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/weixin_46129192/article/details/126010250&quot;&gt;Redis实现分布式锁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;参考博客：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Redis" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Redis/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot的依赖注入</title>
+    <link href="https://blog.github.wo0ow.com/posts/62919.html"/>
+    <id>https://blog.github.wo0ow.com/posts/62919.html</id>
+    <published>2023-06-01T03:07:10.000Z</published>
+    <updated>2023-06-01T03:33:56.390Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客: &lt;a href=&quot;https://blog.csdn.net/qq_45590494/article/details/114444371&quot;&gt;@Autowried和@Resource区别&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;参考博客：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>日简要记录</title>
+    <link href="https://blog.github.wo0ow.com/posts/10488.html"/>
+    <id>https://blog.github.wo0ow.com/posts/10488.html</id>
+    <published>2023-06-01T00:52:44.000Z</published>
+    <updated>2023-06-01T11:39:38.382Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;06-01&quot;&gt;06.01&lt;a class=&quot;anchor&quot; href=&quot;#06-01&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;/posts/30299.html&quot;&gt;MySQL</summary>
+        
+      
+    
+    
+    
+    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="置顶文档" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E7%BD%AE%E9%A1%B6%E6%96%87%E6%A1%A3/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关系型数据库和非关系型数据库区别？</title>
+    <link href="https://blog.github.wo0ow.com/posts/27108.html"/>
+    <id>https://blog.github.wo0ow.com/posts/27108.html</id>
+    <published>2023-06-01T00:44:55.000Z</published>
+    <updated>2023-06-01T00:49:27.018Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a href=&quot;https://worktile.com/kb/ask/31173.html&quot;&gt;关系数据库和非关系数据库区别&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
+    
+    <category term="面试问题解析汇总" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90%E6%B1%87%E6%80%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java中保证多线程的顺序执行</title>
+    <link href="https://blog.github.wo0ow.com/posts/39606.html"/>
+    <id>https://blog.github.wo0ow.com/posts/39606.html</id>
+    <published>2023-05-31T04:40:10.000Z</published>
+    <updated>2023-05-31T05:01:53.025Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java线程的死锁</title>
+    <link href="https://blog.github.wo0ow.com/posts/58164.html"/>
+    <id>https://blog.github.wo0ow.com/posts/58164.html</id>
+    <published>2023-05-30T08:46:36.000Z</published>
+    <updated>2023-05-30T09:10:06.097Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;线程的死锁&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;代码来源于《并发编程之美》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ICMPtimestamp请求响应漏洞处理(CVE-1999-0524)</title>
+    <link href="https://blog.github.wo0ow.com/posts/12224.html"/>
+    <id>https://blog.github.wo0ow.com/posts/12224.html</id>
+    <published>2023-05-29T01:18:52.000Z</published>
+    <updated>2023-05-30T15:04:04.044Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/ximenjianxue/article/details/123114342&quot;&gt;ICMP</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>允许Traceroute探测漏洞处理</title>
+    <link href="https://blog.github.wo0ow.com/posts/57813.html"/>
+    <id>https://blog.github.wo0ow.com/posts/57813.html</id>
+    <published>2023-05-28T05:40:20.000Z</published>
+    <updated>2023-05-29T01:18:07.382Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客-Firewalld：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Idea打包SpringBoot多模块项目以Docker镜像方式部署</title>
+    <link href="https://blog.github.wo0ow.com/posts/63317.html"/>
+    <id>https://blog.github.wo0ow.com/posts/63317.html</id>
+    <published>2023-05-27T07:33:17.000Z</published>
+    <updated>2023-05-29T05:40:48.324Z</updated>
+    
+    
+    <summary type="html">通过Idea打包部署SpringBoot项目以镜像方式启动</summary>
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Idea" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Idea/"/>
+    
+    
+    <category term="Docker" scheme="https://blog.github.wo0ow.com/tags/Docker/"/>
+    
+    <category term="SpringBoot" scheme="https://blog.github.wo0ow.com/tags/SpringBoot/"/>
+    
+    <category term="Idea" scheme="https://blog.github.wo0ow.com/tags/Idea/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Java创建线程池7种方法</title>
     <link href="https://blog.github.wo0ow.com/posts/10804.html"/>
     <id>https://blog.github.wo0ow.com/posts/10804.html</id>
     <published>2023-05-25T12:23:23.000Z</published>
-    <updated>2023-05-25T12:34:12.151Z</updated>
+    <updated>2023-05-25T12:36:44.015Z</updated>
     
     
       
@@ -38,6 +442,10 @@
     
     
     
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
+    
     
   </entry>
   
@@ -46,7 +454,7 @@
     <link href="https://blog.github.wo0ow.com/posts/62634.html"/>
     <id>https://blog.github.wo0ow.com/posts/62634.html</id>
     <published>2023-05-25T08:57:53.000Z</published>
-    <updated>2023-05-25T09:12:41.110Z</updated>
+    <updated>2023-06-01T05:48:05.466Z</updated>
     
     
       
@@ -55,13 +463,15 @@
         
     <summary type="html">&lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;
-&lt;p&gt;&lt;input type=&quot;checkbox&quot; id=&quot;checkbox240&quot;&gt;&lt;label for=&quot;checkbox240&quot;&gt;JDK1.8的新特性&lt;/label&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li</summary>
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; id=&quot;checkbox352&quot; checked=&quot;true&quot;&gt;&lt;label for=&quot;checkbox352&quot;&gt;&lt;/label&gt;&lt;a</summary>
         
       
     
     
+    
+    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
+    
+    <category term="面试复盘-自我整理" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E8%87%AA%E6%88%91%E6%95%B4%E7%90%86/"/>
     
     
   </entry>
@@ -71,7 +481,7 @@
     <link href="https://blog.github.wo0ow.com/posts/13923.html"/>
     <id>https://blog.github.wo0ow.com/posts/13923.html</id>
     <published>2023-05-25T08:45:11.000Z</published>
-    <updated>2023-05-25T08:49:40.369Z</updated>
+    <updated>2023-06-01T03:02:56.019Z</updated>
     
     
       
@@ -79,14 +489,16 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_29411737/article/details/80835658&quot;&gt;JDK1.8 新特性&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;JDK1.8新特性&lt;/p&gt;
-&lt;ul</summary>
+&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/qq_29411737/article/details/80835658&quot;&gt;JDK1.8 新特性&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;参考博客：&lt;a</summary>
         
       
     
     
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
     
     
   </entry>
@@ -142,396 +554,6 @@
     <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Java多线程</title>
-    <link href="https://blog.github.wo0ow.com/posts/58847.html"/>
-    <id>https://blog.github.wo0ow.com/posts/58847.html</id>
-    <published>2023-05-23T12:33:09.000Z</published>
-    <updated>2023-05-23T13:13:55.034Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/languageStudent/article/details/114794891&quot;&gt;java多线程使用详解与案例，超详细&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>隐藏SSH版本号</title>
-    <link href="https://blog.github.wo0ow.com/posts/61156.html"/>
-    <id>https://blog.github.wo0ow.com/posts/61156.html</id>
-    <published>2023-05-23T02:52:55.000Z</published>
-    <updated>2023-05-23T03:15:59.456Z</updated>
-    
-    
-    <summary type="html">隐藏SSH的版本号信息</summary>
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>科学上网V2ray搭建教程</title>
-    <link href="https://blog.github.wo0ow.com/posts/306267.html"/>
-    <id>https://blog.github.wo0ow.com/posts/306267.html</id>
-    <published>2023-05-20T08:01:20.000Z</published>
-    <updated>2023-05-20T08:56:01.010Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://liuzhengwei127.github.io/2020/11/12/v2ray/&quot;&gt;参考博客&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;部署v2ray服务&quot;&gt;部署v2ray服务&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="VPN" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/VPN/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>面试复盘-网友分享-20230517</title>
-    <link href="https://blog.github.wo0ow.com/posts/48208.html"/>
-    <id>https://blog.github.wo0ow.com/posts/48208.html</id>
-    <published>2023-05-17T08:35:52.000Z</published>
-    <updated>2023-05-17T08:47:22.835Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;某手国际化-后端开发面经&quot;&gt;某手国际化-后端开发面经&lt;a class=&quot;anchor&quot; href=&quot;#某手国际化-后端开发面经&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;ul class=&quot;lvl-0&quot;&gt;
-&lt;li class=&quot;lvl-2&quot;&gt;&lt;input</summary>
-        
-      
-    
-    
-    
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
-    
-    <category term="面试复盘-网友分享" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Linux中VIM使用技巧</title>
-    <link href="https://blog.github.wo0ow.com/posts/9930.html"/>
-    <id>https://blog.github.wo0ow.com/posts/9930.html</id>
-    <published>2023-05-17T03:25:39.000Z</published>
-    <updated>2023-05-17T03:41:14.522Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;VIM命令行模式跳转首位-末尾&quot;&gt;VIM命令行模式跳转首位/末尾&lt;a class=&quot;anchor&quot; href=&quot;#VIM命令行模式跳转首位-末尾&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>MySQL数据库事务</title>
-    <link href="https://blog.github.wo0ow.com/posts/51105.html"/>
-    <id>https://blog.github.wo0ow.com/posts/51105.html</id>
-    <published>2023-05-15T09:16:31.000Z</published>
-    <updated>2023-05-15T09:21:34.492Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;事务必须满足4个条件&quot;&gt;事务必须满足4个条件&lt;a class=&quot;anchor&quot; href=&quot;#事务必须满足4个条件&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;ul class=&quot;lvl-0&quot;&gt;
-&lt;li class=&quot;lvl-2&quot;&gt;A 原子性&lt;/li&gt;
-&lt;li</summary>
-        
-      
-    
-    
-    
-    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
-    
-    <category term="面试复盘-网友分享-20230513_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230513-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>单例模式用法</title>
-    <link href="https://blog.github.wo0ow.com/posts/44263.html"/>
-    <id>https://blog.github.wo0ow.com/posts/44263.html</id>
-    <published>2023-05-15T08:51:22.000Z</published>
-    <updated>2023-05-15T09:11:42.086Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.ay1.cc/article/1677293335290813180.html&quot;&gt;Java设计模式单例模式(Singleton)用法解析_java&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
-    
-    <category term="面试复盘-网友分享-20230513_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230513-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>MySQL的那几个事务级别</title>
-    <link href="https://blog.github.wo0ow.com/posts/32391.html"/>
-    <id>https://blog.github.wo0ow.com/posts/32391.html</id>
-    <published>2023-05-15T08:16:30.000Z</published>
-    <updated>2023-05-15T08:34:22.668Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/justlpf/article/details/106835122&quot;&gt;MySQL 四种事务隔离级别详解介绍&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;MySQL一共有4种事务隔离级别&lt;/p&gt;
-&lt;ol&gt;
-&lt;li</summary>
-        
-      
-    
-    
-    
-    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
-    
-    <category term="面试复盘-网友分享-20230513_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230513-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Java多线程-线程池有哪些参数、线程池工作原理、线程池各个参数干啥的</title>
-    <link href="https://blog.github.wo0ow.com/posts/21595.html"/>
-    <id>https://blog.github.wo0ow.com/posts/21595.html</id>
-    <published>2023-05-15T07:36:26.000Z</published>
-    <updated>2023-05-15T07:37:30.890Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
-    
-    <category term="面试复盘-网友分享-20230513_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230513-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>@ConditionalOnBean和@ConditionalOnMissingBean两个注解</title>
-    <link href="https://blog.github.wo0ow.com/posts/5517.html"/>
-    <id>https://blog.github.wo0ow.com/posts/5517.html</id>
-    <published>2023-05-15T07:31:04.000Z</published>
-    <updated>2023-05-15T07:32:25.279Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/weixin_40910372/article/details/108204833&quot;&gt;条件注解</summary>
-        
-      
-    
-    
-    
-    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
-    
-    <category term="面试复盘-网友分享-20230513_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230513-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>SpringBoot的自动装配原理</title>
-    <link href="https://blog.github.wo0ow.com/posts/12723.html"/>
-    <id>https://blog.github.wo0ow.com/posts/12723.html</id>
-    <published>2023-05-15T07:25:19.000Z</published>
-    <updated>2023-05-15T07:28:37.796Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;https://blog.csdn.net/Object_de_Father/article/details/109392088&lt;/p&gt;
-</summary>
-        
-      
-    
-    
-    
-    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
-    
-    <category term="面试复盘-网友分享-20230513_问题解析" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB-20230513-%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Tomcat安装部署常规配置</title>
-    <link href="https://blog.github.wo0ow.com/posts/19881.html"/>
-    <id>https://blog.github.wo0ow.com/posts/19881.html</id>
-    <published>2023-05-15T01:59:03.000Z</published>
-    <updated>2023-05-17T03:23:18.260Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Tomcat配置优化&quot;&gt;Tomcat配置优化&lt;a class=&quot;anchor&quot; href=&quot;#Tomcat配置优化&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;修改server-xml&quot;&gt;修改&lt;code&gt;server.xml&lt;/code&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Tomcat" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Tomcat/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Nginx漏扫响应头缺失问题处理</title>
-    <link href="https://blog.github.wo0ow.com/posts/42494.html"/>
-    <id>https://blog.github.wo0ow.com/posts/42494.html</id>
-    <published>2023-05-14T22:47:58.000Z</published>
-    <updated>2023-05-14T23:50:10.809Z</updated>
-    
-    
-    <summary type="html">Nginx常见响应头缺失问题处理</summary>
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Nginx" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Nginx/"/>
-    
-    
-    <category term="Nginx" scheme="https://blog.github.wo0ow.com/tags/Nginx/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>副业赚钱方式记录</title>
-    <link href="https://blog.github.wo0ow.com/posts/46384.html"/>
-    <id>https://blog.github.wo0ow.com/posts/46384.html</id>
-    <published>2023-05-14T10:31:02.000Z</published>
-    <updated>2023-05-14T11:26:39.419Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;抖音-中视频计划&quot;&gt;抖音-中视频计划&lt;a class=&quot;anchor&quot; href=&quot;#抖音-中视频计划&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;门槛条件&lt;/strong&gt; （数据截至： 2023.05.14 统计）：&lt;/p&gt;
-&lt;ul</summary>
-        
-      
-    
-    
-    
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="副业兼职" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%89%AF%E4%B8%9A%E5%85%BC%E8%81%8C/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>面试复盘-网友分享-20230513</title>
-    <link href="https://blog.github.wo0ow.com/posts/32590.html"/>
-    <id>https://blog.github.wo0ow.com/posts/32590.html</id>
-    <published>2023-05-14T08:11:04.000Z</published>
-    <updated>2023-05-15T09:38:47.942Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;网友面试复盘分享-20230513&quot;&gt;网友面试复盘分享-20230513&lt;a class=&quot;anchor&quot; href=&quot;#网友面试复盘分享-20230513&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;ul class=&quot;lvl-0&quot;&gt;
-&lt;li</summary>
-        
-      
-    
-    
-    
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
-    
-    <category term="面试复盘-网友分享" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E7%BD%91%E5%8F%8B%E5%88%86%E4%BA%AB/"/>
     
     
   </entry>
