@@ -6,7 +6,7 @@
   <link href="https://blog.github.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://blog.github.wo0ow.com/"/>
-  <updated>2023-06-08T02:15:14.960Z</updated>
+  <updated>2023-06-13T13:54:29.638Z</updated>
   <id>https://blog.github.wo0ow.com/</id>
   
   <author>
@@ -15,6 +15,85 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows下同时安装Jdk1.8和Jdk17方案</title>
+    <link href="https://blog.github.wo0ow.com/posts/37787.html"/>
+    <id>https://blog.github.wo0ow.com/posts/37787.html</id>
+    <published>2023-06-13T13:44:34.000Z</published>
+    <updated>2023-06-13T13:54:29.638Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;相关文档链接： &lt;a href=&quot;/posts/59283.html&quot;&gt;Linux下安装JDK环境&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;单JDK版本配置JAVA环境变量&quot;&gt;单JDK版本配置JAVA环境变量&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Idea创建SpringBoot项目集成Mybatis</title>
+    <link href="https://blog.github.wo0ow.com/posts/62125.html"/>
+    <id>https://blog.github.wo0ow.com/posts/62125.html</id>
+    <published>2023-06-13T13:30:45.000Z</published>
+    <updated>2023-06-13T13:43:25.520Z</updated>
+    
+    
+    <summary type="html">记录Idea搭建SpringBoot项目集成Mybatis的过程</summary>
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Idea" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Idea/"/>
+    
+    
+    <category term="Idea" scheme="https://blog.github.wo0ow.com/tags/Idea/"/>
+    
+    <category term="SpringBoot 3.0" scheme="https://blog.github.wo0ow.com/tags/SpringBoot-3-0/"/>
+    
+    <category term="Mybatis" scheme="https://blog.github.wo0ow.com/tags/Mybatis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker下安装Mysql</title>
+    <link href="https://blog.github.wo0ow.com/posts/11638.html"/>
+    <id>https://blog.github.wo0ow.com/posts/11638.html</id>
+    <published>2023-06-13T11:56:33.000Z</published>
+    <updated>2023-06-13T12:49:00.578Z</updated>
+    
+    
+    <summary type="html">通过Docker创建Mysql数据库</summary>
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Docker" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Docker/"/>
+    
+    
+    <category term="Docker" scheme="https://blog.github.wo0ow.com/tags/Docker/"/>
+    
+    <category term="Mysql" scheme="https://blog.github.wo0ow.com/tags/Mysql/"/>
+    
+    <category term="Linux" scheme="https://blog.github.wo0ow.com/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo的cdn.jsdelivr.net访问CDN加速做本地处理</title>
@@ -120,9 +199,9 @@
     <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
     
     
-    <category term="mkdir命令" scheme="https://blog.github.wo0ow.com/tags/mkdir%E5%91%BD%E4%BB%A4/"/>
-    
     <category term="Linux" scheme="https://blog.github.wo0ow.com/tags/Linux/"/>
+    
+    <category term="mkdir命令" scheme="https://blog.github.wo0ow.com/tags/mkdir%E5%91%BD%E4%BB%A4/"/>
     
   </entry>
   
@@ -452,87 +531,6 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;参考博客: &lt;a href=&quot;https://blog.csdn.net/qq_45590494/article/details/114444371&quot;&gt;@Autowried和@Resource区别&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;参考博客：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>日简要记录</title>
-    <link href="https://blog.github.wo0ow.com/posts/10488.html"/>
-    <id>https://blog.github.wo0ow.com/posts/10488.html</id>
-    <published>2023-06-01T00:52:44.000Z</published>
-    <updated>2023-06-04T09:28:47.596Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;06-01&quot;&gt;06.01&lt;a class=&quot;anchor&quot; href=&quot;#06-01&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
-&lt;ul class=&quot;lvl-0&quot;&gt;
-&lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;/posts/30299.html&quot;&gt;MySQL</summary>
-        
-      
-    
-    
-    
-    <category term="个人博客" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="置顶文档" scheme="https://blog.github.wo0ow.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E7%BD%AE%E9%A1%B6%E6%96%87%E6%A1%A3/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>关系型数据库和非关系型数据库区别？</title>
-    <link href="https://blog.github.wo0ow.com/posts/27108.html"/>
-    <id>https://blog.github.wo0ow.com/posts/27108.html</id>
-    <published>2023-06-01T00:44:55.000Z</published>
-    <updated>2023-06-04T09:28:48.411Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;参考博客：&lt;a href=&quot;https://worktile.com/kb/ask/31173.html&quot;&gt;关系数据库和非关系数据库区别&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="整理归纳" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/"/>
-    
-    <category term="面试问题解析汇总" scheme="https://blog.github.wo0ow.com/categories/%E6%95%B4%E7%90%86%E5%BD%92%E7%BA%B3/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E8%A7%A3%E6%9E%90%E6%B1%87%E6%80%BB/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Java中保证多线程的顺序执行</title>
-    <link href="https://blog.github.wo0ow.com/posts/39606.html"/>
-    <id>https://blog.github.wo0ow.com/posts/39606.html</id>
-    <published>2023-05-31T04:40:10.000Z</published>
-    <updated>2023-06-04T09:28:47.735Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;参考博客：&lt;a</summary>
         
       
