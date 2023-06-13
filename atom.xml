@@ -6,7 +6,7 @@
   <link href="https://blog.github.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://blog.github.wo0ow.com/"/>
-  <updated>2023-06-02T07:12:31.329Z</updated>
+  <updated>2023-06-08T02:15:14.960Z</updated>
   <id>https://blog.github.wo0ow.com/</id>
   
   <author>
@@ -17,11 +17,243 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo的cdn.jsdelivr.net访问CDN加速做本地处理</title>
+    <link href="https://blog.github.wo0ow.com/posts/64234.html"/>
+    <id>https://blog.github.wo0ow.com/posts/64234.html</id>
+    <published>2023-06-08T01:50:29.000Z</published>
+    <updated>2023-06-08T02:15:14.960Z</updated>
+    
+    
+    <summary type="html">将npm依赖插件hexo-calendar的引用js文件本地化，其他类似操作可做参考</summary>
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Hexo" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Hexo/"/>
+    
+    
+    <category term="cdn.jsdelivr.net" scheme="https://blog.github.wo0ow.com/tags/cdn-jsdelivr-net/"/>
+    
+    <category term="npm引用js进行本地化" scheme="https://blog.github.wo0ow.com/tags/npm%E5%BC%95%E7%94%A8js%E8%BF%9B%E8%A1%8C%E6%9C%AC%E5%9C%B0%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VM虚拟机中固定Linux系统IP地址</title>
+    <link href="https://blog.github.wo0ow.com/posts/10212.html"/>
+    <id>https://blog.github.wo0ow.com/posts/10212.html</id>
+    <published>2023-06-07T05:49:59.000Z</published>
+    <updated>2023-06-07T06:03:35.217Z</updated>
+    
+    
+    <summary type="html">避免虚拟机VM重启后导致IP地址变更情况发生</summary>
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://blog.github.wo0ow.com/tags/Linux/"/>
+    
+    <category term="Centos7" scheme="https://blog.github.wo0ow.com/tags/Centos7/"/>
+    
+    <category term="VM" scheme="https://blog.github.wo0ow.com/tags/VM/"/>
+    
+    <category term="IP" scheme="https://blog.github.wo0ow.com/tags/IP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux下安装JDK环境</title>
+    <link href="https://blog.github.wo0ow.com/posts/59283.html"/>
+    <id>https://blog.github.wo0ow.com/posts/59283.html</id>
+    <published>2023-06-06T23:11:04.000Z</published>
+    <updated>2023-06-06T23:15:28.951Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;解压到目录&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;tar -zxvf</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://blog.github.wo0ow.com/tags/Linux/"/>
+    
+    <category term="JDK" scheme="https://blog.github.wo0ow.com/tags/JDK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux下mkdir命令使用</title>
+    <link href="https://blog.github.wo0ow.com/posts/45857.html"/>
+    <id>https://blog.github.wo0ow.com/posts/45857.html</id>
+    <published>2023-06-06T22:40:56.000Z</published>
+    <updated>2023-06-06T22:47:50.767Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/succing/article/details/122286002&quot;&gt;Linux技巧(三)： seq命令 / mkdir -p 批量创建/删除文件夹</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
+    
+    
+    <category term="mkdir命令" scheme="https://blog.github.wo0ow.com/tags/mkdir%E5%91%BD%E4%BB%A4/"/>
+    
+    <category term="Linux" scheme="https://blog.github.wo0ow.com/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux下使用Docker安装部署Zookeeper</title>
+    <link href="https://blog.github.wo0ow.com/posts/49054.html"/>
+    <id>https://blog.github.wo0ow.com/posts/49054.html</id>
+    <published>2023-06-06T22:14:07.000Z</published>
+    <updated>2023-06-07T07:32:41.252Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;/posts/63317.html&quot;&gt;Linux安装Docker|往期文章&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Linux设置时间并开启自动同步校准</title>
+    <link href="https://blog.github.wo0ow.com/posts/24138.html"/>
+    <id>https://blog.github.wo0ow.com/posts/24138.html</id>
+    <published>2023-06-06T22:03:03.000Z</published>
+    <updated>2023-06-06T22:12:31.972Z</updated>
+    
+    
+    <summary type="html">Linux设置系统时间,并利用ntpdate自动同步时间</summary>
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://blog.github.wo0ow.com/tags/Linux/"/>
+    
+    <category term="Linux重装后必做事项" scheme="https://blog.github.wo0ow.com/tags/Linux%E9%87%8D%E8%A3%85%E5%90%8E%E5%BF%85%E5%81%9A%E4%BA%8B%E9%A1%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Centos7关闭图形化界面</title>
+    <link href="https://blog.github.wo0ow.com/posts/46473.html"/>
+    <id>https://blog.github.wo0ow.com/posts/46473.html</id>
+    <published>2023-06-06T05:55:47.000Z</published>
+    <updated>2023-06-06T12:26:00.222Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a href=&quot;https://jingyan.baidu.com/article/2d5afd693e2480c4a2e28ec2.html&quot;&gt;Centos7怎么关闭图形化界面&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MacBookPro2017安装win11系统</title>
+    <link href="https://blog.github.wo0ow.com/posts/54799.html"/>
+    <id>https://blog.github.wo0ow.com/posts/54799.html</id>
+    <published>2023-06-04T12:31:15.000Z</published>
+    <updated>2023-06-04T12:48:04.543Z</updated>
+    
+    
+    <summary type="html">记录下旧款macbook2017安装win11系统踩坑记录！</summary>
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Mac" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Mac/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Git配置多个账号</title>
+    <link href="https://blog.github.wo0ow.com/posts/52878.html"/>
+    <id>https://blog.github.wo0ow.com/posts/52878.html</id>
+    <published>2023-06-04T10:37:41.000Z</published>
+    <updated>2023-06-04T10:57:37.777Z</updated>
+    
+    
+    <summary type="html">一台电脑下需要使用到多个git账户，保证不同git账户使用以及对不同账号设置各自账户提交信息</summary>
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="GIT" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/GIT/"/>
+    
+    
+    <category term="gitee" scheme="https://blog.github.wo0ow.com/tags/gitee/"/>
+    
+    <category term="github" scheme="https://blog.github.wo0ow.com/tags/github/"/>
+    
+    <category term="gitlab" scheme="https://blog.github.wo0ow.com/tags/gitlab/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MySQL数据库两种存储引擎的区别?</title>
     <link href="https://blog.github.wo0ow.com/posts/65022.html"/>
     <id>https://blog.github.wo0ow.com/posts/65022.html</id>
     <published>2023-06-02T07:03:11.000Z</published>
-    <updated>2023-06-02T07:12:31.329Z</updated>
+    <updated>2023-06-04T09:28:47.757Z</updated>
     
     
       
@@ -47,7 +279,7 @@
     <link href="https://blog.github.wo0ow.com/posts/50822.html"/>
     <id>https://blog.github.wo0ow.com/posts/50822.html</id>
     <published>2023-06-02T06:44:58.000Z</published>
-    <updated>2023-06-02T06:53:07.922Z</updated>
+    <updated>2023-06-04T09:28:47.736Z</updated>
     
     
       
@@ -74,7 +306,7 @@
     <link href="https://blog.github.wo0ow.com/posts/54835.html"/>
     <id>https://blog.github.wo0ow.com/posts/54835.html</id>
     <published>2023-06-02T06:28:30.000Z</published>
-    <updated>2023-06-02T06:35:48.976Z</updated>
+    <updated>2023-06-04T09:28:47.743Z</updated>
     
     
       
@@ -100,7 +332,7 @@
     <link href="https://blog.github.wo0ow.com/posts/50604.html"/>
     <id>https://blog.github.wo0ow.com/posts/50604.html</id>
     <published>2023-06-02T04:46:09.000Z</published>
-    <updated>2023-06-02T05:01:54.755Z</updated>
+    <updated>2023-06-04T09:28:47.738Z</updated>
     
     
       
@@ -128,7 +360,7 @@
     <link href="https://blog.github.wo0ow.com/posts/31949.html"/>
     <id>https://blog.github.wo0ow.com/posts/31949.html</id>
     <published>2023-06-02T04:37:12.000Z</published>
-    <updated>2023-06-02T04:42:49.785Z</updated>
+    <updated>2023-06-04T09:28:47.749Z</updated>
     
     
       
@@ -156,7 +388,7 @@
     <link href="https://blog.github.wo0ow.com/posts/30299.html"/>
     <id>https://blog.github.wo0ow.com/posts/30299.html</id>
     <published>2023-06-01T11:31:08.000Z</published>
-    <updated>2023-06-01T11:38:03.764Z</updated>
+    <updated>2023-06-04T09:28:47.757Z</updated>
     
     
       
@@ -184,7 +416,7 @@
     <link href="https://blog.github.wo0ow.com/posts/2567.html"/>
     <id>https://blog.github.wo0ow.com/posts/2567.html</id>
     <published>2023-06-01T05:47:15.000Z</published>
-    <updated>2023-06-01T05:51:00.031Z</updated>
+    <updated>2023-06-04T09:28:47.783Z</updated>
     
     
       
@@ -211,7 +443,7 @@
     <link href="https://blog.github.wo0ow.com/posts/62919.html"/>
     <id>https://blog.github.wo0ow.com/posts/62919.html</id>
     <published>2023-06-01T03:07:10.000Z</published>
-    <updated>2023-06-01T03:33:56.390Z</updated>
+    <updated>2023-06-04T09:28:47.740Z</updated>
     
     
       
@@ -238,7 +470,7 @@
     <link href="https://blog.github.wo0ow.com/posts/10488.html"/>
     <id>https://blog.github.wo0ow.com/posts/10488.html</id>
     <published>2023-06-01T00:52:44.000Z</published>
-    <updated>2023-06-01T11:39:38.382Z</updated>
+    <updated>2023-06-04T09:28:47.596Z</updated>
     
     
       
@@ -265,7 +497,7 @@
     <link href="https://blog.github.wo0ow.com/posts/27108.html"/>
     <id>https://blog.github.wo0ow.com/posts/27108.html</id>
     <published>2023-06-01T00:44:55.000Z</published>
-    <updated>2023-06-01T00:49:27.018Z</updated>
+    <updated>2023-06-04T09:28:48.411Z</updated>
     
     
       
@@ -293,7 +525,7 @@
     <link href="https://blog.github.wo0ow.com/posts/39606.html"/>
     <id>https://blog.github.wo0ow.com/posts/39606.html</id>
     <published>2023-05-31T04:40:10.000Z</published>
-    <updated>2023-05-31T05:01:53.025Z</updated>
+    <updated>2023-06-04T09:28:47.735Z</updated>
     
     
       
@@ -302,250 +534,6 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;参考博客：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Java线程的死锁</title>
-    <link href="https://blog.github.wo0ow.com/posts/58164.html"/>
-    <id>https://blog.github.wo0ow.com/posts/58164.html</id>
-    <published>2023-05-30T08:46:36.000Z</published>
-    <updated>2023-05-30T09:10:06.097Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;线程的死锁&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;代码来源于《并发编程之美》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>ICMPtimestamp请求响应漏洞处理(CVE-1999-0524)</title>
-    <link href="https://blog.github.wo0ow.com/posts/12224.html"/>
-    <id>https://blog.github.wo0ow.com/posts/12224.html</id>
-    <published>2023-05-29T01:18:52.000Z</published>
-    <updated>2023-05-30T15:04:04.044Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/ximenjianxue/article/details/123114342&quot;&gt;ICMP</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>允许Traceroute探测漏洞处理</title>
-    <link href="https://blog.github.wo0ow.com/posts/57813.html"/>
-    <id>https://blog.github.wo0ow.com/posts/57813.html</id>
-    <published>2023-05-28T05:40:20.000Z</published>
-    <updated>2023-05-29T01:18:07.382Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;参考博客-Firewalld：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Linux" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Idea打包SpringBoot多模块项目以Docker镜像方式部署</title>
-    <link href="https://blog.github.wo0ow.com/posts/63317.html"/>
-    <id>https://blog.github.wo0ow.com/posts/63317.html</id>
-    <published>2023-05-27T07:33:17.000Z</published>
-    <updated>2023-05-29T05:40:48.324Z</updated>
-    
-    
-    <summary type="html">通过Idea打包部署SpringBoot项目以镜像方式启动</summary>
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Idea" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Idea/"/>
-    
-    
-    <category term="Docker" scheme="https://blog.github.wo0ow.com/tags/Docker/"/>
-    
-    <category term="SpringBoot" scheme="https://blog.github.wo0ow.com/tags/SpringBoot/"/>
-    
-    <category term="Idea" scheme="https://blog.github.wo0ow.com/tags/Idea/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java创建线程池7种方法</title>
-    <link href="https://blog.github.wo0ow.com/posts/10804.html"/>
-    <id>https://blog.github.wo0ow.com/posts/10804.html</id>
-    <published>2023-05-25T12:23:23.000Z</published>
-    <updated>2023-05-25T12:36:44.015Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/xhhhx_/article/details/124366229&quot;&gt;Java创建线程池7种方法&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Java面试复盘</title>
-    <link href="https://blog.github.wo0ow.com/posts/62634.html"/>
-    <id>https://blog.github.wo0ow.com/posts/62634.html</id>
-    <published>2023-05-25T08:57:53.000Z</published>
-    <updated>2023-06-01T05:48:05.466Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ul class=&quot;lvl-0&quot;&gt;
-&lt;li class=&quot;lvl-2&quot;&gt;
-&lt;p&gt;&lt;input type=&quot;checkbox&quot; id=&quot;checkbox352&quot; checked=&quot;true&quot;&gt;&lt;label for=&quot;checkbox352&quot;&gt;&lt;/label&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="面试准备" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
-    
-    <category term="面试复盘-自我整理" scheme="https://blog.github.wo0ow.com/categories/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E9%9D%A2%E8%AF%95%E5%A4%8D%E7%9B%98-%E8%87%AA%E6%88%91%E6%95%B4%E7%90%86/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Jdk1.8新特性</title>
-    <link href="https://blog.github.wo0ow.com/posts/13923.html"/>
-    <id>https://blog.github.wo0ow.com/posts/13923.html</id>
-    <published>2023-05-25T08:45:11.000Z</published>
-    <updated>2023-06-01T03:02:56.019Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/qq_29411737/article/details/80835658&quot;&gt;JDK1.8 新特性&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;参考博客：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Redis的缓存击穿、穿透、雪崩</title>
-    <link href="https://blog.github.wo0ow.com/posts/17397.html"/>
-    <id>https://blog.github.wo0ow.com/posts/17397.html</id>
-    <published>2023-05-23T21:39:07.000Z</published>
-    <updated>2023-05-23T21:47:11.715Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/148837265&quot;&gt;Redis详解（十二）------ 缓存穿透、缓存击穿、缓存雪崩&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Redis" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Redis/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Java秒杀系统设计</title>
-    <link href="https://blog.github.wo0ow.com/posts/37286.html"/>
-    <id>https://blog.github.wo0ow.com/posts/37286.html</id>
-    <published>2023-05-23T21:12:31.000Z</published>
-    <updated>2023-05-23T21:34:24.842Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/92307325&quot;&gt;《进大厂系列》系列-秒杀系统设计&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
         
       
     
