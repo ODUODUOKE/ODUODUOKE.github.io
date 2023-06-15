@@ -6,7 +6,7 @@
   <link href="https://blog.github.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://blog.github.wo0ow.com/"/>
-  <updated>2023-06-13T13:54:29.638Z</updated>
+  <updated>2023-06-14T00:27:24.370Z</updated>
   <id>https://blog.github.wo0ow.com/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GitHub新增SSH令牌</title>
+    <link href="https://blog.github.wo0ow.com/posts/60922.html"/>
+    <id>https://blog.github.wo0ow.com/posts/60922.html</id>
+    <published>2023-06-13T14:55:12.000Z</published>
+    <updated>2023-06-14T00:27:24.370Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ssh-keygen -t ed25519 -C</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="GIT" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/GIT/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客文件迁移新环境部署</title>
+    <link href="https://blog.github.wo0ow.com/posts/9968.html"/>
+    <id>https://blog.github.wo0ow.com/posts/9968.html</id>
+    <published>2023-06-13T14:53:35.000Z</published>
+    <updated>2023-06-14T00:45:00.440Z</updated>
+    
+    
+    <summary type="html">Hexo博客迁移新电脑环境部署记录</summary>
+    
+    
+    
+    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Hexo" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Hexo/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Windows下同时安装Jdk1.8和Jdk17方案</title>
@@ -486,60 +530,6 @@
     <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="MySQL" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/MySQL/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Redis实现分布式锁</title>
-    <link href="https://blog.github.wo0ow.com/posts/2567.html"/>
-    <id>https://blog.github.wo0ow.com/posts/2567.html</id>
-    <published>2023-06-01T05:47:15.000Z</published>
-    <updated>2023-06-04T09:28:47.783Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/weixin_46129192/article/details/126010250&quot;&gt;Redis实现分布式锁&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;参考博客：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Redis" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Redis/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>SpringBoot的依赖注入</title>
-    <link href="https://blog.github.wo0ow.com/posts/62919.html"/>
-    <id>https://blog.github.wo0ow.com/posts/62919.html</id>
-    <published>2023-06-01T03:07:10.000Z</published>
-    <updated>2023-06-04T09:28:47.740Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;参考博客: &lt;a href=&quot;https://blog.csdn.net/qq_45590494/article/details/114444371&quot;&gt;@Autowried和@Resource区别&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;参考博客：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Java" scheme="https://blog.github.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
     
     
   </entry>
