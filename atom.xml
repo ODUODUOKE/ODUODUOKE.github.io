@@ -6,7 +6,7 @@
   <link href="https://www.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://www.wo0ow.com/"/>
-  <updated>2023-06-19T02:50:17.055Z</updated>
+  <updated>2023-08-12T14:22:18.240Z</updated>
   <id>https://www.wo0ow.com/</id>
   
   <author>
@@ -17,88 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>SpringCloud基础教程-Feign</title>
-    <link href="https://www.wo0ow.com/posts/22804.html"/>
-    <id>https://www.wo0ow.com/posts/22804.html</id>
-    <published>2023-06-19T01:35:43.000Z</published>
-    <updated>2023-06-19T02:50:17.055Z</updated>
-    
-    
-    <summary type="html">SpringCloud组件Feign调用相关注册服务并实现熔断机制</summary>
-    
-    
-    
-    <category term="教程集合" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/"/>
-    
-    <category term="SpringCloud基础教程" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/SpringCloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="SpringCloud" scheme="https://www.wo0ow.com/tags/SpringCloud/"/>
-    
-    <category term="Feign" scheme="https://www.wo0ow.com/tags/Feign/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SpringCloud基础教程-Eureka-Client</title>
-    <link href="https://www.wo0ow.com/posts/34343.html"/>
-    <id>https://www.wo0ow.com/posts/34343.html</id>
-    <published>2023-06-19T00:42:03.000Z</published>
-    <updated>2023-06-19T00:57:25.049Z</updated>
-    
-    
-    <summary type="html">SpringCloud整合Eureka-Client端</summary>
-    
-    
-    
-    <category term="教程集合" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/"/>
-    
-    <category term="SpringCloud基础教程" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/SpringCloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="SpringCloud" scheme="https://www.wo0ow.com/tags/SpringCloud/"/>
-    
-    <category term="Eureka-Client" scheme="https://www.wo0ow.com/tags/Eureka-Client/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SpringCloud基础教程-Eureka</title>
-    <link href="https://www.wo0ow.com/posts/41405.html"/>
-    <id>https://www.wo0ow.com/posts/41405.html</id>
-    <published>2023-06-19T00:13:59.000Z</published>
-    <updated>2023-06-19T00:39:25.147Z</updated>
-    
-    
-    <summary type="html">SpringCloud整合Eureka服务注册中心</summary>
-    
-    
-    
-    <category term="教程集合" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/"/>
-    
-    <category term="SpringCloud基础教程" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/SpringCloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="SpringCloud" scheme="https://www.wo0ow.com/tags/SpringCloud/"/>
-    
-    <category term="Eureka" scheme="https://www.wo0ow.com/tags/Eureka/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows下Tomcat控制台中文乱码</title>
-    <link href="https://www.wo0ow.com/posts/22134.html"/>
-    <id>https://www.wo0ow.com/posts/22134.html</id>
-    <published>2023-06-17T02:05:01.000Z</published>
-    <updated>2023-06-17T02:07:05.520Z</updated>
+    <title>Mac下根据监听端口查询指定进程PID并关闭</title>
+    <link href="https://www.wo0ow.com/posts/10549.html"/>
+    <id>https://www.wo0ow.com/posts/10549.html</id>
+    <published>2023-08-12T14:16:06.000Z</published>
+    <updated>2023-08-12T14:22:18.240Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.ghxi.com/jc2023080802.html&quot;&gt;参考博客&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;查看特定端口的占用情况&quot;&gt;查看特定端口的占用情况&lt;a class=&quot;anchor&quot;</summary>
         
       
     
@@ -106,20 +37,140 @@
     
     <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="Tomcat" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Tomcat/"/>
+    <category term="Mac" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Mac/"/>
     
+    
+    <category term="Mac" scheme="https://www.wo0ow.com/tags/Mac/"/>
     
   </entry>
   
   <entry>
-    <title>Docker配置aliyun阿里云镜像加速</title>
-    <link href="https://www.wo0ow.com/posts/25181.html"/>
-    <id>https://www.wo0ow.com/posts/25181.html</id>
-    <published>2023-06-17T01:23:46.000Z</published>
-    <updated>2023-06-17T01:39:21.817Z</updated>
+    <title>vscode(mac)解决Ctrl+C退出终端时不可用问题</title>
+    <link href="https://www.wo0ow.com/posts/9763.html"/>
+    <id>https://www.wo0ow.com/posts/9763.html</id>
+    <published>2023-08-12T13:18:35.000Z</published>
+    <updated>2023-08-12T13:25:54.089Z</updated>
     
     
-    <summary type="html">配置docker使用aliyun的镜像加速器</summary>
+    <summary type="html">vscode 1.78 版本后，mac下启动终端运行后无法正常Ctrl+C退出</summary>
+    
+    
+    
+    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Mac" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Mac/"/>
+    
+    
+    <category term="Mac" scheme="https://www.wo0ow.com/tags/Mac/"/>
+    
+    <category term="Vscode" scheme="https://www.wo0ow.com/tags/Vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL8.0登录提示caching_sha2_password问题解决方法</title>
+    <link href="https://www.wo0ow.com/posts/43077.html"/>
+    <id>https://www.wo0ow.com/posts/43077.html</id>
+    <published>2023-07-17T07:02:06.000Z</published>
+    <updated>2023-08-09T14:51:37.261Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="问题记录" scheme="https://www.wo0ow.com/categories/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="MySQL" scheme="https://www.wo0ow.com/categories/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/MySQL/"/>
+    
+    
+    <category term="Mysql8.0" scheme="https://www.wo0ow.com/tags/Mysql8-0/"/>
+    
+    <category term="caching_sha2_password" scheme="https://www.wo0ow.com/tags/caching-sha2-password/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决shell报错-bash命令无法运行问题</title>
+    <link href="https://www.wo0ow.com/posts/5003.html"/>
+    <id>https://www.wo0ow.com/posts/5003.html</id>
+    <published>2023-07-16T11:55:21.000Z</published>
+    <updated>2023-08-09T14:44:05.586Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/HYZX_9987/article/details/120061672&quot;&gt;解决shell报错-bash: ./test.sh: bin/bash: bad</summary>
+        
+      
+    
+    
+    
+    <category term="问题记录" scheme="https://www.wo0ow.com/categories/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="Linux" scheme="https://www.wo0ow.com/categories/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/Linux/"/>
+    
+    
+    <category term="SHELL" scheme="https://www.wo0ow.com/tags/SHELL/"/>
+    
+    <category term="BASH" scheme="https://www.wo0ow.com/tags/BASH/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue3安装依赖报错The-engine-node-is-incompatible-with-this-module</title>
+    <link href="https://www.wo0ow.com/posts/39037.html"/>
+    <id>https://www.wo0ow.com/posts/39037.html</id>
+    <published>2023-07-16T08:15:51.000Z</published>
+    <updated>2023-08-09T14:44:05.599Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客:&lt;a href=&quot;https://blog.csdn.net/qq_42345906/article/details/120665003&quot;&gt;Vue3安装依赖报错The engine “node“ is incompatible with</summary>
+        
+      
+    
+    
+    
+    <category term="问题记录" scheme="https://www.wo0ow.com/categories/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="NodeJs" scheme="https://www.wo0ow.com/categories/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/NodeJs/"/>
+    
+    
+    <category term="VUE" scheme="https://www.wo0ow.com/tags/VUE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker下安装PostgreSQL数据库</title>
+    <link href="https://www.wo0ow.com/posts/7361.html"/>
+    <id>https://www.wo0ow.com/posts/7361.html</id>
+    <published>2023-07-11T07:09:35.000Z</published>
+    <updated>2023-08-09T14:44:04.920Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a</summary>
+        
+      
     
     
     
@@ -128,87 +179,14 @@
     <category term="Docker" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Docker/"/>
     
     
-    <category term="aliyun" scheme="https://www.wo0ow.com/tags/aliyun/"/>
-    
-    <category term="镜像加速器" scheme="https://www.wo0ow.com/tags/%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F%E5%99%A8/"/>
-    
-    <category term="docker" scheme="https://www.wo0ow.com/tags/docker/"/>
-    
   </entry>
   
   <entry>
-    <title>Docker构建Tomcat和war包镜像</title>
-    <link href="https://www.wo0ow.com/posts/42172.html"/>
-    <id>https://www.wo0ow.com/posts/42172.html</id>
-    <published>2023-06-15T12:43:31.000Z</published>
-    <updated>2023-06-17T03:24:00.611Z</updated>
-    
-    
-    <summary type="html">Docker构建Tomcat+xxx.war项目以镜像方式部署</summary>
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Docker" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Docker/"/>
-    
-    
-    <category term="Docker" scheme="https://www.wo0ow.com/tags/Docker/"/>
-    
-    <category term="Images" scheme="https://www.wo0ow.com/tags/Images/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GitHub新增SSH令牌</title>
-    <link href="https://www.wo0ow.com/posts/60922.html"/>
-    <id>https://www.wo0ow.com/posts/60922.html</id>
-    <published>2023-06-13T14:55:12.000Z</published>
-    <updated>2023-06-14T00:27:24.370Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ssh-keygen -t ed25519 -C</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="GIT" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/GIT/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo博客文件迁移新环境部署</title>
-    <link href="https://www.wo0ow.com/posts/9968.html"/>
-    <id>https://www.wo0ow.com/posts/9968.html</id>
-    <published>2023-06-13T14:53:35.000Z</published>
-    <updated>2023-06-14T00:45:00.440Z</updated>
-    
-    
-    <summary type="html">Hexo博客迁移新电脑环境部署记录</summary>
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Hexo" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Hexo/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Windows下同时安装Jdk1.8和Jdk17方案</title>
-    <link href="https://www.wo0ow.com/posts/37787.html"/>
-    <id>https://www.wo0ow.com/posts/37787.html</id>
-    <published>2023-06-13T13:44:34.000Z</published>
-    <updated>2023-06-13T13:54:29.638Z</updated>
+    <title>Maven仓库清理lastUpdated文件</title>
+    <link href="https://www.wo0ow.com/posts/20486.html"/>
+    <id>https://www.wo0ow.com/posts/20486.html</id>
+    <published>2023-07-11T00:57:01.000Z</published>
+    <updated>2023-08-09T14:44:05.051Z</updated>
     
     
       
@@ -216,158 +194,56 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;相关文档链接： &lt;a href=&quot;/posts/59283.html&quot;&gt;Linux下安装JDK环境&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;参考博客：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Maven" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Maven/"/>
+    
+    
+    <category term="Maven" scheme="https://www.wo0ow.com/tags/Maven/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>若依（ruoyi）开发框架支持将word文档等文件转pdf并通过接口实时访问返回pdf水印文件</title>
+    <link href="https://www.wo0ow.com/posts/29743.html"/>
+    <id>https://www.wo0ow.com/posts/29743.html</id>
+    <published>2023-07-08T09:16:29.000Z</published>
+    <updated>2023-08-09T14:44:05.552Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;文档内链：&lt;a href=&quot;/posts/3367.html&quot;&gt;通过Java对word/xls/image/ppt转pdf文件并添加水印信息&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;单JDK版本配置JAVA环境变量&quot;&gt;单JDK版本配置JAVA环境变量&lt;a</summary>
+&lt;p&gt;java后台端代码&lt;/p&gt;
+&lt;figure</summary>
         
       
     
     
     
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    <category term="教程集合" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/"/>
     
-    <category term="Java" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
+    <category term="若依（ruoyi）框架" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/%E8%8B%A5%E4%BE%9D%EF%BC%88ruoyi%EF%BC%89%E6%A1%86%E6%9E%B6/"/>
     
     
   </entry>
   
   <entry>
-    <title>Idea创建SpringBoot项目集成Mybatis</title>
-    <link href="https://www.wo0ow.com/posts/62125.html"/>
-    <id>https://www.wo0ow.com/posts/62125.html</id>
-    <published>2023-06-13T13:30:45.000Z</published>
-    <updated>2023-06-13T13:43:25.520Z</updated>
-    
-    
-    <summary type="html">记录Idea搭建SpringBoot项目集成Mybatis的过程</summary>
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Idea" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Idea/"/>
-    
-    
-    <category term="Idea" scheme="https://www.wo0ow.com/tags/Idea/"/>
-    
-    <category term="SpringBoot 3.0" scheme="https://www.wo0ow.com/tags/SpringBoot-3-0/"/>
-    
-    <category term="Mybatis" scheme="https://www.wo0ow.com/tags/Mybatis/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Docker下安装Mysql</title>
-    <link href="https://www.wo0ow.com/posts/11638.html"/>
-    <id>https://www.wo0ow.com/posts/11638.html</id>
-    <published>2023-06-13T11:56:33.000Z</published>
-    <updated>2023-06-13T12:49:00.578Z</updated>
-    
-    
-    <summary type="html">通过Docker创建Mysql数据库</summary>
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Docker" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Docker/"/>
-    
-    
-    <category term="Docker" scheme="https://www.wo0ow.com/tags/Docker/"/>
-    
-    <category term="Mysql" scheme="https://www.wo0ow.com/tags/Mysql/"/>
-    
-    <category term="Linux" scheme="https://www.wo0ow.com/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo的cdn.jsdelivr.net访问CDN加速做本地处理</title>
-    <link href="https://www.wo0ow.com/posts/64234.html"/>
-    <id>https://www.wo0ow.com/posts/64234.html</id>
-    <published>2023-06-08T01:50:29.000Z</published>
-    <updated>2023-06-08T02:15:14.960Z</updated>
-    
-    
-    <summary type="html">将npm依赖插件hexo-calendar的引用js文件本地化，其他类似操作可做参考</summary>
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Hexo" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Hexo/"/>
-    
-    
-    <category term="cdn.jsdelivr.net" scheme="https://www.wo0ow.com/tags/cdn-jsdelivr-net/"/>
-    
-    <category term="npm引用js进行本地化" scheme="https://www.wo0ow.com/tags/npm%E5%BC%95%E7%94%A8js%E8%BF%9B%E8%A1%8C%E6%9C%AC%E5%9C%B0%E5%8C%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>VM虚拟机中固定Linux系统IP地址</title>
-    <link href="https://www.wo0ow.com/posts/10212.html"/>
-    <id>https://www.wo0ow.com/posts/10212.html</id>
-    <published>2023-06-07T05:49:59.000Z</published>
-    <updated>2023-06-07T06:03:35.217Z</updated>
-    
-    
-    <summary type="html">避免虚拟机VM重启后导致IP地址变更情况发生</summary>
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Linux" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
-    
-    
-    <category term="Linux" scheme="https://www.wo0ow.com/tags/Linux/"/>
-    
-    <category term="Centos7" scheme="https://www.wo0ow.com/tags/Centos7/"/>
-    
-    <category term="VM" scheme="https://www.wo0ow.com/tags/VM/"/>
-    
-    <category term="IP" scheme="https://www.wo0ow.com/tags/IP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux下安装JDK环境</title>
-    <link href="https://www.wo0ow.com/posts/59283.html"/>
-    <id>https://www.wo0ow.com/posts/59283.html</id>
-    <published>2023-06-06T23:11:04.000Z</published>
-    <updated>2023-06-06T23:15:28.951Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;解压到目录&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;tar -zxvf</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Linux" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
-    
-    
-    <category term="Linux" scheme="https://www.wo0ow.com/tags/Linux/"/>
-    
-    <category term="JDK" scheme="https://www.wo0ow.com/tags/JDK/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux下mkdir命令使用</title>
-    <link href="https://www.wo0ow.com/posts/45857.html"/>
-    <id>https://www.wo0ow.com/posts/45857.html</id>
-    <published>2023-06-06T22:40:56.000Z</published>
-    <updated>2023-06-06T22:47:50.767Z</updated>
+    <title>Vue前端预览PDF文件</title>
+    <link href="https://www.wo0ow.com/posts/21014.html"/>
+    <id>https://www.wo0ow.com/posts/21014.html</id>
+    <published>2023-07-07T14:15:52.000Z</published>
+    <updated>2023-08-09T14:44:05.495Z</updated>
     
     
       
@@ -375,7 +251,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/succing/article/details/122286002&quot;&gt;Linux技巧(三)： seq命令 / mkdir -p 批量创建/删除文件夹</summary>
+&lt;p&gt;参考博客01（参考）：&lt;a</summary>
         
       
     
@@ -383,21 +259,53 @@
     
     <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="Linux" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
+    <category term="Vue" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Vue/"/>
     
     
-    <category term="Linux" scheme="https://www.wo0ow.com/tags/Linux/"/>
+    <category term="Vue" scheme="https://www.wo0ow.com/tags/Vue/"/>
     
-    <category term="mkdir命令" scheme="https://www.wo0ow.com/tags/mkdir%E5%91%BD%E4%BB%A4/"/>
+    <category term="Vue-PDF" scheme="https://www.wo0ow.com/tags/Vue-PDF/"/>
     
   </entry>
   
   <entry>
-    <title>Linux下使用Docker安装部署Zookeeper</title>
-    <link href="https://www.wo0ow.com/posts/49054.html"/>
-    <id>https://www.wo0ow.com/posts/49054.html</id>
-    <published>2023-06-06T22:14:07.000Z</published>
-    <updated>2023-06-07T07:32:41.252Z</updated>
+    <title>谷歌浏览器预览Axure导出Html页面展示</title>
+    <link href="https://www.wo0ow.com/posts/28847.html"/>
+    <id>https://www.wo0ow.com/posts/28847.html</id>
+    <published>2023-07-07T03:33:01.000Z</published>
+    <updated>2023-08-09T14:44:05.498Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;火狐浏览器（不支持）&quot;&gt;火狐浏览器（不支持）&lt;a class=&quot;anchor&quot; href=&quot;#火狐浏览器（不支持）&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意：火狐浏览器无插件支持预览Axure导出页面
+&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="教程集合" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/"/>
+    
+    <category term="Axure" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/Axure/"/>
+    
+    
+    <category term="Axure" scheme="https://www.wo0ow.com/tags/Axure/"/>
+    
+    <category term="Google" scheme="https://www.wo0ow.com/tags/Google/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决Mac每次打开终端都需要执行souce ～/.bash_profile</title>
+    <link href="https://www.wo0ow.com/posts/29337.html"/>
+    <id>https://www.wo0ow.com/posts/29337.html</id>
+    <published>2023-07-07T00:23:34.000Z</published>
+    <updated>2023-08-09T14:44:05.051Z</updated>
     
     
       
@@ -405,80 +313,9 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;/posts/63317.html&quot;&gt;Linux安装Docker|往期文章&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
+&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/Sky_QiaoBa_Sum/article/details/124429926&quot;&gt;解决 Mac 每次打开终端都要执行source</summary>
         
       
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Linux" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Linux设置时间并开启自动同步校准</title>
-    <link href="https://www.wo0ow.com/posts/24138.html"/>
-    <id>https://www.wo0ow.com/posts/24138.html</id>
-    <published>2023-06-06T22:03:03.000Z</published>
-    <updated>2023-06-06T22:12:31.972Z</updated>
-    
-    
-    <summary type="html">Linux设置系统时间,并利用ntpdate自动同步时间</summary>
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Linux" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
-    
-    
-    <category term="Linux" scheme="https://www.wo0ow.com/tags/Linux/"/>
-    
-    <category term="Linux重装后必做事项" scheme="https://www.wo0ow.com/tags/Linux%E9%87%8D%E8%A3%85%E5%90%8E%E5%BF%85%E5%81%9A%E4%BA%8B%E9%A1%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Centos7关闭图形化界面</title>
-    <link href="https://www.wo0ow.com/posts/46473.html"/>
-    <id>https://www.wo0ow.com/posts/46473.html</id>
-    <published>2023-06-06T05:55:47.000Z</published>
-    <updated>2023-06-06T12:26:00.222Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;参考博客：&lt;a href=&quot;https://jingyan.baidu.com/article/2d5afd693e2480c4a2e28ec2.html&quot;&gt;Centos7怎么关闭图形化界面&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Linux" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Linux/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>MacBookPro2017安装win11系统</title>
-    <link href="https://www.wo0ow.com/posts/54799.html"/>
-    <id>https://www.wo0ow.com/posts/54799.html</id>
-    <published>2023-06-04T12:31:15.000Z</published>
-    <updated>2023-06-04T12:48:04.543Z</updated>
-    
-    
-    <summary type="html">记录下旧款macbook2017安装win11系统踩坑记录！</summary>
     
     
     
@@ -490,27 +327,239 @@
   </entry>
   
   <entry>
-    <title>Git配置多个账号</title>
-    <link href="https://www.wo0ow.com/posts/52878.html"/>
-    <id>https://www.wo0ow.com/posts/52878.html</id>
-    <published>2023-06-04T10:37:41.000Z</published>
-    <updated>2023-06-04T10:57:37.777Z</updated>
+    <title>通过Java对word/xls/image/ppt转pdf文件并添加水印信息</title>
+    <link href="https://www.wo0ow.com/posts/3367.html"/>
+    <id>https://www.wo0ow.com/posts/3367.html</id>
+    <published>2023-07-06T03:45:23.000Z</published>
+    <updated>2023-08-09T14:44:05.044Z</updated>
     
     
-    <summary type="html">一台电脑下需要使用到多个git账户，保证不同git账户使用以及对不同账号设置各自账户提交信息</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;文件转PDF&quot;&gt;文件转PDF&lt;a class=&quot;anchor&quot; href=&quot;#文件转PDF&quot;&gt;·&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;参考博客：&lt;a</summary>
+        
+      
     
     
     
     <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="GIT" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/GIT/"/>
+    <category term="Java" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/Java/"/>
     
     
-    <category term="gitee" scheme="https://www.wo0ow.com/tags/gitee/"/>
+    <category term="WaterMark" scheme="https://www.wo0ow.com/tags/WaterMark/"/>
     
-    <category term="github" scheme="https://www.wo0ow.com/tags/github/"/>
+    <category term="ConvertPDF" scheme="https://www.wo0ow.com/tags/ConvertPDF/"/>
     
-    <category term="gitlab" scheme="https://www.wo0ow.com/tags/gitlab/"/>
+    <category term="Java" scheme="https://www.wo0ow.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac允许任意来源安装</title>
+    <link href="https://www.wo0ow.com/posts/46244.html"/>
+    <id>https://www.wo0ow.com/posts/46244.html</id>
+    <published>2023-07-04T13:35:14.000Z</published>
+    <updated>2023-08-09T14:44:05.524Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo spctl</summary>
+        
+      
+    
+    
+    
+    <category term="教程集合" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/"/>
+    
+    <category term="Mac" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/Mac/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Js中常用判断为空方法</title>
+    <link href="https://www.wo0ow.com/posts/63167.html"/>
+    <id>https://www.wo0ow.com/posts/63167.html</id>
+    <published>2023-07-03T09:09:24.000Z</published>
+    <updated>2023-08-09T14:44:05.045Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/CEZLZ/article/details/121153716&quot;&gt;JS 中常用判断为空的方法&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="JavaScript" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/JavaScript/"/>
+    
+    
+    <category term="JavaScript" scheme="https://www.wo0ow.com/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法题攻略-古典问题：有一对兔子，从出生后第3个月起每个月都生一对兔子，小兔子长到第三个月后每个月又生一对兔子，假如兔子都不死，问每个月的兔子总数为多少？</title>
+    <link href="https://www.wo0ow.com/posts/10836.html"/>
+    <id>https://www.wo0ow.com/posts/10836.html</id>
+    <published>2023-06-28T13:33:53.000Z</published>
+    <updated>2023-08-09T14:44:04.886Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考博客：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="学习成长" scheme="https://www.wo0ow.com/categories/%E5%AD%A6%E4%B9%A0%E6%88%90%E9%95%BF/"/>
+    
+    <category term="算法题攻略" scheme="https://www.wo0ow.com/categories/%E5%AD%A6%E4%B9%A0%E6%88%90%E9%95%BF/%E7%AE%97%E6%B3%95%E9%A2%98%E6%94%BB%E7%95%A5/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot中logback.xml里面读取yml里面的参数方式</title>
+    <link href="https://www.wo0ow.com/posts/1249.html"/>
+    <id>https://www.wo0ow.com/posts/1249.html</id>
+    <published>2023-06-27T13:07:02.000Z</published>
+    <updated>2023-08-09T14:44:05.067Z</updated>
+    
+    
+    <summary type="html">基于SpringBoot的yml文件动态配置log.path日志文件路径</summary>
+    
+    
+    
+    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="SpringBoot" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/SpringBoot/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://www.wo0ow.com/tags/SpringBoot/"/>
+    
+    <category term="Logback.xml" scheme="https://www.wo0ow.com/tags/Logback-xml/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Idea插件推荐</title>
+    <link href="https://www.wo0ow.com/posts/10013.html"/>
+    <id>https://www.wo0ow.com/posts/10013.html</id>
+    <published>2023-06-26T12:03:32.000Z</published>
+    <updated>2023-08-09T14:44:05.517Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;CodeGlance&quot;&gt;CodeGlance&lt;a class=&quot;anchor&quot; href=&quot;#CodeGlance&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;代码小地图
+&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="教程集合" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/"/>
+    
+    <category term="Idea" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/Idea/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>若依（ruoyi）开发框架使用教程01</title>
+    <link href="https://www.wo0ow.com/posts/48206.html"/>
+    <id>https://www.wo0ow.com/posts/48206.html</id>
+    <published>2023-06-26T06:48:14.000Z</published>
+    <updated>2023-08-09T14:44:05.532Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;登录首页信息处理&quot;&gt;登录首页信息处理&lt;a class=&quot;anchor&quot; href=&quot;#登录首页信息处理&quot;&gt;·&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;后台管理登录页面的信息修改&lt;/p&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li</summary>
+        
+      
+    
+    
+    
+    <category term="教程集合" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/"/>
+    
+    <category term="若依（ruoyi）框架" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/%E8%8B%A5%E4%BE%9D%EF%BC%88ruoyi%EF%BC%89%E6%A1%86%E6%9E%B6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;NodeJs新版本引起问题:digitalenveloperoutines::unsupported&#39;</title>
+    <link href="https://www.wo0ow.com/posts/50836.html"/>
+    <id>https://www.wo0ow.com/posts/50836.html</id>
+    <published>2023-06-25T09:15:08.000Z</published>
+    <updated>2023-08-09T14:44:05.596Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/fengyuyeguirenenen/article/details/128319228&quot;&gt;nodejs新版本引起的：digital envelope</summary>
+        
+      
+    
+    
+    
+    <category term="问题记录" scheme="https://www.wo0ow.com/categories/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="NodeJs" scheme="https://www.wo0ow.com/categories/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/NodeJs/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Axure RP 9的PJ使用</title>
+    <link href="https://www.wo0ow.com/posts/17952.html"/>
+    <id>https://www.wo0ow.com/posts/17952.html</id>
+    <published>2023-06-25T01:55:54.000Z</published>
+    <updated>2023-08-09T14:44:05.497Z</updated>
+    
+    
+    <summary type="html">Axure RP 9的使用</summary>
+    
+    
+    
+    <category term="教程集合" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/"/>
+    
+    <category term="Axure" scheme="https://www.wo0ow.com/categories/%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/Axure/"/>
+    
+    
+    <category term="Axure" scheme="https://www.wo0ow.com/tags/Axure/"/>
     
   </entry>
   
