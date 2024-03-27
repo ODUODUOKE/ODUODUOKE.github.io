@@ -6,7 +6,7 @@
   <link href="https://www.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://www.wo0ow.com/"/>
-  <updated>2024-03-26T14:40:58.488Z</updated>
+  <updated>2024-03-27T03:55:15.456Z</updated>
   <id>https://www.wo0ow.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo博客新增评论系统</title>
+    <link href="https://www.wo0ow.com/24291.html"/>
+    <id>https://www.wo0ow.com/24291.html</id>
+    <published>2024-03-27T03:48:32.000Z</published>
+    <updated>2024-03-27T03:55:15.456Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://lxh0510.github.io/2023/03/07/butterfly%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/index.html">butterfly主题配置-添加评论系统</a></p><hr><p><a href="https://valine.js.org/quickstart.html">valine官网</a></p><p><a href="https://www.leancloud.cn/">leancloud官网</a></p><hr><h2 id="修改配置文件-config-butterfly-yml"><a href="#修改配置文件-config-butterfly-yml" class="headerlink" title="修改配置文件_config.butterfly.yml:"></a>修改配置文件<code>_config.butterfly.yml:</code></h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">comments:</span><br><span class="line">  # Up to two comments system, the first will be shown as default</span><br><span class="line">  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk</span><br><span class="line">  use: Valine</span><br><span class="line">  text: true # Display the comment name next to the button</span><br><span class="line">  # lazyload: The comment system will be load when comment element enters the browser&#x27;s viewport.</span><br><span class="line">  # If you set it to true, the comment count will be invalid</span><br><span class="line">  lazyload: true</span><br><span class="line">  count: true # Display comment count in post&#x27;s top_img</span><br><span class="line">  card_post_count: false # Display comment count in Home Page</span><br></pre></td></tr></table></figure><h2 id="添加valine配置文件"><a href="#添加valine配置文件" class="headerlink" title="添加valine配置文件"></a>添加<code>valine</code>配置文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">valine:</span><br><span class="line">  appId: xxxx                #从leancloud官网获得</span><br><span class="line">  appKey: xxxx     #从leancloud官网获得</span><br><span class="line">  avatar: monsterid # gravatar style https://valine.js.org/#/avatar</span><br><span class="line">  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)</span><br><span class="line">  bg: # valine background</span><br><span class="line">  visitor: false</span><br><span class="line">  option:</span><br></pre></td></tr></table></figure><h2 id="配置绑定安全api请求"><a href="#配置绑定安全api请求" class="headerlink" title="配置绑定安全api请求"></a>配置绑定安全api请求</h2><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="/24291/image%20copy.png"></p><h2 id="删除评论数据"><a href="#删除评论数据" class="headerlink" title="删除评论数据"></a>删除评论数据</h2><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="/24291/image.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://lxh0510.github.io/2023/03/07/butterfly%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/index.html&quot;&gt;butterfly主题配置-添加评论系统&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;</summary>
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Linux下新磁盘挂载扩容</title>
@@ -440,29 +463,6 @@
       
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/weixin_43876317/article/details/122534937&quot;&gt;防火墙控制Docker端口开放与关闭&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=</summary>
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>git克隆仓库并保留提交记录至新仓库</title>
-    <link href="https://www.wo0ow.com/959.html"/>
-    <id>https://www.wo0ow.com/959.html</id>
-    <published>2024-01-02T03:53:33.000Z</published>
-    <updated>2024-03-26T14:40:58.487Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://geek-docs.com/git/git-questions/52_git_how_do_i_clone_a_git_repository_into_a_specific_folder.html">Git教程</a></p><p><a href="https://blog.csdn.net/weixin_48828067/article/details/114580693">git远程仓库地址改变后，重新上传代码步骤</a></p><p>git add .     将代码先存入暂存区没有提交到本地仓库<br>git commit -m “  叙述的内容” 将代码提交到本地仓库<br>git push -u origin master  第一次加-u</p><p>查看所有远程仓库</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git remote</span><br></pre></td></tr></table></figure><p>删除老的远程仓库</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git remote rm origin</span><br></pre></td></tr></table></figure><p>添加新的远程仓库地址</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git remote add origin http://xxx/xxx.git</span><br></pre></td></tr></table></figure><p>将代码先存入暂存区没有提交到本地仓库</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure><p>将代码提交到本地仓库</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git commit -m &quot;  叙述的内容&quot;</span><br></pre></td></tr></table></figure><p>第一次加-u</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git push -u origin master  </span><br></pre></td></tr></table></figure><hr><p>克隆指定分支代码到指定目录下</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone -b &lt;branch_name&gt; &lt;repository_url&gt; &lt;destination_folder&gt;</span><br></pre></td></tr></table></figure><blockquote><p><code>git clone -b xx分支 xx仓库地址 xx目录</code></p></blockquote><p>注意：Windows下地址路径需要是<code>/</code>,从地址栏获取的<code>C:\Users\</code>中<code>\</code>在linux中是转义符</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone -b cc_qrcode http://XXXX.git C:/Users/cc/cc-h5/</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://geek-docs.com/git/git-questions/52_git_how_do_i_clone_a_git_repository_into_a_specific_folder.html&quot;&gt;Git教程&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a </summary>
       
     
     
