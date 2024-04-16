@@ -6,7 +6,7 @@
   <link href="https://www.wo0ow.com/atom.xml" rel="self"/>
   
   <link href="https://www.wo0ow.com/"/>
-  <updated>2024-03-27T03:55:15.456Z</updated>
+  <updated>2024-04-10T09:10:31.692Z</updated>
   <id>https://www.wo0ow.com/</id>
   
   <author>
@@ -15,6 +15,96 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Uniapp离线安卓打包基座-集成unipush模块</title>
+    <link href="https://www.wo0ow.com/46197.html"/>
+    <id>https://www.wo0ow.com/46197.html</id>
+    <published>2024-04-10T08:31:28.000Z</published>
+    <updated>2024-04-10T09:10:31.692Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://nativesupport.dcloud.net.cn/AppDocs/">官方文档</a><br><a href="https://nativesupport.dcloud.net.cn/AppDocs/download/android.html">Android 离线SDK</a></p><blockquote><p>博客基于 <code>HBuilderX 3.99及以上版本</code>，且未配置厂商推送</p></blockquote><h2 id="添加unipush依赖aar文件">添加<code>unipush</code>依赖<code>aar</code>文件</h2><p>SDK/libs</p><ul><li>aps-release.aar</li><li>aps-unipush-release.aar</li></ul><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="/46197/image.png" alt></p><h2 id="添加个推仓库">添加<code>个推</code>仓库</h2><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="/46197/image%20copy.png" alt></p><h3 id="根目录-build-gradle">根目录 - build.gradle</h3><blockquote><p><code>项目根</code>目录下配置<code>个推</code>仓库</p></blockquote><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">allprojects &#123;</span><br><span class="line">repositories &#123;</span><br><span class="line">jcenter()</span><br><span class="line">google()</span><br><span class="line">                // 个推的Maven仓地址。</span><br><span class="line">                maven &#123; </span><br><span class="line">                    url &#x27;https://mvn.getui.com/nexus/content/repositories/releases&#x27; </span><br><span class="line">                &#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="项目目录-build-gradle">项目目录 - build.gradle</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">android &#123;</span><br><span class="line">    defaultConfig &#123;</span><br><span class="line">        manifestPlaceholders = [</span><br><span class="line">                &quot;GETUI_APPID&quot;: &quot;【unipush的appid】&quot;,</span><br><span class="line">                &quot;plus.unipush.appid&quot; : &quot;【unipush的appid】&quot;,</span><br><span class="line">                &quot;plus.unipush.appkey&quot; : &quot;【unipush的key】&quot;,</span><br><span class="line">                &quot;plus.unipush.appsecret&quot;: &quot;【unipush的secret】&quot;,</span><br><span class="line">                &quot;apk.applicationId&quot;:&quot;io.dcloud.HBuilder&quot;</span><br><span class="line">        ]</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">dependencies &#123;</span><br><span class="line">    implementation &#x27;com.getui:gtsdk:3.3.3.0&#x27;  //个推SDK</span><br><span class="line">    implementation &#x27;com.getui:gtc:3.2.9.0&#x27;  //个推核心组件</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="AndroidManifest-xml配置"><code>AndroidManifest.xml</code>配置</h2><blockquote><p>在<code>io.dcloud.PandoraEntry</code>的<code>Activity</code>标签下追加<code>intent-filter</code></p></blockquote><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;intent-filter&gt;</span><br><span class="line">&lt;action android:name=&quot;android.intent.action.VIEW&quot;/&gt;</span><br><span class="line">&lt;category android:name=&quot;android.intent.category.DEFAULT&quot; /&gt;</span><br><span class="line">&lt;category android:name=&quot;android.intent.category.BROWSABLE&quot; /&gt;</span><br><span class="line">&lt;data android:host=&quot;io.dcloud.unipush&quot; android:path=&quot;/&quot; android:scheme=&quot;unipush&quot; /&gt;</span><br><span class="line">&lt;/intent-filter&gt;</span><br></pre></td></tr></table></figure><h2 id="dcloud-properties-xml配置"><code>dcloud_properties.xml</code>配置</h2><blockquote><p>在<code>dcloud_properties.xml</code>中添加如下配置，<code>features</code>节点与<code>services</code>节点必须同时配置！</p></blockquote><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="/46197/image%20copy%202.png" alt></p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;properties&gt;</span><br><span class="line">&lt;features&gt;</span><br><span class="line">&lt;feature name=&quot;Push&quot; value=&quot;io.dcloud.feature.aps.APSFeatureImpl&quot;&gt;</span><br><span class="line">&lt;module name=&quot;unipush&quot; value=&quot;io.dcloud.feature.unipush.GTPushService&quot;/&gt;</span><br><span class="line">&lt;/feature&gt;</span><br><span class="line">&lt;/features&gt;</span><br><span class="line">&lt;services&gt;</span><br><span class="line">&lt;service name=&quot;push&quot; value=&quot;io.dcloud.feature.aps.APSFeatureImpl&quot;/&gt;</span><br><span class="line">&lt;/services&gt;</span><br><span class="line">&lt;/properties&gt;</span><br></pre></td></tr></table></figure><h2 id="最终涉及变动文件">最终涉及变动文件</h2><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="/46197/image%20copy%203.png" alt></p><h2 id="后话">后话</h2><p>一定要仔细看官方教程贴，我一开是以为不用添加<code>aar</code>文件，只配置了<code>个推</code>的仓库，实际项目启动后发现一直是提示<code>push 模块未打包</code>。</p><p>我觉得官方的文档写的很清楚，如果可以精练下文字和内容排版就更舒服了。</p>]]></content>
+    
+    
+    <summary type="html">博客基于HBuilderX 3.99及以上版本,仅集成unipush模块，不涉及其他手机厂商推送通知模块配置</summary>
+    
+    
+    
+    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="uniapp" scheme="https://www.wo0ow.com/tags/uniapp/"/>
+    
+    <category term="unipush 1.0" scheme="https://www.wo0ow.com/tags/unipush-1-0/"/>
+    
+    <category term="Android Studio" scheme="https://www.wo0ow.com/tags/Android-Studio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SSH配置免密登录</title>
+    <link href="https://www.wo0ow.com/63196.html"/>
+    <id>https://www.wo0ow.com/63196.html</id>
+    <published>2024-04-09T06:23:44.000Z</published>
+    <updated>2024-04-09T08:29:01.149Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/weixin_44966641/article/details/123955997">ssh免密登录配置方法及配置</a></p><h2 id="A服务器生成密钥"><a href="#A服务器生成密钥" class="headerlink" title="A服务器生成密钥"></a>A服务器生成密钥</h2><blockquote><p>需要配置多台服务器免密登录，建议区分<code>id_rsa</code>文件名称</p></blockquote><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;your email&quot; -f id_rsa_【密钥名】</span><br></pre></td></tr></table></figure><h2 id="将密钥分发至B服务器"><a href="#将密钥分发至B服务器" class="headerlink" title="将密钥分发至B服务器"></a>将密钥分发至B服务器</h2><blockquote><p>B服务器目录：<code>~/.ssh/authorized_keys</code></p></blockquote><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-copy-id -i ~/.ssh/【你的密钥】.pub 【用户名】@【ip地址】</span><br></pre></td></tr></table></figure><h2 id="配置A服务器的config文件"><a href="#配置A服务器的config文件" class="headerlink" title="配置A服务器的config文件"></a>配置A服务器的config文件</h2><blockquote><p>A服务器目录： <code>~/.ssh/config</code></p></blockquote><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Host 【B服务器IP地址】</span><br><span class="line">HostName 【B服务器IP地址】</span><br><span class="line">User 【B服务器用户名】</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile 【生成的私钥文件路径】</span><br></pre></td></tr></table></figure><h2 id="测试免密登录"><a href="#测试免密登录" class="headerlink" title="测试免密登录"></a>测试免密登录</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh 【B服务器用户名】@【B服务器IP地址】</span><br></pre></td></tr></table></figure><h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><p>自定义ssh端口登录</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -p 【PORT端口】 【用户名】@【密码】</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/weixin_44966641/article/details/123955997&quot;&gt;ssh免密登录配置方法及配置&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;A服务器生成密钥&quot;&gt;&lt;a href=&quot;#A服务器生成密钥&quot; cl</summary>
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>菜谱-红烧鸭</title>
+    <link href="https://www.wo0ow.com/3593.html"/>
+    <id>https://www.wo0ow.com/3593.html</id>
+    <published>2024-04-07T15:24:30.000Z</published>
+    <updated>2024-04-07T15:56:37.899Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><ul><li>主食：<ul><li>鸭（半只）</li></ul></li><li>配料：<ul><li>腌菜：泡椒（10-15颗）、泡姜（中规格，2个）</li><li>干辣椒（2个）、姜片（3片）、桂皮（1个，切3段）、八角（3颗）</li><li>酱油（1勺）、黄豆酱（1勺）、辣椒酱（1勺）</li><li>盐（少许）</li></ul></li><li>配菜：<ul><li>土豆（中小规格-长度5cm左右，8个）</li><li>大蒜（1个,一瓣一瓣剥整粒）、小葱（3颗）、青红尖辣椒（4颗,2青2红）</li></ul></li></ul><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol><li><p>将已切好的鸭肉冷水下锅，烧至沸腾状态（保持煮开至3-5分钟），倒入洗菜盆（底部有滤水孔洞），用热水冲洗过滤掉血沫后放一旁备用。</p></li><li><p>锅中放油，油烧热放入鸭肉</p><ul><li>全程大火，炒出鸭油</li><li>放入姜片、桂皮、八角</li><li>沿锅沿倒入料酒</li><li>继续翻炒均匀</li></ul></li><li><p>加入黄豆酱、辣椒酱、少许干辣椒、生抽 </p><ol><li><blockquote><p>可提前将黄豆酱、辣椒酱、生抽导入一个碗里搅拌均匀</p></blockquote></li></ol><ul><li>倒入热水（水位高度稍稍高于鸭肉）</li><li>放入配菜-土豆块</li><li>中火，焖煮15-20分钟</li></ul></li><li><p>待汤汁收干前，放入大蒜瓣（6-8整颗）</p><ul><li>盖上锅盖煮3-5分钟</li><li>加入切段小葱、青红椒配色</li></ul></li><li><p>出锅装盘</p></li></ol>]]></content>
+    
+    
+    <summary type="html">红烧鸭</summary>
+    
+    
+    
+    <category term="菜谱" scheme="https://www.wo0ow.com/categories/%E8%8F%9C%E8%B0%B1/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>VSstudio启动项目指定ip访问非localhost</title>
+    <link href="https://www.wo0ow.com/15988.html"/>
+    <id>https://www.wo0ow.com/15988.html</id>
+    <published>2024-04-07T08:36:23.000Z</published>
+    <updated>2024-04-07T08:51:00.789Z</updated>
+    
+    <content type="html"><![CDATA[<p>修改项目<code>project</code>下隐藏目录<code>config</code>中的<code>applicationhost.config</code>文件</p><p>PS:图片此处可能打不开<br><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="/15988/image.png"></p><blockquote><p>添加指定ip地址访问: <code>&lt;binding protocol=&quot;http&quot; bindingInformation=&quot;127.0.0.1:31173:*&quot; /&gt;</code></p></blockquote><p>实际项目配置如下：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;bindings&gt;</span><br><span class="line">        &lt;binding protocol=&quot;http&quot; bindingInformation=&quot;*:31173:localhost&quot; /&gt;</span><br><span class="line">        &lt;binding protocol=&quot;http&quot; bindingInformation=&quot;127.0.0.1:31173:*&quot; /&gt;</span><br><span class="line">&lt;/bindings&gt;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;修改项目&lt;code&gt;project&lt;/code&gt;下隐藏目录&lt;code&gt;config&lt;/code&gt;中的&lt;code&gt;applicationhost.config&lt;/code&gt;文件&lt;/p&gt;
+&lt;p&gt;PS:图片此处可能打不开&lt;br&gt;&lt;img src=&quot;data:image/png;b</summary>
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>hexo博客新增评论系统</title>
@@ -368,101 +458,6 @@
       
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/weixin_45377545/article/details/115252432&quot;&gt;nginx代理转发内网mysql及redis&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;nginx编译依赖组件&quot;&gt;&lt;a href=&quot;#n</summary>
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>FastDFS与Nginx完美结合</title>
-    <link href="https://www.wo0ow.com/26583.html"/>
-    <id>https://www.wo0ow.com/26583.html</id>
-    <published>2024-01-13T03:44:03.000Z</published>
-    <updated>2024-03-26T14:40:58.488Z</updated>
-    
-    <content type="html"><![CDATA[<p>方式一</p><p><a href="https://blog.csdn.net/m0_63951142/article/details/130590990">从零开始搭建高效的文件服务器：FastDFS与Nginx完美结合，内网穿透实现公网访问</a></p><blockquote><p>已完整搭建测试步骤，到nginx配置处</p></blockquote><p><a href="https://www.cnblogs.com/chiangchou/p/fastdfs.html">用FastDFS一步步搭建文件管理系统 #权限控制</a></p><blockquote><p>参考权限控制配置</p></blockquote><hr><p>方式二</p><p><a href="https://blog.csdn.net/weixin_49511376/article/details/129461595">Nginx搭建文件服务器</a></p><blockquote><p>仅通过Nginx搭建文件服务器，不依赖FastDFS组件</p></blockquote><hr>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;方式一&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/m0_63951142/article/details/130590990&quot;&gt;从零开始搭建高效的文件服务器：FastDFS与Nginx完美结合，内网穿透实现公网访问&lt;/a&gt;&lt;/p&gt;
-&lt;blo</summary>
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>解决SSH登录慢，等待时间长的问题</title>
-    <link href="https://www.wo0ow.com/60053.html"/>
-    <id>https://www.wo0ow.com/60053.html</id>
-    <published>2024-01-13T02:31:53.000Z</published>
-    <updated>2024-03-26T14:40:58.488Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/360121631">参考博客</a></p><p>修改文件：<code>vim /etc/ssh/sshd_config</code></p><p>添加配置项:</p><blockquote><p>配置存在则修改，不存在则创建</p></blockquote><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">UseDNS no</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">GSSAPIAuthentication no</span><br></pre></td></tr></table></figure><p>重启ssh服务</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart sshd.service</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/360121631&quot;&gt;参考博客&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;修改文件：&lt;code&gt;vim /etc/ssh/sshd_config&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;添加配置项:&lt;/p&gt;
-&lt;blockquote</summary>
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Windows固定IP地址</title>
-    <link href="https://www.wo0ow.com/29704.html"/>
-    <id>https://www.wo0ow.com/29704.html</id>
-    <published>2024-01-09T00:48:22.000Z</published>
-    <updated>2024-03-26T14:40:58.489Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/qq_38693757/article/details/127094255">Win10 固定IP地址方法</a></p><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="/29704/%E5%9B%BA%E5%AE%9Awin%E7%B3%BB%E7%BB%9FIP%E5%9C%B0%E5%9D%80.png"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_38693757/article/details/127094255&quot;&gt;Win10 固定IP地址方法&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;data:image/png;base64,iVBORw0KG</summary>
-      
-    
-    
-    
-    <category term="技术博客" scheme="https://www.wo0ow.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Docker下端口通过Iptable防火墙管理</title>
-    <link href="https://www.wo0ow.com/50337.html"/>
-    <id>https://www.wo0ow.com/50337.html</id>
-    <published>2024-01-08T12:49:40.000Z</published>
-    <updated>2024-03-26T14:40:58.487Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/weixin_43876317/article/details/122534937">防火墙控制Docker端口开放与关闭</a></p><h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>IP.25 服务器安装Docker的Mysql服务，防火墙启用的是Firewalld，防火墙未暴露3306端口且未开放任意IP对3306端口访问。<br>在IP.29 服务器，通过命令<code>telnet x.x.1.25 3306</code> 发现接口通的！</p><p>经过排查得知：Docker通过Iptables强制开发暴露端口！！！</p><blockquote><p>解决方式，参考博客方法二</p></blockquote><p>引发问题：<code>容器内部之间也无法通过防火墙</code> (解决方式详细查看上述博客!)</p><hr><h2 id="原Firewalld防火墙规则迁移到Iptables"><a href="#原Firewalld防火墙规则迁移到Iptables" class="headerlink" title="原Firewalld防火墙规则迁移到Iptables"></a>原<code>Firewalld</code>防火墙规则迁移到<code>Iptables</code></h2><h3 id="原Firewalld防火墙规则"><a href="#原Firewalld防火墙规则" class="headerlink" title="原Firewalld防火墙规则"></a>原Firewalld防火墙规则</h3><p>原Firewalld端口开放</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">80/tcp 443/tcp</span><br></pre></td></tr></table></figure><p>原Firewalld指定IP访问开放端口</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">rule family=&quot;ipv4&quot; source address=&quot;x.x.x.194&quot; port port=&quot;22&quot; protocol=&quot;tcp&quot; accept</span><br><span class="line">rule family=&quot;ipv4&quot; source address=&quot;x.x.x.194&quot; port port=&quot;7869&quot; protocol=&quot;tcp&quot; accept</span><br></pre></td></tr></table></figure><h3 id="停止Firewalld并启用Iptables防火墙"><a href="#停止Firewalld并启用Iptables防火墙" class="headerlink" title="停止Firewalld并启用Iptables防火墙"></a>停止Firewalld并启用Iptables防火墙</h3><p>停止Firewalld防火墙</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service firewalld stop</span><br></pre></td></tr></table></figure><p>禁止Firewalld自启动</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl disable firewalld</span><br></pre></td></tr></table></figure><p>安装防火墙Iptables</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">yum -y install iptables iptables-services</span><br></pre></td></tr></table></figure><p>启动并设置开机自启</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl start iptables &amp;&amp; systemctl enable iptables</span><br></pre></td></tr></table></figure><h3 id="原Firewalld规则迁移Firewalld中"><a href="#原Firewalld规则迁移Firewalld中" class="headerlink" title="原Firewalld规则迁移Firewalld中"></a>原Firewalld规则迁移Firewalld中</h3><p>放行指定IP访问端口</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/sbin/iptables -I INPUT -s x.x.x.194 -p tcp --dport 22 -j ACCEPT</span><br><span class="line">/sbin/iptables -I INPUT -s x.x.x.194 -p tcp --dport 7869 -j ACCEPT</span><br></pre></td></tr></table></figure><p>放行端口</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/sbin/iptables -I INPUT -p tcp --dport 80 -j ACCEPT</span><br><span class="line">/sbin/iptables -I INPUT -p tcp --dport 443 -j ACCEPT</span><br></pre></td></tr></table></figure><p>保存配置</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service iptables save</span><br></pre></td></tr></table></figure><p>重启防火墙</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service iptables restart;</span><br></pre></td></tr></table></figure><p>查看防火墙规则</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cat /etc/sysconfig/iptables;</span><br></pre></td></tr></table></figure><h2 id="添加Docker的防火墙规则"><a href="#添加Docker的防火墙规则" class="headerlink" title="添加Docker的防火墙规则"></a>添加Docker的防火墙规则</h2><p>添加规则</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">iptables -I DOCKER-USER  !  -s  127.0.0.1  -p tcp --dport 3306 -j DROP</span><br></pre></td></tr></table></figure><hr><p><strong>B服务器访问A服务器(修改前):</strong></p><blockquote><p>Trying 10.181.1.29…<br>Connected to 10.181.1.29.<br>Escape character is ‘^]’.<br>J<br>8.0.33\a’uY[ÿsvt9DLX#mysql_native_password^]</p></blockquote><p><strong>B服务器访问A服务器(修改后):</strong></p><blockquote><p>[ordinary@ngx25 ~]$ telnet 10.181.1.29 3306<br>Trying 10.181.1.29…</p></blockquote><h3 id="报错处理"><a href="#报错处理" class="headerlink" title="报错处理"></a>报错处理</h3><p>在配置安装并启动Iptables后，重启安装Mysql的Docker容器，报错日志如下：</p><blockquote><p>Error response from daemon: Cannot restart container 984fbd11c965: driver failed programming external connectivity on endpoint mysql_8_0 (13949dfba465381240c62d43fe2bf64d3453ad5f51be4a440edf1418a398071b):  (iptables failed: iptables –wait -t nat -A DOCKER -p tcp -d 0&#x2F;0 –dport 3306 -j DNAT –to-destination 172.17.0.2:3306 ! -i docker0: iptables: No chain&#x2F;target&#x2F;match by that name</p></blockquote><p><a href="https://blog.csdn.net/jiangyu1013/article/details/100055863">解决参考博客</a></p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart docker</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/weixin_43876317/article/details/122534937&quot;&gt;防火墙控制Docker端口开放与关闭&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=</summary>
       
     
     
